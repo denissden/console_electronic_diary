@@ -4,8 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Reflection;
-using System.Text.RegularExpressions;
+
 
 namespace ConsoleApp1
 {
@@ -118,6 +117,11 @@ namespace ConsoleApp1
             if (SelectedButtonId != -1) Elements[SelectedButtonId].Draw();
         }
 
+        public void Update()
+        {
+            foreach (dynamic o in Elements) o.Update();
+        }
+
         public int GetByFirst(char c)
         {
             for (int i = 0; i < Elements.Count; i++)
@@ -131,14 +135,13 @@ namespace ConsoleApp1
             return null;
         }
 
-        public void SelectByKey(ConsoleKeyInfo key)
+        public string SelectByKey(ConsoleKeyInfo key)
         {
             int id = SelectedButtonId;
             switch (key.Key)
             {
                 case ConsoleKey.Enter:
-                    ClickSelected();
-                    break;
+                    return ClickSelected();
 
                 case ConsoleKey.RightArrow:
                     id = SelectNext();
@@ -161,6 +164,7 @@ namespace ConsoleApp1
             }
 
             SelectButton(id);
+            return "";
         }
 
         public int SelectNext()
@@ -224,333 +228,32 @@ namespace ConsoleApp1
             catch { }
         }
 
-        public void ClickSelected()
+        public string ClickSelected()
         {
-            if (SelectedButtonId != -1) Elements[SelectedButtonId].Click();
+            if (SelectedButtonId != -1) {
+                var e = Elements[SelectedButtonId];
+                e.Click();
+                return e.Name; 
+            }
+            return "";
         }
 
+        public void ValidateAll()
+        {
+            foreach (dynamic o in Elements)
+                if (o is InputBox) o.ValidateSelf();
+                    
+        }
+
+        public bool AllValid()
+        {
+            bool ret = true;
+            foreach (dynamic o in Elements)
+                if (o is InputBox) ret = ret && o.IsValid();
+            return ret;
+        }
 
     }
 
-    public class Button
-    {
-        public int X { get; set; }
-        public int Y { get; set; }
-        public int W { get; set; }
-        public int H { get; set; }
-        int TextX;
-        public int? Value { get; set; }
-        public int ValueClipMax { get; set; }
-        public int ValueClipMin { get; set; }
-        public string OriginalText { get; set; }
-        public string Text { get; set; }
-        public string Name { get; set; }
-        public int Color { get; set; }
-        public int Style { get; set; }
-        public bool Fill { get; set; }
-        public bool DrawBorder { get; set; }
-
-        public bool Selected = false;
-        Action OnClick = Functions.Pass;
-        public int ActionId { get; set; }
-        public string ActionType { get; set; }
-        //string OnClick = "";
-        public bool Selectable = true;
-
-        public Button(string name, string text, (int, int) pos, (int, int) size, bool fill = true)
-        {
-            Name = name;
-            OriginalText = text;
-            (X, Y) = pos;
-            Resize(size);
-            Fill = fill;
-            DrawBorder = true;
-            Color = 1;
-            Style = 0;
-            ActionId = -1;
-            ActionType = "default";
-            ValueClipMax = int.MaxValue;
-            ValueClipMin = int.MinValue;
-        }
-
-        public Button()
-        {
-            ActionId = -1;
-            ActionType = "default";
-        }
-
-        public void Move((int, int) pos)
-        {
-            (X, Y) = pos;
-        }
-
-        public void Resize((int, int) size)
-        {
-            (W, H) = size;
-            W--; H--;
-            SetText(OriginalText);
-        }
-
-        public void SetText(string s)
-        {
-            OriginalText = s;
-            if (s.Length > W - 4)
-            {
-                Text = s.Substring(0, W - 3);
-                TextX = 2;
-            }
-            else
-            {
-                Text = s;
-                int d = W - s.Length + 2;
-                TextX = d / 2;
-            }
-        }
-
-        public void Draw()
-        {
-            if (Color == 2 && !Selected)
-                Functions.SetColor(1, Selected);
-            else
-                Functions.SetColor(Color, Selected);
-            string c = Constants.Styles[Style, 0];
-
-
-            if (DrawBorder)
-            {
-                for (int i = X + 1; i < X + W; i++) Functions.WriteAt(c, i, Y);
-                for (int i = X + 1; i < X + W; i++) Functions.WriteAt(c, i, Y + H);
-                c = Constants.Styles[Style, 1];
-                for (int i = Y + 1; i < Y + H; i++) Functions.WriteAt(c, X, i);
-                for (int i = Y + 1; i < Y + H; i++) Functions.WriteAt(c, X + W, i);
-                c = Constants.Styles[Style, 2];
-                Functions.WriteAt(c, X, Y);
-                Functions.WriteAt(c, X + W, Y);
-                Functions.WriteAt(c, X, Y + H);
-                Functions.WriteAt(c, X + W, Y + H);
-            }
-
-
-            if (Fill)
-            {
-                c = new String(Convert.ToChar(Constants.Styles[Style, 3]), Input.ClipInt(W - 1, 0, 1000));
-                for (int i = Y + 1; i < Y + H; i++)
-                    Functions.WriteAt(c, X + 1, i);
-            }
-
-            Functions.WriteAt(Text, X + TextX, Y + H / 2);
-
-        }
-
-        public void SetOnClick(Action a)
-        {
-            OnClick = a;
-        }
-
-        public void SetOnClick(int a) { ActionId = a; }
-
-        public void SetOnClick(string s) { ActionType = s; }
-
-        public void SetOnClick(string s, int a)
-        {
-            ActionType = s;
-            ActionId = a;
-        }
-
-
-        public void Click()
-        {
-            if (ActionId != -1 && ActionType != "") Constants.Actions[ActionType][ActionId]();
-            else OnClick();
-        }
-
-        public void AddToValue(int i)
-        {
-            if (Value.HasValue)
-            {;
-                Value = Input.ClipInt(Convert.ToInt32(Value) + i, ValueClipMin, ValueClipMax);
-                SetText(Convert.ToString(Value));
-            }
-        }
-
-        public bool HasValue() { return Value.HasValue; }
-
-        public bool IsSelectable() { return Selectable; }
-
-        public void Update()
-        {
-            SetText(OriginalText);
-        }
-    }
-
-    public class TextLine
-    {
-        public int X { get; set; }
-        public int Y { get; set; }
-        public int L { get; set; }
-        public string OriginalText { get; set; }
-        public string Text { get; set; }
-        public string Name { get; set; }
-        public int Fit { get; set; }
-        public int Color { get; set; }
-        public int Style { get; set; }
-        public bool Selectable = false;
-
-
-        public TextLine(string name, string text, (int, int) pos, int length, int fit = -1)
-        {
-            Name = name;
-            Fit = fit;
-            L = length;
-            SetText(text);
-            (X, Y) = pos;
-            Color = 1;
-            Style = 0;
-        }
-
-        public TextLine() { }
-
-
-        public void SetText(string s)
-        {
-            OriginalText = s;
-            if (s.Length > L)
-            {
-                Text = s.Substring(0, L);
-            }
-            else
-            {
-                int d = L - s.Length;
-                int l, r;
-                switch (Fit)
-                {
-                    case 0:
-                        l = d / 2; r = (d + 1) / 2;
-                        break;
-                    case 1:
-                        l = d; r = 0;
-                        break;
-                    default:
-                        l = 0; r = d;
-                        break;
-                }
-                char c = Convert.ToChar(Constants.Styles[Style, 3]);
-                Text = new String(c, l) + s + new String(c, r);
-            }
-        }
-
-
-        public virtual void Draw()
-        {
-            Functions.SetColor(Color);
-            Functions.WriteAt(Text, X, Y);
-        }
-
-        public bool IsSelectable() { return Selectable; }
-
-
-    }
-
-
-    public class InputBox : TextLine
-    {
-        public bool Selected = false;
-        public bool OnlySelectText = false;
-        public bool InputValid { get; set; }
-        public string AcceptedCharacters { get; set; }
-        public string ValidationType { get; set; }
-
-
-        public InputBox(string name, string text, (int, int) pos, int length, int fit = -1)
-        {
-            Name = name;
-            Fit = fit;
-            L = length;
-            SetText(text);
-            (X, Y) = pos;
-            Color = 1;
-            Style = 0;
-            Selectable = true;
-            InputValid = true;
-            AcceptedCharacters = @"[A-Za-z0-9А-Яа-я]";
-        }
-
-        public InputBox()
-        {
-            SetText(new String('-', L));
-            OriginalText = "";
-            Y -= 1;
-            Selectable = true ;
-        }
-        
-        public void Click()
-        {
-            string s = OriginalText;
-            OnlySelectText = true;
-            Regex reg = new Regex(AcceptedCharacters);
-            Draw();
-            do
-            {
-                SetInputCursor(s);
-
-                char c = Console.ReadKey(true).KeyChar;
-                if (c == '\b')
-                {
-                    if (s.Length != 0) s = s.Substring(0, s.Length - 1);
-                }
-                else if (c == '\n' || c == '\r') break;
-                else if (reg.IsMatch(Convert.ToString(c))) s += c;
-
-                InputValid = ValidateString(s);
-                SetText(s);
-                Draw();
-            } while (s.Length <= L);
-            OriginalText = s;
-            OnlySelectText = false;
-        }
-
-        public void SetInputCursor(string s)
-        {
-            int l = s.Length;
-            switch (Fit)
-            {
-                case 0:
-                    Console.SetCursorPosition((X + X + L) / 2 + l / 2, Y + 1);
-                    break;
-                case 1:
-                    Console.SetCursorPosition(X+L-1, Y + 1);
-                    break;
-                default:
-                    Console.SetCursorPosition(X + l, Y + 1);
-                    break;
-            }
-        }
-
-        public override void Draw()
-        {
-            Functions.SetColor(Color, OnlySelectText ? false : Selected);
-            string c = Constants.Styles[Style, 0];
-            for (int i = X + 1; i < X + L; i++) Functions.WriteAt(c, i, Y);
-            for (int i = X + 1; i < X + L; i++) Functions.WriteAt(c, i, Y + 2);
-            c = Constants.Styles[Style, 2];
-            Functions.WriteAt(c, X, Y);
-            Functions.WriteAt(c, X + L - 1, Y);
-            Functions.WriteAt(c, X, Y + 2);
-            Functions.WriteAt(c, X + L - 1, Y + 2);
-
-            Functions.SetColor(InputValid ? Color : 2, Selected);
-            Functions.WriteAt(Text, X, Y + 1);
-            
-        }
-
-        public void AddToValue(int i) { }
-
-        public bool ValidateString(string s)
-        {
-            bool res = false;
-            if (Constants.Validations.ContainsKey(ValidationType)) res = Constants.Validations[ValidationType](s);
-            return res;
-        }
-
-    }
+    
 }

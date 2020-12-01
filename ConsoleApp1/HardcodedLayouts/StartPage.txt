@@ -1,0 +1,18 @@
+UI ui = new UI();
+
+            Button b = new Button("New", "New account", (45, 7), (31, 5));
+            b.Style = 1;
+            b.Value = 0;
+            ui.Buttons.Add(b);
+            b.SetOnClick(2);
+            b = new Button("Login", "Login", (45, 11), (31, 5));
+            b.Style = 1;
+            ui.Buttons.Add(b);
+            b = new Button("Exit", "Exit", (45, 18), (31, 5));
+            b.Style = 1;
+            b.Color = 2;
+            b.SetOnClick(1);
+            ui.Buttons.Add(b);
+
+            TextLine t = new TextLine("Header", "Welcome to the Electronic Diary!", (0, 0), 120, 0);
+            ui.TextLines.Add(t);

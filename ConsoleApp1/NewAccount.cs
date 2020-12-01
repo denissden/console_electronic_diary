@@ -8,87 +8,51 @@ namespace ConsoleApp1
 {
     class NewAccount
     {
-        public static void MainScreen()
+        public static void MainScreen(dynamic _)
         {
-            DB db = new DB();
-            db.DB_Path = Constants.DB_Path;
-            // UI ui = db.READ_JSON_UI("layout/CreateAccount");
+            UI ui = DB.READ_JSON_UI("layout/CreateAccount");
 
-            UI ui = new UI();
-
-            TextLine t; InputBox i;
-
-            // HEADER
-            t = new TextLine("Header", "Creating New Account", (0, 0), 120, 0);
-            ui.Elements.Add(t);
-
-            // NAME
-            t = new TextLine("FirstNameInputLabel", "First Name", (3, 4), 36, 0);
-            ui.Elements.Add(t);
-            i = new InputBox("FirstNameInputBox", "", (3, 5), 36, 0)
-            {
-                Style = 1,
-                ValidationType = "shorter30",
-            };
-            ui.Elements.Add(i);
-
-            t = new TextLine("MiddleNameInputLabel", "Middle Name", (42, 4), 36, 0);
-            ui.Elements.Add(t);
-            i = new InputBox("MiddleNameInputBox", "", (42, 5), 36, 0)
-            {
-                Style = 1,
-                ValidationType = "shorter30",
-            };
-            ui.Elements.Add(i);
-
-            t = new TextLine("LastNameInputLabel", "Last Name", (81, 4), 36, 0);
-            ui.Elements.Add(t);
-            i = new InputBox("LastNameInputBox", "", (81, 5), 36, 0)
-            {
-                Style = 1,
-                ValidationType = "shorter30",
-            };
-            ui.Elements.Add(i);
-
-            // LOGIN
-            t = new TextLine("LoginInputLabel", "Login", (3, 4), 36, 0);
-            ui.Elements.Add(t);
-            i = new InputBox("LoginInputBox", "", (3, 5), 36, 0)
-            {
-                Style = 1,
-                ValidationType = "longer",
-            };
-            ui.Elements.Add(i);
-
-            t = new TextLine("Password1InputLabel", "Password", (42, 4), 36, 0);
-            ui.Elements.Add(t);
-            i = new InputBox("Password1InputBox", "", (42, 5), 36, 0)
-            {
-                Style = 1,
-                ValidationType = "password",
-            };
-            ui.Elements.Add(i);
-
-            t = new TextLine("Password2InputLabel", "Repeat Password", (81, 4), 36, 0);
-            ui.Elements.Add(t);
-            i = new InputBox("Password2InputBox", "", (81, 5), 36, 0)
-            {
-                Style = 1,
-                ValidationType = "password",
-            };
-            ui.Elements.Add(i);
-
-
+            ui.Update();
+            ui.ValidateAll();
+            Functions.SetColor(1);
             Console.Clear();
             ConsoleKeyInfo key;
+            string clicked;
             do
             {
                 ui.Draw();
                 key = Console.ReadKey(true);
-                ui.SelectByKey(key);
+                clicked = ui.SelectByKey(key);
+
+                if (clicked == "CreateAccount") 
+                {
+                    if (ui.AllValid() || Constants.SkipVerificationAtAccountCreation)
+                    {
+                        string name_first = ui.GetByName("FirstNameInputBox").OriginalText;
+                        string name_middle = ui.GetByName("MiddleNameInputBox").OriginalText;
+                        string name_last = ui.GetByName("LastNameInputBox").OriginalText;
+                        DateTime date = Functions.ToDatetime(ui.GetByName("DateInputBox").OriginalText);
+                        string group = ui.GetByName("GroupInputBox").OriginalText;
+                        string login = ui.GetByName("LoginInputBox").OriginalText;
+                        string hash = Functions.GetHashString(ui.GetByName("Password2InputBox").OriginalText);
+
+                        DB.NEW_PERSON(
+                            (name_first, name_middle, name_last),
+                            date,
+                            group,
+                            login,
+                            hash
+                            );
+
+                        break;
+                    }
+                }
             } while (key.Key != ConsoleKey.Escape);
 
-            db.JSON_UI(ui, "layout/CreateAccount");
+            Functions.SetColor(1);
+            Console.Clear();
+
+            // DB.JSON_UI(ui, "layout/CreateAccount");
         }
     }
 }

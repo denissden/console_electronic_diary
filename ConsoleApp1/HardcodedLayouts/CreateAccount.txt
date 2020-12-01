@@ -1,0 +1,97 @@
+UI ui = new UI();
+
+            TextLine t; InputBox i; Button b;
+            
+            // HEADER
+            t = new TextLine("Header", "Creating New Account", (0, 0), 120, 0);
+            ui.Elements.Add(t);
+
+            // NAME
+            t = new TextLine("FirstNameInputLabel", "First Name", (3, 4), 36, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("FirstNameInputBox", "", (3, 5), 36, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "shorter30", "nonempty" },
+            };
+            ui.Elements.Add(i);
+
+            t = new TextLine("MiddleNameInputLabel", "Middle Name (optional)", (42, 4), 36, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("MiddleNameInputBox", "", (42, 5), 36, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "shorter30" },
+            };
+            ui.Elements.Add(i);
+
+            t = new TextLine("LastNameInputLabel", "Last Name", (81, 4), 36, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("LastNameInputBox", "", (81, 5), 36, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "shorter30", "nonempty" },
+            };
+            ui.Elements.Add(i);
+
+            // DATE
+            t = new TextLine("DateInputLabel", "Date Of Birth (DD MM YYYY)", (16, 10), 36, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("DateInputBox", "", (15, 11), 38, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "shorter30", "date", "nonempty" },
+            };
+            ui.Elements.Add(i);
+
+            // GROUP
+            t = new TextLine("GroupInputLabel", "Group (optional)", (67, 10), 36, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("GroupInputBox", "", (67, 11), 36, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "shorter30" },
+            };
+            ui.Elements.Add(i);
+
+            // LOGIN
+            t = new TextLine("LoginInputLabel", "Login", (3, 16), 36, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("LoginInputBox", "", (3, 17), 36, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "login", "nonempty" },
+            };
+            ui.Elements.Add(i);
+
+            t = new TextLine("Password1InputLabel", "Password", (42, 16), 36, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("Password1InputBox", "", (42, 17), 36, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "passwords_match1", "longer8" },
+            };
+            ui.Elements.Add(i);
+
+            t = new TextLine("Password2InputLabel", "Repeat Password", (81, 16), 36, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("Password2InputBox", "", (81, 17), 36, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "passwords_match2", "longer8" },
+            };
+            ui.Elements.Add(i);
+
+            b = new Button("CreateAccount", "Create Account", (10, 22), (48, 5)) 
+            { 
+                Style = 0,
+                Color = 1,
+            };
+            ui.Elements.Add(b);
+
+            b = new Button("Back", "Back", (62, 22), (48, 5))
+            {
+                Style = 0,
+                Color = 2,
+            };
+            ui.Elements.Add(b);

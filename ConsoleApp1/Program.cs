@@ -9,58 +9,57 @@ namespace ConsoleApp1
     class Constants
     {
         public static readonly string DB_Path = @"D:\_C# projects\Elektronniy_Dnevnik\ConsoleApp1\data\";
+        public static readonly string USERS_Path = @"users\";
         public static readonly string[,] Styles = { { "-", "|", "+", " " }, { "=", " ", "#", " " }, { "#", "#", "#", "-" } };
         public static readonly ConsoleColor[,] Colors = { { ConsoleColor.Black, ConsoleColor.White },
         { ConsoleColor.White, ConsoleColor.Black }, { ConsoleColor.Red, ConsoleColor.DarkRed } };
         //public static readonly Action[] DefaultActions = { Functions.Pass, Functions.Exit, Functions.WriteTest};
-        public static readonly Dictionary<string, Action[]> Actions = new Dictionary<string, Action[]>()
+        //public Stack OutputStack = new Stack();
+
+        public static readonly string[] DatePresets = new string[] { "dd/MM/yyyy", "dd-Mm-yyyy", "dd.MM.yyyy", "dd MM yyyy" };
+
+        
+        public static readonly Dictionary<string, Action<dynamic>> Actions = new Dictionary<string, Action<dynamic>>()
         {
-            {"default", new Action[] { Functions.Pass, Functions.Exit, Functions.WriteTest} },
-            {"ui", new Action[] { NewAccount.MainScreen } }
+            {"default", Functions.Pass },
+            {"exit", Functions.Exit },
+            {"test", Functions.WriteTest },
+            {"new_account", NewAccount.MainScreen },
         };
         public static readonly Dictionary<string, Func<string, bool>> Validations = new Dictionary<string, Func<string, bool>>()
         {
             {"any", Validation.True},
             {"none", Validation.False},
             {"longer8", Validation.Longer8},
-            {"shorter30", Validation.Shorter30},
+            {"longer3", Validation.Longer3},
+            {"nonempty", Validation.NonEmpty},
+            {"shorter30", Validation.Shorter30},   
+            {"shorter10", Validation.Shorter10},   
+            {"date", Validation.Date},   
             {"login", Validation.Login},
             {"password", Validation.Password},
+            {"passwords_match1", Validation.PasswordsMatchAdd},
+            {"passwords_match2", Validation.PasswordsMatchCheck},
         };
+
+        public static readonly bool SkipVerificationAtAccountCreation = true;
     }
 
     class Program
     {
         static void Main(string[] args) // 120 x 30
         {
-            /*Test.Run();
-            Console.ReadKey();*/
+            Test.Run();
+            Console.ReadKey();
 
 
 
-            DB db = new DB();
-            db.DB_Path = Constants.DB_Path;
-            UI ui = db.READ_JSON_UI("layout/StartPage");
 
-            /*UI ui = new UI();
+            UI ui = DB.READ_JSON_UI("layout/StartPage");
 
-            Button b = new Button("New", "New account", (45, 7), (31, 5));
-            b.Style = 1;
-            b.Value = 0;
-            ui.Buttons.Add(b);
-            b.SetOnClick(2);
-            b = new Button("Login", "Login", (45, 11), (31, 5));
-            b.Style = 1;
-            ui.Buttons.Add(b);
-            b = new Button("Exit", "Exit", (45, 18), (31, 5));
-            b.Style = 1;
-            b.Color = 2;
-            b.SetOnClick(1);
-            ui.Buttons.Add(b);
+            /**/
 
-            TextLine t = new TextLine("Header", "Welcome to the Electronic Diary!", (0, 0), 120, 0);
-            ui.TextLines.Add(t);*/
-
+            ui.Update();
             ConsoleKeyInfo key;
             do
             {

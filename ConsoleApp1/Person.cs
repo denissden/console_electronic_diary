@@ -4,68 +4,50 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
+using System.IO;
 
 namespace ConsoleApp1
 {
-    class PersonFunctions
-    {
-        public static byte[] GetHash(string inputString)
-        {
-            using (HashAlgorithm algorithm = SHA256.Create())
-                return algorithm.ComputeHash(Encoding.UTF8.GetBytes(inputString));
-        }
-
-        public static string GetHashString(string inputString)
-        {
-            StringBuilder sb = new StringBuilder();
-            foreach (byte b in GetHash(inputString))
-                sb.Append(b.ToString("X2"));
-
-            return sb.ToString();
-        }
-    }
-
-
+ 
     public class Person
     {
         public string Type = "Guest";
-        public int Id { get; set; }
+        public ulong Id { get; set; }
+        public string Login { get; set; }
         public string PasswordHash { get; set; }
         public string Group { get; set; }
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
-        public string FamilyName { get; set; }
+        public string LastName { get; set; }
         public int Age { get; set; }
-        public int BirthYear { get; set; }
+        public DateTime BirthYear { get; set; }
 
 
         public Person()
         {
-            FamilyName = "";
+            LastName = "";
             FirstName = "";
             MiddleName = "";
             Age = -1;
-            BirthYear = -1;
-            PasswordHash = PersonFunctions.GetHashString("");
+            PasswordHash = Functions.GetHashString("");
         }
 
         public bool SetPassword(string _new, string old = "")
         {
-            string hash_new = PersonFunctions.GetHashString(_new);
-            string hash_old = PersonFunctions.GetHashString(old);
-            if (String.Equals(hash_new, hash_old))
+            string hash_new = Functions.GetHashString(_new);
+            string hash_old = Functions.GetHashString(old);
+            if (String.Equals(PasswordHash, hash_old))
             {
                 PasswordHash = hash_new;
                 return true;
             }
             return false;
-
         }
 
         public string GetFullName()
         {
-            if (MiddleName != "") return $"{FamilyName} {FirstName} {MiddleName}";
-            else return $"{FamilyName} {FirstName}";
+            if (MiddleName != "") return $"{LastName} {FirstName} {MiddleName}";
+            else return $"{LastName} {FirstName}";
         }
 
         public override string ToString()

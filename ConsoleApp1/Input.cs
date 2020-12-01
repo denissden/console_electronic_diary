@@ -59,5 +59,8 @@ namespace ConsoleApp1
             else if (input > b) return b;
             else return input;
         }
+
+        
+
     }
 }

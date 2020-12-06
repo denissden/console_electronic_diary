@@ -17,7 +17,7 @@ namespace ConsoleApp1
         //public static readonly Action[] DefaultActions = { Functions.Pass, Functions.Exit, Functions.WriteTest};
         //public Stack OutputStack = new Stack();
 
-        public static readonly string[] DatePresets = new string[] { "dd/MM/yyyy", "dd-Mm-yyyy", "dd.MM.yyyy", "dd MM yyyy" };
+        public static readonly string[] DatePresets = new string[] { "dd/MM/yyyy", "dd-MM-yyyy", "dd.MM.yyyy", "dd MM yyyy" };
 
         
         public static readonly Dictionary<string, Action<dynamic>> Actions = new Dictionary<string, Action<dynamic>>()
@@ -44,6 +44,14 @@ namespace ConsoleApp1
             {"passwords_match2", Validation.PasswordsMatchCheck},
             {"login_exists", Validation.LoginExists},
         };
+        public static readonly Dictionary<string, Action<dynamic>> UserMainScreens = new Dictionary<string, Action<dynamic>>()
+        {
+            {"Guest", GuestScreen.MainScreen },
+            {"Student", Functions.Pass },
+            {"Teacher", Functions.Pass },
+            {"Admin", AdminScreen.MainScreen },
+        };
+
 
         public static readonly bool SkipVerificationAtAccountCreation = true;
     }

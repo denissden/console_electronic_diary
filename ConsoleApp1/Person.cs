@@ -12,6 +12,7 @@ namespace ConsoleApp1
     public class Person
     {
         public string Type = "Guest";
+        public DateTime DateCreated { get; set; }
         public ulong Id { get; set; }
         public string Login { get; set; }
         public string PasswordHash { get; set; }
@@ -30,6 +31,7 @@ namespace ConsoleApp1
             MiddleName = "";
             Age = -1;
             PasswordHash = Functions.GetHashString("");
+            DateCreated = DateTime.Now;
         }
 
         public bool SetPassword(string _new, string old = "")

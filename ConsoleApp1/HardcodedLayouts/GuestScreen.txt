@@ -1,0 +1,41 @@
+UI ui = new UI();
+            TextLine t; InputBox i; Button b;
+
+            // HEADER
+            t = new TextLine("Header", "You are a Guest!", (0, 0), 120, 0)
+            {
+                Color = 2,
+            };
+            ui.Elements.Add(t);
+
+            // INFO
+            t = new TextLine("Info1", "Wait For Admin to verify your account before you can use Electronic Diary!", (0, 3), 120, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("Info2", "Your info:", (0, 6), 120, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("Login", "Login: ", (0, 7), 120, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("FirstName", "First Name: ", (0, 9), 120, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("MiddleName", "Middle Name: ", (0, 10), 120, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("LastName", "Last Name: ", (0, 11), 120, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("Group", "Group: ", (0, 13), 120, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("BirthDate", "Birth Date: ", (0, 15), 120, 0);
+            ui.Elements.Add(t);
+
+            b = new Button("Back", "Back", (47, 18), (26, 3))
+            {
+                Style = 1,
+                Color = 2,
+            };
+            ui.Elements.Add(b);

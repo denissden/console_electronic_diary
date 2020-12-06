@@ -71,9 +71,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminScreen.cs" />
     <Compile Include="Button.cs" />
     <Compile Include="DB.cs" />
     <Compile Include="Functions.cs" />
+    <Compile Include="GuestScreen.cs" />
     <Compile Include="Input.cs" />
     <Compile Include="InputBox.cs" />
     <Compile Include="Login.cs" />

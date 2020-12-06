@@ -64,6 +64,12 @@ namespace ConsoleApp1
             }
         }
 
+        public void AddText(string s)
+        {
+            if (s == "") s = "None";
+            SetText(OriginalText + s);
+        }
+
 
         public virtual void Draw()
         {

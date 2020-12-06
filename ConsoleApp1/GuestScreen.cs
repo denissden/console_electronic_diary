@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Login
+    class GuestScreen
     {
-        public static void MainScreen(dynamic _)
+        public static void MainScreen(dynamic login)
         {
-            UI ui = DB.READ_JSON_UI("layout/Login");
+            Person p = DB.READ_PERSON_BY_LOGIN<Person>(login);
+
+            UI ui = DB.READ_JSON_UI("layout/GuestScreen");
+
+            ui.GetByName("Login").AddText(p.Login);
+            ui.GetByName("FirstName").AddText(p.FirstName);
+            ui.GetByName("MiddleName").AddText(p.MiddleName);
+            ui.GetByName("LastName").AddText(p.LastName);
+            ui.GetByName("Group").AddText(p.Group);
+            ui.GetByName("BirthDate").AddText(p.BirthYear.ToString("dd.MM.yyyy"));
 
             ui.Update();
             ui.ValidateAll();
@@ -23,22 +32,14 @@ namespace ConsoleApp1
                 ui.Draw();
                 key = Console.ReadKey(true);
                 clicked = ui.SelectByKey(key);
-                if (clicked == "Log in")
-                {
-                    string login = ui.GetByName("LoginInputBox").OriginalText;
-                    string hash = Functions.GetHashString(ui.GetByName("PasswordInputBox").OriginalText);
-                    bool success = ValidateLogin.Validate(login, hash);
-                    if (success) break;
-                    else ui.GetByName("PasswordInputBox").InputValid = false;
 
-                }
                 if (clicked == "Back") break;
             } while (key.Key != ConsoleKey.Escape);
 
             Functions.SetColor(1);
             Console.Clear();
 
-            // DB.JSON_UI(ui, "layout/Login");
+            // DB.JSON_UI(ui, "layout/GuestScreen");
         }
     }
 }

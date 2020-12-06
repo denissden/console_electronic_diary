@@ -19,16 +19,9 @@ namespace ConsoleApp1
 
             string type = p.Type;
 
-            switch (type)
-            {
-                case "Student":
-                    break;
-            }
-            Console.Clear();
-            Console.WriteLine("DONE");
-            Console.ReadKey();
-            return true;
+            Constants.UserMainScreens[type](login);
 
+            return true;
         }
     }
 }

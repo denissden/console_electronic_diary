@@ -23,6 +23,7 @@ namespace ConsoleApp1
                 ui.Draw();
                 key = Console.ReadKey(true);
                 clicked = ui.SelectByKey(key);
+
                 if (clicked == "Log in")
                 {
                     string login = ui.GetByName("LoginInputBox").OriginalText;

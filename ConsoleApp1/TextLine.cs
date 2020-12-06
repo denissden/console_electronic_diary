@@ -17,6 +17,7 @@ namespace ConsoleApp1
         public int Fit { get; set; }
         public int Color { get; set; }
         public int Style { get; set; }
+        public bool Hidden { get; set; }
         public bool Selectable = false;
 
 
@@ -29,6 +30,7 @@ namespace ConsoleApp1
             (X, Y) = pos;
             Color = 1;
             Style = 0;
+            Hidden = false;
         }
 
         public TextLine() { }
@@ -65,6 +67,7 @@ namespace ConsoleApp1
 
         public virtual void Draw()
         {
+            if (Hidden) return;
             Functions.SetColor(Color);
             Functions.WriteAt(Text, X, Y);
         }

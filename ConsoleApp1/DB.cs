@@ -93,16 +93,28 @@ namespace ConsoleApp1
             object t = JsonSerializer.Deserialize<T>(s);
             return (T)t;
         }
+        // BINARY
+        public static ulong READ_BINARY_ULONG(string path)
+        {
+            ulong ret;
+            using (BinaryReader reader = new BinaryReader(File.Open(path, FileMode.Open)))
+                ret = reader.ReadUInt64();
+            return ret;
+        }
 
+        public static void WRITE_BINARY_ULONG(string path, ulong value)
+        {
+            using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate)))
+                writer.Write(value);
+        }
+
+        // PERSON
         public static void NEW_PERSON((string, string, string) name, DateTime date, string group, string login, string hash)
         {
             (string name_first, string name_middle, string name_last) = name;
 
-            ulong id;
-            using (BinaryReader reader = new BinaryReader(File.Open(Constants.DB_Path + Constants.USERS_Path + "id.dat", FileMode.Open)))
-                id = reader.ReadUInt64() + 1;
-            using (BinaryWriter writer = new BinaryWriter(File.Open(Constants.DB_Path + Constants.USERS_Path + "id.dat", FileMode.OpenOrCreate)))
-                writer.Write(id);
+            ulong id = READ_BINARY_ULONG(Constants.DB_Path + Constants.USERS_Path + "id.dat") + 1;
+            WRITE_BINARY_ULONG(Constants.DB_Path + Constants.USERS_Path + "id.dat", id);
 
             Person p = new Person()
             {
@@ -117,6 +129,9 @@ namespace ConsoleApp1
             };
 
             JSON_PERSON(p, Constants.USERS_Path);
+
+            WRITE_BINARY_ULONG(Constants.DB_Path + Constants.IDS_Path + $"{p.Login}.dat", id);
+
 
             Console.Clear();
             Console.WriteLine($"{name_first} {name_middle} {name_last}\n" +
@@ -141,6 +156,27 @@ namespace ConsoleApp1
             {
                 await JsonSerializer.SerializeAsync(fs, p, options);
             }
+        }
+
+        public static T READ_PERSON_BY_LOGIN<T>(string login)
+        {
+            ulong id = READ_BINARY_ULONG(Constants.DB_Path + Constants.IDS_Path + $"{login}.dat");
+            FileInfo path = new FileInfo(Constants.DB_Path + Constants.USERS_Path + $"id{id}.json");
+            T ret = READ_JSON_OBJECT<T>(path);
+            return ret;
+        }
+
+
+        public static bool PERSON_EXISTS(string login)
+        {
+            FileInfo path = new FileInfo(Constants.DB_Path + Constants.IDS_Path + $"{login}.dat");
+            return path.Exists;
+        }
+
+        public static bool PERSON_EXISTS(ulong id)
+        {
+            FileInfo path = new FileInfo(Constants.DB_Path + Constants.USERS_Path + $"id{id}.json");
+            return path.Exists;
         }
     }
 }

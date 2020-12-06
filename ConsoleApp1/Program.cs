@@ -10,6 +10,7 @@ namespace ConsoleApp1
     {
         public static readonly string DB_Path = @"D:\_C# projects\Elektronniy_Dnevnik\ConsoleApp1\data\";
         public static readonly string USERS_Path = @"users\";
+        public static readonly string IDS_Path = @"id_lib\";
         public static readonly string[,] Styles = { { "-", "|", "+", " " }, { "=", " ", "#", " " }, { "#", "#", "#", "-" } };
         public static readonly ConsoleColor[,] Colors = { { ConsoleColor.Black, ConsoleColor.White },
         { ConsoleColor.White, ConsoleColor.Black }, { ConsoleColor.Red, ConsoleColor.DarkRed } };
@@ -25,6 +26,7 @@ namespace ConsoleApp1
             {"exit", Functions.Exit },
             {"test", Functions.WriteTest },
             {"new_account", NewAccount.MainScreen },
+            {"login", Login.MainScreen },
         };
         public static readonly Dictionary<string, Func<string, bool>> Validations = new Dictionary<string, Func<string, bool>>()
         {
@@ -36,10 +38,11 @@ namespace ConsoleApp1
             {"shorter30", Validation.Shorter30},   
             {"shorter10", Validation.Shorter10},   
             {"date", Validation.Date},   
-            {"login", Validation.Login},
+            {"login", Validation.NewLogin},
             {"password", Validation.Password},
             {"passwords_match1", Validation.PasswordsMatchAdd},
             {"passwords_match2", Validation.PasswordsMatchCheck},
+            {"login_exists", Validation.LoginExists},
         };
 
         public static readonly bool SkipVerificationAtAccountCreation = true;
@@ -49,15 +52,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args) // 120 x 30
         {
-            Test.Run();
-            Console.ReadKey();
-
-
-
+            /*Test.Run();
+            Console.ReadKey();*/
 
             UI ui = DB.READ_JSON_UI("layout/StartPage");
-
-            /**/
 
             ui.Update();
             ConsoleKeyInfo key;
@@ -68,17 +66,8 @@ namespace ConsoleApp1
                 ui.SelectByKey(key);
             } while (key.Key != ConsoleKey.Escape);
 
-            //Button bt = new Button("One", Convert.ToString((char)(65)), (10, 10), (5, 5));
             //db.JSON_UI(ui, "layout/StartPage");
 
-            /*for (int i = 0; i < 13; i++)
-            {
-                ui.SetColor(i % 3);
-                ui.SetStyle(i % 3);
-                ui.DrawButton("TEST", (i * 8 + i * i / 2, 0), (5 + i, 5));
-
-                
-            }*/
             Console.ReadKey(true);
         }
     }

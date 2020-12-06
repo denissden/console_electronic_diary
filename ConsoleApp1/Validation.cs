@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ConsoleApp1
 {
@@ -30,9 +31,19 @@ namespace ConsoleApp1
         }
 
         // login
-        public static bool Login(string s = "") 
-        { 
-            return s.Length <= 30; 
+        public static bool NewLogin(string s = "") 
+        {
+            bool valid = true;
+            valid = valid && !File.Exists(Constants.DB_Path + Constants.IDS_Path + $"{s}.dat");
+            valid = valid && s.Length <= 30;
+            valid = valid && s.Length >= 3;
+
+            return valid; 
+        }
+
+        public static bool LoginExists(string s = "")
+        {
+            return File.Exists(Constants.DB_Path + Constants.IDS_Path + $"{s}.dat");
         }
 
         // password 

@@ -27,7 +27,7 @@ namespace ConsoleApp1
             Style = 0;
             Selectable = true;
             InputValid = true;
-            AcceptedCharacters = @"[A-Za-z0-9А-Яа-я_@.#&+-]";
+            AcceptedCharacters = @"[A-Za-z0-9А-Яа-я_@.#&+-//]";
             ValidationType = new List<string>();
         }
 

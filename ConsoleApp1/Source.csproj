@@ -71,22 +71,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminScreen.cs" />
-    <Compile Include="Button.cs" />
+    <Compile Include="Screens\AdminApprovalListScreen.cs" />
+    <Compile Include="Screens\AdminUserListScreen.cs" />
+    <Compile Include="Screens\StartScreen.cs" />
+    <Compile Include="UI\ListSelect.cs" />
+    <Compile Include="UserClasses\Admin.cs" />
+    <Compile Include="Screens\AdminScreen.cs" />
+    <Compile Include="UI\Button.cs" />
     <Compile Include="DB.cs" />
     <Compile Include="Functions.cs" />
-    <Compile Include="GuestScreen.cs" />
+    <Compile Include="Screens\GuestScreen.cs" />
     <Compile Include="Input.cs" />
-    <Compile Include="InputBox.cs" />
-    <Compile Include="Login.cs" />
-    <Compile Include="NewAccount.cs" />
+    <Compile Include="UI\InputBox.cs" />
+    <Compile Include="Screens\LoginScreen.cs" />
+    <Compile Include="Screens\NewAccountScreen.cs" />
     <Compile Include="OutputStack.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="UserClasses\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserClasses\Student.cs" />
+    <Compile Include="UserClasses\Teacher.cs" />
     <Compile Include="Test.cs" />
-    <Compile Include="TextLine.cs" />
-    <Compile Include="UI.cs" />
+    <Compile Include="UI\TextLine.cs" />
+    <Compile Include="UI\UI.cs" />
     <Compile Include="ValidateLogin.cs" />
     <Compile Include="Validation.cs" />
   </ItemGroup>
@@ -94,5 +101,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

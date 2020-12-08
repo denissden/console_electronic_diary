@@ -19,6 +19,9 @@ namespace ConsoleApp1
 
             string type = p.Type;
 
+            /*Console.WriteLine($"{type} {p.Id}");
+            Console.ReadKey();*/
+
             Constants.UserMainScreens[type](login);
 
             return true;

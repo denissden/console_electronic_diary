@@ -14,19 +14,23 @@ namespace ConsoleApp1
         public static readonly string[,] Styles = { { "-", "|", "+", " " }, { "=", " ", "#", " " }, { "#", "#", "#", "-" } };
         public static readonly ConsoleColor[,] Colors = { { ConsoleColor.Black, ConsoleColor.White },
         { ConsoleColor.White, ConsoleColor.Black }, { ConsoleColor.Red, ConsoleColor.DarkRed } };
-        //public static readonly Action[] DefaultActions = { Functions.Pass, Functions.Exit, Functions.WriteTest};
-        //public Stack OutputStack = new Stack();
+        public static readonly List<string> UserTypes = new List<string>() { "Guest", "Student", "Teacher", "Admin" };
 
         public static readonly string[] DatePresets = new string[] { "dd/MM/yyyy", "dd-MM-yyyy", "dd.MM.yyyy", "dd MM yyyy" };
 
-        
+
         public static readonly Dictionary<string, Action<dynamic>> Actions = new Dictionary<string, Action<dynamic>>()
         {
             {"default", Functions.Pass },
             {"exit", Functions.Exit },
             {"test", Functions.WriteTest },
-            {"new_account", NewAccount.MainScreen },
-            {"login", Login.MainScreen },
+            {"start_screen", StartScreen.MainScreen },
+            {"new_account", NewAccountScreen.MainScreen },
+            {"login", LoginScreen.MainScreen },
+            {"guest_screen", GuestScreen.MainScreen },
+            {"admin_screen", AdminScreen.MainScreen },
+            {"admin_user_list", AdminUserListScreen.MainScreen },
+            {"admin_approval_list", AdminApprovalListScreen.MainScreen },
         };
         public static readonly Dictionary<string, Func<string, bool>> Validations = new Dictionary<string, Func<string, bool>>()
         {
@@ -35,9 +39,9 @@ namespace ConsoleApp1
             {"longer8", Validation.Longer8},
             {"longer3", Validation.Longer3},
             {"nonempty", Validation.NonEmpty},
-            {"shorter30", Validation.Shorter30},   
-            {"shorter10", Validation.Shorter10},   
-            {"date", Validation.Date},   
+            {"shorter30", Validation.Shorter30},
+            {"shorter10", Validation.Shorter10},
+            {"date", Validation.Date},
             {"login", Validation.NewLogin},
             {"password", Validation.Password},
             {"passwords_match1", Validation.PasswordsMatchAdd},
@@ -52,9 +56,9 @@ namespace ConsoleApp1
             {"Admin", AdminScreen.MainScreen },
         };
 
-
         public static readonly bool SkipVerificationAtAccountCreation = true;
     }
+
 
     class Program
     {
@@ -62,19 +66,8 @@ namespace ConsoleApp1
         {
             /*Test.Run();
             Console.ReadKey();*/
-
-            UI ui = DB.READ_JSON_UI("layout/StartPage");
-
-            ui.Update();
-            ConsoleKeyInfo key;
-            do
-            {
-                ui.Draw();
-                key = Console.ReadKey(true);
-                ui.SelectByKey(key);
-            } while (key.Key != ConsoleKey.Escape);
-
-            //db.JSON_UI(ui, "layout/StartPage");
+            Console.WriteLine(Constants.SkipVerificationAtAccountCreation);
+            StartScreen.MainScreen(null);
 
             Console.ReadKey(true);
         }

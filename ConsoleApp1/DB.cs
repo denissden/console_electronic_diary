@@ -32,7 +32,7 @@ namespace ConsoleApp1
             {
                 IncludeFields = true,
             };
-            System.IO.Directory.CreateDirectory($"{Constants.DB_Path}{path}");
+            Directory.CreateDirectory($"{Constants.DB_Path}{path}");
             using (FileStream fs = File.Create($"{Constants.DB_Path}{path}/{b.GetType().Name}_{id}_{b.Name}.json"))
             {
                 await JsonSerializer.SerializeAsync(fs, b, options);
@@ -75,6 +75,9 @@ namespace ConsoleApp1
                         break;
                     case "InputBox":
                         T = READ_JSON_OBJECT<InputBox>(f);
+                        break;
+                    case "ListSelect":
+                        T = READ_JSON_OBJECT<ListSelect>(f);
                         break;
                 }
                 if (T != null)
@@ -166,6 +169,12 @@ namespace ConsoleApp1
             return ret;
         }
 
+        public static T READ_PERSON_BY_ID<T>(ulong id)
+        {
+            FileInfo path = new FileInfo(Constants.DB_Path + Constants.USERS_Path + $"id{id}.json");
+            T ret = READ_JSON_OBJECT<T>(path);
+            return ret;
+        }
 
         public static bool PERSON_EXISTS(string login)
         {
@@ -178,5 +187,21 @@ namespace ConsoleApp1
             FileInfo path = new FileInfo(Constants.DB_Path + Constants.USERS_Path + $"id{id}.json");
             return path.Exists;
         }
+
+        public static List<T> SELECT_PERSON_BY_TYPE<T>(string type)
+        {
+            DirectoryInfo d = new DirectoryInfo(Constants.DB_Path + Constants.IDS_Path);
+            FileInfo[] files = d.GetFiles();
+            List<T> result = new List<T>();
+
+            foreach(FileInfo file in files)
+            {
+                dynamic p = READ_PERSON_BY_LOGIN<Person>(file.Name.Replace(".dat", ""));
+                if (p.Type == type)
+                    result.Add(p);
+            }
+            return result;
+        }
+
     }
 }

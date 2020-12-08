@@ -62,9 +62,10 @@ namespace ConsoleApp1
             SetText(OriginalText);
         }
 
-        public void SetText(string s)
+        public virtual void SetText(string s, bool set_original_text = true)
         {
-            OriginalText = s;
+            if (set_original_text)
+                OriginalText = s;
             if (s.Length > W - 4)
             {
                 Text = s.Substring(0, W - 3);
@@ -76,6 +77,12 @@ namespace ConsoleApp1
                 int d = W - s.Length + 2;
                 TextX = d / 2;
             }
+        }
+
+        public void AddText(string s)
+        {
+            if (s == "") s = "None";
+            SetText(OriginalText + s, false);
         }
 
         public void Draw()
@@ -104,7 +111,7 @@ namespace ConsoleApp1
 
             if (Fill)
             {
-                c = new String(Convert.ToChar(Constants.Styles[Style, 3]), Input.ClipInt(W - 1, 0, 1000));
+                c = new String(Convert.ToChar(Constants.Styles[Style, 3]), Functions.ClipInt(W - 1, 0, 1000));
                 for (int i = Y + 1; i < Y + H; i++)
                     Functions.WriteAt(c, X + 1, i);
             }
@@ -127,12 +134,12 @@ namespace ConsoleApp1
             else OnClick(null);
         }
 
-        public void AddToValue(int i)
+        public virtual void AddToValue(int i)
         {
             if (Value.HasValue)
             {
                 ;
-                Value = Input.ClipInt(Convert.ToInt32(Value) + i, ValueClipMin, ValueClipMax);
+                Value = Functions.ClipInt(Convert.ToInt32(Value) + i, ValueClipMin, ValueClipMax);
                 SetText(Convert.ToString(Value));
             }
         }
@@ -141,7 +148,7 @@ namespace ConsoleApp1
 
         public bool IsSelectable() { return Selectable; }
 
-        public void Update()
+        public virtual void Update()
         {
             SetText(OriginalText);
         }

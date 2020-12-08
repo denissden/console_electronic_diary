@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,42 +20,39 @@ namespace ConsoleApp1
             TextLine t; InputBox i; Button b;
 
             // HEADER
-            t = new TextLine("Header", "Login Page", (0, 0), 120, 0);
+            t = new TextLine("Header", "Admin Menu", (0, 0), 120, 0);
             ui.Elements.Add(t);
 
-            // LOGIN
-            t = new TextLine("LoginInputLabel", "Login", (42, 5), 36, 0);
-            ui.Elements.Add(t);
-            i = new InputBox("LoginInputBox", "", (42, 6), 36, 0)
-            {
-                Style = 1,
-                ValidationType = new List<string>() { "nonempty", "login_exists" },
-            };
-            ui.Elements.Add(i);
 
-
-            t = new TextLine("PasswordInputLabel", "Password", (42, 10), 36, 0);
-            ui.Elements.Add(t);
-            i = new InputBox("PasswordInputBox", "", (42, 11), 36, 0)
-            {
-                Style = 1,
-                ValidationType = new List<string>() { "nonempty" },
-            };
-            ui.Elements.Add(i);
-
-            b = new Button("Log in", "Log in", (47, 15), (26, 3))
+            // BUTTONS
+            b = new Button("UserList", "List of users", (47, 5), (26, 3))
             {
                 Style = 1,
                 Color = 1,
             };
             ui.Elements.Add(b);
 
-            b = new Button("Back", "Back", (47, 19), (26, 3))
+            b = new Button("Appoval", "Waiting for approval", (47, 10), (26, 3))
+            {
+                Style = 1,
+                Color = 1,
+                ActionType = "admin_approval_list",
+            };
+            ui.Elements.Add(b);
+
+            b = new Button("Back", "Log out", (47, 19), (26, 3))
             {
                 Style = 1,
                 Color = 2,
             };
             ui.Elements.Add(b);
+
+
+            // FOOTER
+            t = new TextLine("Footer", "Total users: ", (0, 28), 120, 0);
+            t.AddText($"{Directory.GetFiles(Constants.DB_Path + Constants.IDS_Path, "*", SearchOption.TopDirectoryOnly).Length}");
+
+            ui.Elements.Add(t);
 
 
             ui.Update();

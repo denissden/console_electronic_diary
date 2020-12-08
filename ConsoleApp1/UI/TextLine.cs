@@ -36,9 +36,10 @@ namespace ConsoleApp1
         public TextLine() { }
 
 
-        public void SetText(string s)
+        public void SetText(string s, bool set_original_text = true)
         {
-            OriginalText = s;
+            if (set_original_text)
+                OriginalText = s;
             if (s.Length > L)
             {
                 Text = s.Substring(0, L);
@@ -67,9 +68,8 @@ namespace ConsoleApp1
         public void AddText(string s)
         {
             if (s == "") s = "None";
-            SetText(OriginalText + s);
+            SetText(OriginalText + s, false);
         }
-
 
         public virtual void Draw()
         {

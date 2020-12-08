@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class NewAccount
+    class NewAccountScreen
     {
         public static void MainScreen(dynamic _)
         {

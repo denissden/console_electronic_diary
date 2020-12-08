@@ -52,15 +52,5 @@ namespace ConsoleApp1
             }
             return res;
         }
-
-        public static int ClipInt(int input, int a, int b)
-        {
-            if (input < a) return a;
-            else if (input > b) return b;
-            else return input;
-        }
-
-        
-
     }
 }

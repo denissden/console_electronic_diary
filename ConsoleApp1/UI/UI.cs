@@ -11,62 +11,8 @@ namespace ConsoleApp1
     class UI_old
     {
         int WindowX = Console.WindowWidth, WindowY = Console.WindowHeight;
-        Input inp = new Input();
+        Functions inp = new Functions();
         int StyleIndex = 0;
-
-
-        public void DrawBorder((int, int) pos, (int, int) size, bool fill = true)
-        {
-            (int x, int y) = Clip(pos);
-            (int w, int h) = size;
-            w--; h--;
-
-
-            string c = Constants.Styles[StyleIndex, 0];
-            for (int i = x + 1; i < x + w; i++) Functions.WriteAt(c, i, y);
-            for (int i = x + 1; i < x + w; i++) Functions.WriteAt(c, i, y + h);
-            c = Constants.Styles[StyleIndex, 1];
-            for (int i = y + 1; i < y + h; i++) Functions.WriteAt(c, x, i);
-            for (int i = y + 1; i < y + h; i++) Functions.WriteAt(c, x + w, i);
-            c = Constants.Styles[StyleIndex, 2];
-            Functions.WriteAt(c, x, y);
-            Functions.WriteAt(c, x + w, y);
-            Functions.WriteAt(c, x, y + h);
-            Functions.WriteAt(c, x + w, y + h);
-
-            if (fill)
-            {
-                c = new String(Convert.ToChar(Constants.Styles[StyleIndex, 3]), w - 1);
-                for (int i = y + 1; i < y + h; i++)
-                    Functions.WriteAt(c, x + 1, i);
-            }
-
-
-
-        }
-
-        public void DrawButton(string text, (int, int) pos, (int, int) size, int maxw = -1)
-        {
-            DrawBorder(pos, size);
-            (int w, int h) = size;
-            (int x, int y) = Clip(pos);
-            if (maxw != -1) w = Input.ClipInt(w - 4, 0, maxw);
-
-            int c = w - 4;
-            if (c + x > WindowX) c = w + x - WindowX;
-            if (StyleIndex == 1)
-            {
-                text = Crop(text, c + 2);
-                Functions.WriteAt(text, x + 1, y + h / 2);
-            }
-            else
-            {
-                text = Crop(text, c);
-                Functions.WriteAt(text, x + 2, y + h / 2);
-            }
-
-            // for (int i = x + 2; i < x + w - 3; i++) WriteAt("|", i, y + w / 2 + 1);
-        }
 
         public void SetStyle(int i)
         {
@@ -75,10 +21,10 @@ namespace ConsoleApp1
 
         public string Crop(string s, int l, int dots = 2)
         {
-            if (l <= dots) dots = Input.ClipInt(dots - s.Length, 0, 2);
+            if (l <= dots) dots = Functions.ClipInt(dots - s.Length, 0, 2);
             else if (l >= s.Length) dots = 0;
             else l -= dots;
-            string res = s.Substring(0, Input.ClipInt(l, 0, s.Length)) + new String('.', dots);
+            string res = s.Substring(0, Functions.ClipInt(l, 0, s.Length)) + new String('.', dots);
             int d = l - s.Length;
             if (d > 1) res = new String(Convert.ToChar(Constants.Styles[StyleIndex, 3]), d / 2) + res;
             return res;
@@ -87,7 +33,7 @@ namespace ConsoleApp1
         public (int, int) Clip((int, int) pos)
         {
             (int x, int y) = pos;
-            return (Input.ClipInt(x, 0, WindowX), Input.ClipInt(y, 0, WindowY));
+            return (Functions.ClipInt(x, 0, WindowX), Functions.ClipInt(y, 0, WindowY));
         }
     }
 
@@ -254,6 +200,4 @@ namespace ConsoleApp1
         }
 
     }
-
-    
 }

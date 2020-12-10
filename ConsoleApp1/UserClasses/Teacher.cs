@@ -14,6 +14,5 @@ namespace ConsoleApp1
             HasGroups = new List<string>();
             Type = "Teacher";
         }
-
     }
 }

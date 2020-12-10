@@ -41,21 +41,19 @@ namespace ConsoleApp1
             for (int index = 0; index < users.Count; index++)
             {
                 Person p = users[index];
-                l = new ListSelect($"user{index}", $"{p.Login}, {p.GetFullName()}, {p.BirthYear.ToString("dd.MM.yyyy")}.  Set role to ", (0, 10 + index), (120, 1))
+                l = new ListSelect($"user{index}", $"{p.Login}, {p.GetFullName()}, {p.BirthYear.ToString("dd.MM.yyyy")}.", (0, 10 + index), (120, 1))
                 {
 
                     Color = 1,
                     DrawBorder = false,
                     Options = Constants.UserTypes,
-                    Fit = -1,
+                    Fit = 2,
                 };
                 ui.Elements.Add(l);
             }
 
             ui.Update();
             ui.ValidateAll();
-            Functions.SetColor(1);
-            Console.Clear();
             ConsoleKeyInfo key;
             string clicked;
             do

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.IO;
+using System.Threading;
 
 namespace ConsoleApp1
 {
@@ -114,6 +115,12 @@ namespace ConsoleApp1
         // PERSON
         public static void NEW_PERSON((string, string, string) name, DateTime date, string group, string login, string hash)
         {
+            if (Validation.LoginExists(login))
+            {
+                Console.WriteLine($"ERROR: login {login} already exists!");
+                return;
+            }
+
             (string name_first, string name_middle, string name_last) = name;
 
             ulong id = READ_BINARY_ULONG(Constants.DB_Path + Constants.USERS_Path + "id.dat") + 1;
@@ -136,15 +143,15 @@ namespace ConsoleApp1
             WRITE_BINARY_ULONG(Constants.DB_Path + Constants.IDS_Path + $"{p.Login}.dat", id);
 
 
-            Console.Clear();
-            Console.WriteLine($"{name_first} {name_middle} {name_last}\n" +
+            //Console.Clear();
+            /*Console.WriteLine($"{name_first} {name_middle} {name_last}\n" +
                 $"{date.ToString()}\n" +
                 $"{group}\n" +
                 $"{login}\n" +
                 $"{hash}\n" +
-                $"ID: {p.Id}");
+                $"ID: {p.Id}");*/
 
-            Console.ReadKey();
+            // Console.ReadKey();
             Console.Clear();
         }
 

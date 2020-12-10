@@ -57,8 +57,6 @@ namespace ConsoleApp1
 
             ui.Update();
             ui.ValidateAll();
-            Functions.SetColor(1);
-            Console.Clear();
             ConsoleKeyInfo key;
             string clicked;
             do

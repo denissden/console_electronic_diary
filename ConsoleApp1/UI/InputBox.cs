@@ -20,20 +20,20 @@ namespace ConsoleApp1
         {
             Name = name;
             Fit = fit;
-            L = length;
+            W = length;
             SetText(text);
             (X, Y) = pos;
             Color = 1;
             Style = 0;
             Selectable = true;
             InputValid = true;
-            AcceptedCharacters = @"[A-Za-z0-9А-Яа-я_@.#&+-//]";
+            AcceptedCharacters = @"[A-Za-z0-9А-Яа-я_@.#&+]";
             ValidationType = new List<string>();
         }
 
         public InputBox()
         {
-            SetText(new String('-', L));
+            SetText(new String('-', W));
             OriginalText = "";
             Y -= 1;
             Selectable = true;
@@ -49,19 +49,18 @@ namespace ConsoleApp1
             do
             {
                 SetInputCursor(s);
-
                 char c = Console.ReadKey(true).KeyChar;
                 if (c == '\b')
                 {
                     if (s.Length != 0) s = s.Substring(0, s.Length - 1);
                 }
-                else if (c == '\n' || c == '\r') break;
+                else if (c == '\n' || c == '\r' || c == '\u001B') break;
                 else if (reg.IsMatch(Convert.ToString(c))) s += c;
 
                 InputValid = ValidateString(s);
                 SetText(s);
                 Draw();
-            } while (s.Length <= L);
+            } while (s.Length <= W);
             OriginalText = s;
             OnlySelectText = false;
         }
@@ -72,10 +71,10 @@ namespace ConsoleApp1
             switch (Fit)
             {
                 case 0:
-                    Console.SetCursorPosition((X + X + L) / 2 + l / 2, Y + 1);
+                    Console.SetCursorPosition((X + X + W) / 2 + l / 2, Y + 1);
                     break;
                 case 1:
-                    Console.SetCursorPosition(X + L - 1, Y + 1);
+                    Console.SetCursorPosition(X + W - 1, Y + 1);
                     break;
                 default:
                     Console.SetCursorPosition(X + l, Y + 1);
@@ -87,20 +86,17 @@ namespace ConsoleApp1
         {
             Functions.SetColor(Color, OnlySelectText ? false : Selected);
             string c = Constants.Styles[Style, 0];
-            for (int i = X + 1; i < X + L; i++) Functions.WriteAt(c, i, Y);
-            for (int i = X + 1; i < X + L; i++) Functions.WriteAt(c, i, Y + 2);
+            for (int i = X + 1; i < X + W; i++) Functions.WriteAt(c, i, Y);
+            for (int i = X + 1; i < X + W; i++) Functions.WriteAt(c, i, Y + 2);
             c = Constants.Styles[Style, 2];
             Functions.WriteAt(c, X, Y);
-            Functions.WriteAt(c, X + L - 1, Y);
+            Functions.WriteAt(c, X + W - 1, Y);
             Functions.WriteAt(c, X, Y + 2);
-            Functions.WriteAt(c, X + L - 1, Y + 2);
+            Functions.WriteAt(c, X + W - 1, Y + 2);
 
             Functions.SetColor(InputValid ? Color : 2, Selected);
             Functions.WriteAt(Text, X, Y + 1);
-
         }
-
-        public void AddToValue(int i) { }
 
         public bool ValidateString(string s)
         {
@@ -119,7 +115,5 @@ namespace ConsoleApp1
         }
 
         public bool IsValid() { return InputValid; }
-
-        
     }
 }

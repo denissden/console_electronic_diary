@@ -14,14 +14,16 @@ namespace ConsoleApp1
 
             ui.Update();
             ConsoleKeyInfo key;
+            string clicked;
             do
             {
                 ui.Draw();
                 key = Console.ReadKey(true);
-                ui.SelectByKey(key);
+                clicked = ui.SelectByKey(key);
+                if (clicked != "") ui.Update();
             } while (key.Key != ConsoleKey.Escape);
 
-            //db.JSON_UI(ui, "layout/StartPage");
+            // DB.JSON_UI(ui, "layout/StartPage");
         }
     }
 }

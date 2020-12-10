@@ -1,1 +1,1 @@
-{"X":16,"Y":10,"L":36,"OriginalText":"Date Of Birth (DD MM YYYY)","Text":"     Date Of Birth (DD MM YYYY)     ","Name":"DateInputLabel","Fit":0,"Color":1,"Style":0,"Selectable":false}
+{"X":16,"Y":10,"W":36,"H":0,"OriginalText":"Date Of Birth (DD MM YYYY)","Text":"     Date Of Birth (DD MM YYYY)     ","Name":"DateInputLabel","Fit":0,"Color":1,"Style":0,"Hidden":false,"Selectable":false}

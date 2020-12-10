@@ -6,21 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Button
+    public class Button : TextLine
     {
-        public int X { get; set; }
-        public int Y { get; set; }
-        public int W { get; set; }
-        public int H { get; set; }
-        int TextX;
         public int? Value { get; set; }
         public int ValueClipMax { get; set; }
         public int ValueClipMin { get; set; }
-        public string OriginalText { get; set; }
-        public string Text { get; set; }
-        public string Name { get; set; }
-        public int Color { get; set; }
-        public int Style { get; set; }
         public bool Fill { get; set; }
         public bool DrawBorder { get; set; }
 
@@ -28,7 +18,6 @@ namespace ConsoleApp1
         Action<dynamic> OnClick = Functions.Pass;
         public string ActionType { get; set; }
         //string OnClick = "";
-        public bool Selectable = true;
 
         public Button(string name, string text, (int, int) pos, (int, int) size, bool fill = true)
         {
@@ -43,16 +32,15 @@ namespace ConsoleApp1
             ActionType = "default";
             ValueClipMax = int.MaxValue;
             ValueClipMin = int.MinValue;
+            Selectable = true;
+            DrawBorder = true;
         }
 
         public Button()
         {
             ActionType = "default";
-        }
-
-        public void Move((int, int) pos)
-        {
-            (X, Y) = pos;
+            Selectable = true;
+            DrawBorder = true;
         }
 
         public void Resize((int, int) size)
@@ -62,40 +50,34 @@ namespace ConsoleApp1
             SetText(OriginalText);
         }
 
-        public virtual void SetText(string s, bool set_original_text = true)
+        public override void SetText(string s, string added_text = "", bool set_original_text = true)
         {
-            if (set_original_text)
-                OriginalText = s;
-            if (s.Length > W - 4)
-            {
-                Text = s.Substring(0, W - 3);
-                TextX = 2;
-            }
-            else
-            {
-                Text = s;
-                int d = W - s.Length + 2;
-                TextX = d / 2;
-            }
+            W++;
+            base.SetText(s, added_text, set_original_text);
+            W--;
         }
 
-        public void AddText(string s)
-        {
-            if (s == "") s = "None";
-            SetText(OriginalText + s, false);
-        }
-
-        public void Draw()
+        public override void Draw()
         {
             if (Color == 2 && !Selected)
                 Functions.SetColor(1, Selected);
             else
                 Functions.SetColor(Color, Selected);
-            string c = Constants.Styles[Style, 0];
 
+            string c;
+
+            if (Fill)
+            {
+                c = new String(Convert.ToChar(Constants.Styles[Style, 3]), Functions.ClipInt(W - 1, 0, 1000));
+                for (int i = Y + 1; i < Y + H; i++)
+                    Functions.WriteAt(c, X + 1, i);
+            }
+
+            Functions.WriteAt(Text, X, (Y + Y + H) / 2);
 
             if (DrawBorder)
             {
+                c = Constants.Styles[Style, 0];
                 for (int i = X + 1; i < X + W; i++) Functions.WriteAt(c, i, Y);
                 for (int i = X + 1; i < X + W; i++) Functions.WriteAt(c, i, Y + H);
                 c = Constants.Styles[Style, 1];
@@ -107,17 +89,6 @@ namespace ConsoleApp1
                 Functions.WriteAt(c, X, Y + H);
                 Functions.WriteAt(c, X + W, Y + H);
             }
-
-
-            if (Fill)
-            {
-                c = new String(Convert.ToChar(Constants.Styles[Style, 3]), Functions.ClipInt(W - 1, 0, 1000));
-                for (int i = Y + 1; i < Y + H; i++)
-                    Functions.WriteAt(c, X + 1, i);
-            }
-
-            Functions.WriteAt(Text, X + TextX, Y + H / 2);
-
         }
 
         public void SetOnClick(Action<dynamic> a)
@@ -127,6 +98,11 @@ namespace ConsoleApp1
 
         public void SetOnClick(string s) { ActionType = s; }
 
+        public override void Update()
+        {
+            SetText(OriginalText);
+        }
+
         public void Click()
         {
             if (Constants.Actions.ContainsKey(ActionType)) 
@@ -134,7 +110,7 @@ namespace ConsoleApp1
             else OnClick(null);
         }
 
-        public virtual void AddToValue(int i)
+        public override void AddToValue(int i)
         {
             if (Value.HasValue)
             {
@@ -145,12 +121,5 @@ namespace ConsoleApp1
         }
 
         public bool HasValue() { return Value.HasValue; }
-
-        public bool IsSelectable() { return Selectable; }
-
-        public virtual void Update()
-        {
-            SetText(OriginalText);
-        }
     }
 }

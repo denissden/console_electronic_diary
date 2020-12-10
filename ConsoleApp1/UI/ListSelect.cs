@@ -10,8 +10,6 @@ namespace ConsoleApp1
     {
         public List<string> Options { get; set; }
         public bool OptionsUpdated { get; set; }
-        public int Fit { get; set; }
-
 
         public ListSelect(string name, string text, (int, int) pos, (int, int) size, bool fill = true)
         {
@@ -43,6 +41,22 @@ namespace ConsoleApp1
             AddText(Options[Value.HasValue ? Value.Value : 0]);
         }
 
+        public override void Draw()
+        {
+            if (Hidden) return;
+            Functions.SetColor(Color, Selected);
+            if (Constants.RoleColors.ContainsKey(AddedText))
+                if (Selected)
+                {
+                    Console.BackgroundColor = Constants.RoleColors[AddedText];
+                }
+                else
+                {
+                    Console.ForegroundColor = Constants.RoleColors[AddedText];
+                }
+            Functions.WriteAt(Text, X, Y);
+        }
+
         public override void AddToValue(int i)
         {
             ValueClipMax = Options.Count - 1;
@@ -50,35 +64,6 @@ namespace ConsoleApp1
             {
                 Value = Functions.ClipInt(Convert.ToInt32(Value) + i, ValueClipMin, ValueClipMax);
                 Update();
-            }
-        }
-
-        public override void SetText(string s, bool set_original_text = true)
-        {
-            if (set_original_text)
-                OriginalText = s;
-            if (s.Length > W)
-            {
-                Text = s.Substring(0, W);
-            }
-            else
-            {
-                int d = W - s.Length;
-                int l, r;
-                switch (Fit)
-                {
-                    case 0:
-                        l = d / 2; r = (d + 1) / 2;
-                        break;
-                    case 1:
-                        l = d; r = 0;
-                        break;
-                    default:
-                        l = 0; r = d;
-                        break;
-                }
-                char c = Convert.ToChar(Constants.Styles[Style, 3]);
-                Text = new String(c, l) + s + new String(c, r);
             }
         }
     }

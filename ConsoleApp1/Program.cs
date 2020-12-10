@@ -12,8 +12,17 @@ namespace ConsoleApp1
         public static readonly string USERS_Path = @"users\";
         public static readonly string IDS_Path = @"id_lib\";
         public static readonly string[,] Styles = { { "-", "|", "+", " " }, { "=", " ", "#", " " }, { "#", "#", "#", "-" } };
-        public static readonly ConsoleColor[,] Colors = { { ConsoleColor.Black, ConsoleColor.White },
-        { ConsoleColor.White, ConsoleColor.Black }, { ConsoleColor.Red, ConsoleColor.DarkRed } };
+        public static readonly ConsoleColor[,] Colors = {
+            { ConsoleColor.Black, ConsoleColor.White },
+            { ConsoleColor.White, ConsoleColor.Black },
+            { ConsoleColor.Red, ConsoleColor.DarkRed },
+        };
+        public static readonly Dictionary<string, ConsoleColor> RoleColors = new Dictionary<string, ConsoleColor> {
+            { "Guest", ConsoleColor.DarkGray },
+            { "Student", ConsoleColor.Cyan },
+            { "Teacher", ConsoleColor.Yellow },
+            { "Admin", ConsoleColor.Red},
+        };
         public static readonly List<string> UserTypes = new List<string>() { "Guest", "Student", "Teacher", "Admin" };
 
         public static readonly string[] DatePresets = new string[] { "dd/MM/yyyy", "dd-MM-yyyy", "dd.MM.yyyy", "dd MM yyyy" };
@@ -56,7 +65,7 @@ namespace ConsoleApp1
             {"Admin", AdminScreen.MainScreen },
         };
 
-        public static readonly bool SkipVerificationAtAccountCreation = true;
+        public static readonly bool SkipVerificationAtAccountCreation = false;
     }
 
 
@@ -64,8 +73,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args) // 120 x 30
         {
-            /*Test.Run();
-            Console.ReadKey();*/
+            // Test.Run();
+            // Console.ReadKey();
+            //GenerateUsers.Generate(0);
+            //Console.ReadKey();
+
             Console.WriteLine(Constants.SkipVerificationAtAccountCreation);
             StartScreen.MainScreen(null);
 

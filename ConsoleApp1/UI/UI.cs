@@ -8,64 +8,42 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class UI_old
-    {
-        int WindowX = Console.WindowWidth, WindowY = Console.WindowHeight;
-        Functions inp = new Functions();
-        int StyleIndex = 0;
-
-        public void SetStyle(int i)
-        {
-            StyleIndex = i;
-        }
-
-        public string Crop(string s, int l, int dots = 2)
-        {
-            if (l <= dots) dots = Functions.ClipInt(dots - s.Length, 0, 2);
-            else if (l >= s.Length) dots = 0;
-            else l -= dots;
-            string res = s.Substring(0, Functions.ClipInt(l, 0, s.Length)) + new String('.', dots);
-            int d = l - s.Length;
-            if (d > 1) res = new String(Convert.ToChar(Constants.Styles[StyleIndex, 3]), d / 2) + res;
-            return res;
-        }
-
-        public (int, int) Clip((int, int) pos)
-        {
-            (int x, int y) = pos;
-            return (Functions.ClipInt(x, 0, WindowX), Functions.ClipInt(y, 0, WindowY));
-        }
-    }
-
-
     public class UI
     {
-        public List<Button> Buttons { get; set; }
-        public List<TextLine> TextLines { get; set; }
-
         public List<dynamic> Elements { get; set; }
 
         public int SelectedButtonId { get; set; }
+        public int PrevSelectedButtonId { get; set; }
 
         public UI()
         {
-            Buttons = new List<Button>();
-            TextLines = new List<TextLine>();
             Elements = new List<dynamic>();
             SelectedButtonId = -1;
         }
 
         public void Draw(bool reset = false)
         {
-            foreach (dynamic o in Elements) o.Draw();
-            /*foreach (Button o in Buttons) o.Draw();
-            foreach (TextLine o in TextLines) o.Draw();*/
-            if (SelectedButtonId != -1) Elements[SelectedButtonId].Draw();
+            if (reset)
+            {
+                foreach (dynamic o in Elements) o.Draw();
+                if (SelectedButtonId != -1) Elements[SelectedButtonId].Draw();
+            }
+            else
+            {
+                if (PrevSelectedButtonId != -1) Elements[PrevSelectedButtonId].Draw();
+                if (SelectedButtonId != -1) Elements[SelectedButtonId].Draw();
+            }
         }
 
-        public void Update()
+        public virtual void Update(bool fulldraw = true)
         {
             foreach (dynamic o in Elements) o.Update();
+            if (fulldraw) 
+            {
+                Functions.SetColor(1);
+                Console.Clear();
+                Draw(true); 
+            }
         }
 
         public int GetByFirst(char c)
@@ -89,17 +67,28 @@ namespace ConsoleApp1
                 case ConsoleKey.Enter:
                     return ClickSelected();
 
+                case ConsoleKey.F5:
+                    Update();
+                    Draw(true);
+                    break;
+
+                case ConsoleKey.DownArrow:
+                    id = SelectVertical(false);
+                    break;
                 case ConsoleKey.RightArrow:
                     id = SelectNext();
+                    break;
+                case ConsoleKey.UpArrow:
+                    id = SelectVertical(true);
                     break;
                 case ConsoleKey.LeftArrow:
                     id = SelectPrevious();
                     break;
-                case ConsoleKey.UpArrow:
+                case ConsoleKey.OemPlus:
                     if (SelectedButtonId != -1)
                         Elements[SelectedButtonId].AddToValue(1);
                     break;
-                case ConsoleKey.DownArrow:
+                case ConsoleKey.OemMinus:
                     if (SelectedButtonId != -1)
                         Elements[SelectedButtonId].AddToValue(-1);
                     break;
@@ -150,6 +139,35 @@ namespace ConsoleApp1
             else return SelectedButtonId;
         }
 
+        public int SelectVertical(bool up = true)
+        {
+            int id = SelectedButtonId;
+            if (id == -1) return SelectNext();
+
+            dynamic element = Elements[id];
+            int idx = element.GetMiddleX();
+            int idy = element.GetMiddleY();
+            int closest_id = id; double closest_score = double.MaxValue;
+            for (int i = 0; i < Elements.Count; i++)
+            {
+                dynamic e = Elements[i];
+                if (e.IsSelectable())
+                {
+                    int x = e.GetMiddleX();
+                    int y = e.GetMiddleY();
+                    double score = Math.Abs(idx - x) + Math.Abs(idy - y) * 2;
+                    
+                    if ((y < idy && up) || (y > idy && !up))
+                    if (score < closest_score)
+                    {
+                        closest_id = i;
+                        closest_score = score;
+                    }
+                }
+            }
+            return closest_id;
+        }
+
         public void SelectButton(int id)
         {
             if (SelectedButtonId != -1)
@@ -166,12 +184,8 @@ namespace ConsoleApp1
 
         public void DeselectButton(int id)
         {
+            PrevSelectedButtonId = id;
             Elements[id].Selected = false;
-            try
-            {
-                Elements[id].Selected = false;
-            }
-            catch { }
         }
 
         public string ClickSelected()

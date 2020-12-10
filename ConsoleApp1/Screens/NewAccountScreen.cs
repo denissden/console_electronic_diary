@@ -14,8 +14,6 @@ namespace ConsoleApp1
 
             ui.Update();
             ui.ValidateAll();
-            Functions.SetColor(1);
-            Console.Clear();
             ConsoleKeyInfo key;
             string clicked;
             do
@@ -24,7 +22,7 @@ namespace ConsoleApp1
                 key = Console.ReadKey(true);
                 clicked = ui.SelectByKey(key);
 
-                if (clicked == "CreateAccount") 
+                if (clicked == "CreateAccount")
                 {
                     if (ui.AllValid() || Constants.SkipVerificationAtAccountCreation)
                     {
@@ -47,6 +45,7 @@ namespace ConsoleApp1
                         break;
                     }
                 }
+                else if (clicked == "Back") break;
             } while (key.Key != ConsoleKey.Escape);
 
             Functions.SetColor(1);

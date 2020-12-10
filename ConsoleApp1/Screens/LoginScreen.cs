@@ -14,8 +14,6 @@ namespace ConsoleApp1
 
             ui.Update();
             ui.ValidateAll();
-            Functions.SetColor(1);
-            Console.Clear();
             ConsoleKeyInfo key;
             string clicked;
             do
@@ -23,7 +21,6 @@ namespace ConsoleApp1
                 ui.Draw();
                 key = Console.ReadKey(true);
                 clicked = ui.SelectByKey(key);
-
                 if (clicked == "Log in")
                 {
                     string login = ui.GetByName("LoginInputBox").OriginalText;
@@ -34,6 +31,7 @@ namespace ConsoleApp1
 
                 }
                 if (clicked == "Back") break;
+                // if (clicked != "") ui.Update();
             } while (key.Key != ConsoleKey.Escape);
 
             Functions.SetColor(1);

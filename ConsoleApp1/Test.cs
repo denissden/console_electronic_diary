@@ -56,6 +56,5 @@ namespace ConsoleApp1
             while (true)
                 Console.WriteLine(Console.ReadKey().Key.ToString());
         }
-        // just trying to make visual studio upload to github from the right account
     }
 }

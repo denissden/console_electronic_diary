@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class UI
+    public class UI : BasicElement
     {
-        public List<dynamic> Elements { get; set; }
+        public List<dynamic> Elements;
 
         public int SelectedButtonId { get; set; }
         public int PrevSelectedButtonId { get; set; }
@@ -21,27 +21,28 @@ namespace ConsoleApp1
             SelectedButtonId = -1;
         }
 
-        public void Draw(bool reset = false)
+        public override void Draw(bool reset = false)
         {
             if (reset)
             {
-                foreach (dynamic o in Elements) o.Draw();
-                if (SelectedButtonId != -1) Elements[SelectedButtonId].Draw();
+                foreach (dynamic o in Elements) o.Draw(reset);
+                if (SelectedButtonId != -1) Elements[SelectedButtonId].Draw(reset);
             }
             else
             {
-                if (PrevSelectedButtonId != -1) Elements[PrevSelectedButtonId].Draw();
-                if (SelectedButtonId != -1) Elements[SelectedButtonId].Draw();
+                if (PrevSelectedButtonId != -1) Elements[PrevSelectedButtonId].Draw(reset);
+                if (SelectedButtonId != -1) Elements[SelectedButtonId].Draw(reset);
             }
         }
 
-        public virtual void Update(bool fulldraw = true)
+        public virtual void Update(bool fulldraw = true, bool clear = true)
         {
             foreach (dynamic o in Elements) o.Update();
             if (fulldraw) 
             {
                 Functions.SetColor(1);
-                Console.Clear();
+                if (clear)
+                    Console.Clear();
                 Draw(true); 
             }
         }
@@ -59,7 +60,7 @@ namespace ConsoleApp1
             return null;
         }
 
-        public string SelectByKey(ConsoleKeyInfo key)
+        public virtual string SelectByKey(ConsoleKeyInfo key)
         {
             int id = SelectedButtonId;
             switch (key.Key)
@@ -68,7 +69,7 @@ namespace ConsoleApp1
                     return ClickSelected();
 
                 case ConsoleKey.F5:
-                    Update();
+                    Update(true, true);
                     Draw(true);
                     break;
 
@@ -86,11 +87,11 @@ namespace ConsoleApp1
                     break;
                 case ConsoleKey.OemPlus:
                     if (SelectedButtonId != -1)
-                        Elements[SelectedButtonId].AddToValue(1);
+                        AddToValue(1);
                     break;
                 case ConsoleKey.OemMinus:
                     if (SelectedButtonId != -1)
-                        Elements[SelectedButtonId].AddToValue(-1);
+                        AddToValue(-1);
                     break;
 
                 default:
@@ -102,7 +103,12 @@ namespace ConsoleApp1
             return "";
         }
 
-        public int SelectNext()
+        public override void AddToValue(int i)
+        {
+            Elements[SelectedButtonId].AddToValue(i);
+        }
+
+        public virtual int SelectNext()
         {
             int i = SelectedButtonId;
             bool found = false;
@@ -121,7 +127,7 @@ namespace ConsoleApp1
             else return SelectedButtonId;
         }
 
-        public int SelectPrevious()
+        public virtual int SelectPrevious()
         {
             int i = SelectedButtonId;
             bool found = false;
@@ -139,7 +145,7 @@ namespace ConsoleApp1
             else return SelectedButtonId;
         }
 
-        public int SelectVertical(bool up = true)
+        public virtual int SelectVertical(bool up = true)
         {
             int id = SelectedButtonId;
             if (id == -1) return SelectNext();

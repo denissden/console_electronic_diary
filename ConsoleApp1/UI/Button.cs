@@ -57,7 +57,7 @@ namespace ConsoleApp1
             W--;
         }
 
-        public override void Draw()
+        public override void Draw(bool _ = true)
         {
             if (Color == 2 && !Selected)
                 Functions.SetColor(1, Selected);
@@ -98,7 +98,7 @@ namespace ConsoleApp1
 
         public void SetOnClick(string s) { ActionType = s; }
 
-        public override void Update()
+        public override void Update(bool fulldraw = true)
         {
             SetText(OriginalText);
         }

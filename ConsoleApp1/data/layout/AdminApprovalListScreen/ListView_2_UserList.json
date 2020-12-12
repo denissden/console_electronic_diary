@@ -1,0 +1,43 @@
+{
+  "Header": {
+    "Fit": 0,
+    "Color": 1,
+    "Style": 0,
+    "Hidden": false,
+    "X": 0,
+    "Y": 1,
+    "W": 120,
+    "H": 0,
+    "OriginalText": "Use up/down keys to select, left/right to change pages",
+    "Text": "                                 Use up/down keys to select, left/right to change pages                                 ",
+    "Name": "Header"
+  },
+  "Footer": {
+    "Fit": 0,
+    "Color": 1,
+    "Style": 0,
+    "Hidden": false,
+    "X": 0,
+    "Y": 26,
+    "W": 120,
+    "H": 0,
+    "OriginalText": "Page 0 of 0",
+    "Text": "                                                     Page 0 of 0                                                        ",
+    "Name": "Footer"
+  },
+  "Options": [
+    "Guest",
+    "Student",
+    "Teacher",
+    "Admin"
+  ],
+  "SelectedButtonId": -1,
+  "PrevSelectedButtonId": 0,
+  "X": 0,
+  "Y": 1,
+  "W": 120,
+  "H": 25,
+  "OriginalText": null,
+  "Text": null,
+  "Name": "UserList"
+}

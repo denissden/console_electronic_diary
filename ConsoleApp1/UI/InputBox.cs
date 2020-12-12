@@ -82,7 +82,7 @@ namespace ConsoleApp1
             }
         }
 
-        public override void Draw()
+        public override void Draw(bool _ = true)
         {
             Functions.SetColor(Color, OnlySelectText ? false : Selected);
             string c = Constants.Styles[Style, 0];

@@ -11,13 +11,13 @@ namespace ConsoleApp1
         public List<string> Options { get; set; }
         public bool OptionsUpdated { get; set; }
 
-        public ListSelect(string name, string text, (int, int) pos, (int, int) size, bool fill = true)
+        public ListSelect(string name, string text, (int, int) pos, int length, bool fill = true)
         {
             Name = name;
             OriginalText = text;
-            Fit = 0;
+            Fit = 2;
             (X, Y) = pos;
-            Resize(size);
+            Resize((length, 1));
             Fill = fill;
             DrawBorder = true;
             Color = 1;
@@ -36,12 +36,17 @@ namespace ConsoleApp1
             ValueClipMin = 0;
         }
 
-        public override void Update()
+        public override void Update(bool fulldraw = true)
         {
-            AddText(Options[Value.HasValue ? Value.Value : 0]);
+            AddText(Options[Value.HasValue && Value != -1 ? Value.Value : 0]);
         }
 
-        public override void Draw()
+        public void SetOptionSelect(string option)
+        {
+            Value = Options.IndexOf(option);
+        }
+
+        public override void Draw(bool _ = true)
         {
             if (Hidden) return;
             Functions.SetColor(Color, Selected);

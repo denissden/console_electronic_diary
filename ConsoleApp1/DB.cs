@@ -16,22 +16,14 @@ namespace ConsoleApp1
         {
             int c = 0;
             foreach (dynamic e in ui.Elements) JSON_ELEMENT(e, path, ++c);
-            /*c = 0;
-            foreach (TextLine t in ui.TextLines) JSON_ELEMENT(t, path, ++c);*/
-            /*var roundTrippedJson = JsonSerializer.Serialize<UI>
-                (ui);
-            Console.WriteLine($"Output JSON: {roundTrippedJson}");
-            using (FileStream fs = File.Create($"{DB_Path}{path}/damn.json"))
-            {
-                JsonSerializer.SerializeAsync(fs, ui);
-            }*/
         }
 
         async public static void JSON_ELEMENT(dynamic b, string path, int id = 0)
         {
             var options = new JsonSerializerOptions()
             {
-                IncludeFields = true,
+                WriteIndented = true,
+                IncludeFields = false,
             };
             Directory.CreateDirectory($"{Constants.DB_Path}{path}");
             using (FileStream fs = File.Create($"{Constants.DB_Path}{path}/{b.GetType().Name}_{id}_{b.Name}.json"))
@@ -79,6 +71,9 @@ namespace ConsoleApp1
                         break;
                     case "ListSelect":
                         T = READ_JSON_OBJECT<ListSelect>(f);
+                        break;
+                    case "ListView":
+                        T = READ_JSON_OBJECT<ListView>(f);
                         break;
                 }
                 if (T != null)
@@ -195,11 +190,11 @@ namespace ConsoleApp1
             return path.Exists;
         }
 
-        public static List<T> SELECT_PERSON_BY_TYPE<T>(string type)
+        public static List<dynamic> SELECT_PERSON_BY_TYPE<T>(string type)
         {
             DirectoryInfo d = new DirectoryInfo(Constants.DB_Path + Constants.IDS_Path);
             FileInfo[] files = d.GetFiles();
-            List<T> result = new List<T>();
+            List<dynamic> result = new List<dynamic>();
 
             foreach(FileInfo file in files)
             {
@@ -208,6 +203,21 @@ namespace ConsoleApp1
                     result.Add(p);
             }
             return result;
+        }
+
+        public static void SAVE_PERSON_CHOICE_MAP(List<dynamic> map)
+        {
+            foreach (dynamic p in map)
+            {
+                if (p[3] == true && p[1] != p[2])
+                {
+                    dynamic person = p[0];
+                    person.Type = p[1].ToString();
+                    JSON_PERSON(person, Constants.USERS_Path);
+                    Console.WriteLine($"{person} {person.Type}");
+                }
+            }
+            Console.ReadKey();
         }
 
     }

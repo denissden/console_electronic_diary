@@ -89,5 +89,28 @@ namespace ConsoleApp1
             else return input;
         }
 
+        public static bool IntInRange(int input, int a, int b)
+        {
+            return input >= a && input <= b;
+        }
+
+        public static List<dynamic> CreateChoiceMap(List<dynamic> input,
+                                            string default_choice = null,
+                                            string get_property = null)
+        {
+            List<dynamic> res = new List<dynamic>();
+            foreach(dynamic element in input)
+            {
+                string choice = "";
+                if (default_choice != null)
+                    choice = default_choice;
+                else if (get_property != null)
+                    choice = element.GetType().GetProperty(get_property).GetValue(element, null);
+
+                res.Add(new dynamic[4] { element, choice, choice, false });
+            }
+            return res;
+        }
+
     }
 }

@@ -76,6 +76,8 @@
     <Compile Include="Screens\AdminUserListScreen.cs" />
     <Compile Include="Screens\StartScreen.cs" />
     <Compile Include="Screens\TeacherScreen.cs" />
+    <Compile Include="Screens\WarningScreen.cs" />
+    <Compile Include="UI\BasicElement.cs" />
     <Compile Include="UI\ListSelect.cs" />
     <Compile Include="UI\ListView.cs" />
     <Compile Include="UserClasses\Admin.cs" />

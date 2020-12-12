@@ -53,11 +53,26 @@ namespace ConsoleApp1
             else return $"{LastName} {FirstName}";
         }
 
+        public string GetShortName()
+        {
+            string res = "";
+            if (LastName != "")
+                res += LastName + " ";
+            if (FirstName != "")
+                res += FirstName[0].ToString().ToUpper() + '.';
+            if (MiddleName != "")
+                res += FirstName[0].ToString().ToUpper() + '.';
+            return res;
+        }
+
         public override string ToString()
         {
-            string result = "";
-            result += "ФИО: " + GetFullName();
-            result += $", Год рождения: {BirthYear}, Возраст: {Age}";
+            string result = "Login: ";
+            result += Login;
+            result += "  Name: ";
+            result += GetShortName();
+            result += "  Born ";
+            result += BirthYear.ToString("dd.MM.yyyy");
             return result;
         }
 

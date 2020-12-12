@@ -6,20 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class TextLine
+    public class TextLine : BasicElement
     {
-        public int X { get; set; }
-        public int Y { get; set; }
-        public int W { get; set; }
-        public int H { get; set; }
-        public string OriginalText { get; set; }
-        public string Text { get; set; }
-        public string Name { get; set; }
         public int Fit { get; set; }
         public int Color { get; set; }
         public int Style { get; set; }
         public bool Hidden { get; set; }
-        public bool Selectable = false;
         public string AddedText = "";
 
 
@@ -38,7 +30,7 @@ namespace ConsoleApp1
         public TextLine() { }
 
 
-        public virtual void SetText(string s, string added_text = "", bool set_original_text = true)
+        public override void SetText(string s, string added_text = "", bool set_original_text = true)
         {
             if (set_original_text)
                 OriginalText = s;
@@ -71,27 +63,20 @@ namespace ConsoleApp1
             }
         }
 
-        public void AddText(string s)
+        public void AddText(string s = "")
         {
             if (s == "") s = "None";
             AddedText = s;
             SetText(OriginalText, s, false);
         }
 
-        public virtual void Draw()
+        public override void Draw(bool _ = true)
         {
             if (Hidden) return;
             Functions.SetColor(Color);
             Functions.WriteAt(Text, X, Y);
         }
 
-        public int GetMiddleX() { return X + W / 2; }
-        public int GetMiddleY() { return Y + H / 2; }
-
-        public bool IsSelectable() { return Selectable; }
-
-        public virtual void Update() { SetText(OriginalText, AddedText, false); }
-
-        public virtual void AddToValue(int i) { }
+        public override void Update(bool _ = true) { SetText(OriginalText, AddedText, false); }
     }
 }

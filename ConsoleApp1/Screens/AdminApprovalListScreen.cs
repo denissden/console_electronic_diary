@@ -10,47 +10,14 @@ namespace ConsoleApp1
     {
         public static void MainScreen(dynamic _)
         {
-            // UI ui = DB.READ_JSON_UI("layout/AdminApprovalListScreen");
+            UI ui = DB.READ_JSON_UI("layout/AdminApprovalListScreen");
 
-            UI ui = new UI();
+            // UI ui = new UI();
 
-            TextLine t; InputBox i; Button b; ListSelect l;
+            List<dynamic> users = DB.SELECT_PERSON_BY_TYPE<Person>("Guest");
+            List<dynamic> users_map = Functions.CreateChoiceMap(users, get_property: "Type");
 
-            // HEADER
-            t = new TextLine("Header", "Admin Menu", (0, 0), 120, 0);
-            ui.Elements.Add(t);
-
-
-            // BUTTONS
-            b = new Button("UserList", "List of users", (47, 5), (26, 3))
-            {
-                Style = 1,
-                Color = 1,
-            };
-            ui.Elements.Add(b);
-
-            /*b = new Button("Back", "Back", (47, 19), (26, 3))
-            {
-                Style = 1,
-                Color = 2,
-            };
-            ui.Elements.Add(b);*/
-
-            List<Person> users = DB.SELECT_PERSON_BY_TYPE<Person>("Guest");
-
-            for (int index = 0; index < users.Count; index++)
-            {
-                Person p = users[index];
-                l = new ListSelect($"user{index}", $"{p.Login}, {p.GetFullName()}, {p.BirthYear.ToString("dd.MM.yyyy")}.", (0, 10 + index), (120, 1))
-                {
-
-                    Color = 1,
-                    DrawBorder = false,
-                    Options = Constants.UserTypes,
-                    Fit = 2,
-                };
-                ui.Elements.Add(l);
-            }
+            ui.GetByName("UserList").SetItems(users_map, true);
 
             ui.Update();
             ui.ValidateAll();
@@ -62,13 +29,34 @@ namespace ConsoleApp1
                 key = Console.ReadKey(true);
                 clicked = ui.SelectByKey(key);
 
-                if (clicked == "Back") break;
+                if (clicked == "Exit")
+                {
+                    bool yes = WarningScreen.NoYes("All changes will be lost. Are you sure?");
+                    if (yes) break;
+                    else ui.Update();
+                }
+                else if (clicked == "Save")
+                {
+                    bool yes = WarningScreen.NoYes("You are going to save changes. There is no undo. Are you sure?");
+                    if (yes) DB.SAVE_PERSON_CHOICE_MAP(ui.GetByName("UserList").Items);
+                    ui.Update();
+                }
+                else if (clicked == "SaveExit")
+                {
+                    bool yes = WarningScreen.NoYes("You are going to save changes. There is no undo. Are you sure?");
+                    if (yes)
+                    {
+                        DB.SAVE_PERSON_CHOICE_MAP(ui.GetByName("UserList").Items);
+                        break;
+                    }
+                    else ui.Update();
+                }
             } while (key.Key != ConsoleKey.Escape);
 
             Functions.SetColor(1);
             Console.Clear();
 
-            //DB.JSON_UI(ui, "layout/AdminApprovalListScreen");
+            // DB.JSON_UI(ui, "layout/AdminApprovalListScreen");
         }
     }
 }

@@ -77,7 +77,7 @@ namespace ConsoleApp1
             // Console.ReadKey();
             //GenerateUsers.Generate(0);
             //Console.ReadKey();
-
+            AdminScreen.MainScreen("admin");
             Console.WriteLine(Constants.SkipVerificationAtAccountCreation);
             StartScreen.MainScreen(null);
 

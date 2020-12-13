@@ -9,6 +9,7 @@ namespace ConsoleApp1
     class ListSelect : Button
     {
         public List<string> Options { get; set; }
+        public string HiddenProperty;
         public bool OptionsUpdated { get; set; }
 
         public ListSelect(string name, string text, (int, int) pos, int length, bool fill = true)
@@ -38,27 +39,35 @@ namespace ConsoleApp1
 
         public override void Update(bool fulldraw = true)
         {
+            SetText(OriginalText);
             AddText(Options[Value.HasValue && Value != -1 ? Value.Value : 0]);
         }
 
-        public void SetOptionSelect(string option)
+        public void SetOptionSelect(string option, bool set_default = false)
         {
             Value = Options.IndexOf(option);
+            if (Value == -1 && set_default)
+                Value = 0;
+        }
+
+        public void SetHiddenProperty(string property)
+        {
+            HiddenProperty = property;
         }
 
         public override void Draw(bool _ = true)
         {
             if (Hidden) return;
             Functions.SetColor(Color, Selected);
-            if (Constants.RoleColors.ContainsKey(AddedText))
+            int a_i = Constants.ColoringOrder.IndexOf(AddedText);
+            int h_i = Constants.ColoringOrder.IndexOf(HiddenProperty);
+
+            if (a_i != -1 || h_i != -1)
                 if (Selected)
-                {
-                    Console.BackgroundColor = Constants.RoleColors[AddedText];
-                }
+                    Console.BackgroundColor = Constants.RoleColors[a_i > h_i ? AddedText : HiddenProperty];
                 else
-                {
-                    Console.ForegroundColor = Constants.RoleColors[AddedText];
-                }
+                    Console.ForegroundColor = Constants.RoleColors[a_i > h_i ? AddedText : HiddenProperty];
+
             Functions.WriteAt(Text, X, Y);
         }
 
@@ -70,6 +79,16 @@ namespace ConsoleApp1
                 Value = Functions.ClipInt(Convert.ToInt32(Value) + i, ValueClipMin, ValueClipMax);
                 Update();
             }
+        }
+
+        public string GetChoice()
+        {
+            return Options[Value.HasValue && Value != -1 ? Value.Value : 0];
+        }
+
+        public override void Click()
+        {
+            Functions.WriteAt(HiddenProperty, 0, 32);
         }
     }
 }

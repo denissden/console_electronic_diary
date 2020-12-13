@@ -73,7 +73,7 @@ namespace ConsoleApp1
         public override void Draw(bool _ = true)
         {
             if (Hidden) return;
-            Functions.SetColor(Color);
+            Functions.SetColor(Color, Selected);
             Functions.WriteAt(Text, X, Y);
         }
 

@@ -61,7 +61,7 @@ namespace ConsoleApp1
             if (FirstName != "")
                 res += FirstName[0].ToString().ToUpper() + '.';
             if (MiddleName != "")
-                res += FirstName[0].ToString().ToUpper() + '.';
+                res += MiddleName[0].ToString().ToUpper() + '.';
             return res;
         }
 

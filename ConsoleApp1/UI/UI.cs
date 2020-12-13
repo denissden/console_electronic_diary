@@ -15,6 +15,9 @@ namespace ConsoleApp1
         public int SelectedButtonId { get; set; }
         public int PrevSelectedButtonId { get; set; }
 
+        public string InterceptsInput = "";
+        public bool DoInterceptInput = false;
+
         public UI()
         {
             Elements = new List<dynamic>();
@@ -60,13 +63,25 @@ namespace ConsoleApp1
             return null;
         }
 
+        public string GetName(int index)
+        {
+            if (Functions.IntInRange(index, 0, Elements.Count - 1))
+                return Elements[index].Name;
+            return "";
+        }
+
         public virtual string SelectByKey(ConsoleKeyInfo key)
         {
             int id = SelectedButtonId;
+            string ret;
             switch (key.Key)
             {
                 case ConsoleKey.Enter:
-                    return ClickSelected();
+                    ret = ClickSelected();
+                    /*if (ret == InterceptsInput)
+                        DoInterceptInput = true;*/
+
+                    return ret;
 
                 case ConsoleKey.F5:
                     Update(true, true);
@@ -95,7 +110,18 @@ namespace ConsoleApp1
                     break;
 
                 default:
-                    id = GetByFirst(key.KeyChar);
+                    if (DoInterceptInput) 
+                    {
+                        dynamic inter = GetByName(InterceptsInput);
+                        ret = inter.SelectByKey(key);
+                        if (ret == "StopIntercepting")
+                            DoInterceptInput = false;
+                        if (InterceptsInput != GetName(SelectedButtonId) && InterceptsInput != GetName(SelectedButtonId))
+                            inter.Draw();
+                        return ret;
+                    }
+                    else
+                        id = GetByFirst(key.KeyChar);
                     break;
             }
 
@@ -194,7 +220,7 @@ namespace ConsoleApp1
             Elements[id].Selected = false;
         }
 
-        public string ClickSelected()
+        public virtual string ClickSelected()
         {
             if (SelectedButtonId != -1) {
                 var e = Elements[SelectedButtonId];

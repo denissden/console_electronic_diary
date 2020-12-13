@@ -16,6 +16,7 @@ namespace ConsoleApp1
         public string Text { get; set; }
         public string Name { get; set; }
         public bool Selectable = false;
+        public bool Selected = false;
 
 
 

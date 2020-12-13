@@ -190,7 +190,7 @@ namespace ConsoleApp1
             return path.Exists;
         }
 
-        public static List<dynamic> SELECT_PERSON_BY_TYPE<T>(string type)
+        public static List<dynamic> SELECT_PERSON_BY_TYPE(string type)
         {
             DirectoryInfo d = new DirectoryInfo(Constants.DB_Path + Constants.IDS_Path);
             FileInfo[] files = d.GetFiles();
@@ -205,14 +205,42 @@ namespace ConsoleApp1
             return result;
         }
 
-        public static void SAVE_PERSON_CHOICE_MAP(List<dynamic> map)
+        public static List<dynamic> LOAD_ALL_PEOPLE()
         {
-            foreach (dynamic p in map)
+            DirectoryInfo d = new DirectoryInfo(Constants.DB_Path + Constants.IDS_Path);
+            FileInfo[] files = d.GetFiles();
+            List<dynamic> result = new List<dynamic>();
+            foreach (FileInfo file in files)
             {
-                if (p[3] == true && p[1] != p[2])
+                Person p = READ_PERSON_BY_LOGIN<Person>(file.Name.Replace(".dat", ""));
+                result.Add(p);
+            }
+            return result;
+        }
+
+        public static List<dynamic> SELECT_OBJECT_BY_PROPERTY(List<dynamic> data, string property, dynamic value) 
+        {
+            List<dynamic> result = new List<dynamic>();
+
+            foreach (dynamic d in data)
+            {
+                dynamic v = d.GetType().GetProperty(property).GetValue(d, null);
+                if (v == value)
+                    result.Add(d);
+            }
+
+            return result;
+        }
+
+        public static void SAVE_PERSON_CHOICE_MAP(List<ChoiceMapElement> map, bool set_type = true)
+        {
+            foreach (ChoiceMapElement p in map)
+            {
+                if (p.Changed == true && p.State != p.InitState)
                 {
-                    dynamic person = p[0];
-                    person.Type = p[1].ToString();
+                    dynamic person = p.Element;
+                    if (set_type)
+                        person.Type = p.State.ToString();
                     JSON_PERSON(person, Constants.USERS_Path);
                     Console.WriteLine($"{person} {person.Type}");
                 }

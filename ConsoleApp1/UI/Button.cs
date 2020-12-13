@@ -103,7 +103,7 @@ namespace ConsoleApp1
             SetText(OriginalText);
         }
 
-        public void Click()
+        public virtual void Click()
         {
             if (Constants.Actions.ContainsKey(ActionType)) 
                 Constants.Actions[ActionType](1);

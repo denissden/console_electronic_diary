@@ -22,6 +22,7 @@ namespace ConsoleApp1
 
         // shorter
         public static bool Shorter30(string s = "") { return s.Length <= 30; }
+        public static bool Shorter20(string s = "") { return s.Length <= 20; }
         public static bool Shorter10(string s = "") { return s.Length <= 10; }
 
         // date
@@ -66,6 +67,11 @@ namespace ConsoleApp1
             return false;
         }
 
+        // person
+        public static bool PersonHasProperty(string s)
+        {
+            return typeof(Person).GetProperty(s) != null;
+        }
 
     }
 }

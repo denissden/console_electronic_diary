@@ -1,0 +1,42 @@
+{
+  "Header": {
+    "Fit": 0,
+    "Color": 1,
+    "Style": 0,
+    "Hidden": false,
+    "X": 0,
+    "Y": 5,
+    "W": 120,
+    "H": 0,
+    "OriginalText": "Use J/K keys to select, H/L to change pages, [/] to change values, period/comma to move between search results",
+    "Text": "     Use J/K keys to select, H/L to change pages, [/] to change values, period/comma to move between search results     ",
+    "Name": "Header"
+  },
+  "Footer": {
+    "Fit": 0,
+    "Color": 1,
+    "Style": 0,
+    "Hidden": false,
+    "X": 0,
+    "Y": 25,
+    "W": 120,
+    "H": 0,
+    "OriginalText": "Page 0 of 67",
+    "Text": "                                                      Page 0 of 67                                                      ",
+    "Name": "Footer"
+  },
+  "Options": [
+    "Unchanged",
+    "Changed"
+  ],
+  "HiddenPropertyType": "Type",
+  "SelectedButtonId": 0,
+  "PrevSelectedButtonId": 0,
+  "X": 0,
+  "Y": 5,
+  "W": 120,
+  "H": 20,
+  "OriginalText": null,
+  "Text": null,
+  "Name": "UserList"
+}

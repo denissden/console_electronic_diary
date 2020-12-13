@@ -1,0 +1,19 @@
+{
+  "Value": null,
+  "ValueClipMax": 2147483647,
+  "ValueClipMin": -2147483648,
+  "Fill": true,
+  "DrawBorder": true,
+  "ActionType": "default",
+  "Fit": 0,
+  "Color": 1,
+  "Style": 1,
+  "Hidden": false,
+  "X": 49,
+  "Y": 1,
+  "W": 9,
+  "H": 2,
+  "OriginalText": "Search",
+  "Text": "  Search  ",
+  "Name": "Search"
+}

@@ -1,0 +1,13 @@
+{
+  "Fit": 2,
+  "Color": 1,
+  "Style": 0,
+  "Hidden": false,
+  "X": 62,
+  "Y": 3,
+  "W": 26,
+  "H": 0,
+  "OriginalText": "Elements found: ",
+  "Text": "Elements found:           ",
+  "Name": "SearchResultsInfo"
+}

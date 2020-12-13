@@ -18,7 +18,7 @@ namespace ConsoleApp1
         public static dynamic Pop()
         {
             int i = Items.Count - 1;
-            if (i != 0)
+            if (i != -1)
             {
                 dynamic ret = Items[i];
                 Items.RemoveAt(i);

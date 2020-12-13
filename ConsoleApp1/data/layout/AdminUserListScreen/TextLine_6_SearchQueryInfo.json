@@ -1,0 +1,13 @@
+{
+  "Fit": 2,
+  "Color": 1,
+  "Style": 0,
+  "Hidden": false,
+  "X": 62,
+  "Y": 1,
+  "W": 26,
+  "H": 0,
+  "OriginalText": "Query: ",
+  "Text": "Query:                    ",
+  "Name": "SearchQueryInfo"
+}

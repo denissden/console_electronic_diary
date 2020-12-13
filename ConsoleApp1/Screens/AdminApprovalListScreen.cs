@@ -14,8 +14,11 @@ namespace ConsoleApp1
 
             // UI ui = new UI();
 
-            List<dynamic> users = DB.SELECT_PERSON_BY_TYPE<Person>("Guest");
-            List<dynamic> users_map = Functions.CreateChoiceMap(users, get_property: "Type");
+            ui.InterceptsInput = "UserList";
+            ui.DoInterceptInput = true;
+
+            List<dynamic> users = DB.SELECT_PERSON_BY_TYPE("Guest");
+            List<ChoiceMapElement> users_map = Functions.CreateChoiceMap(users, get_property: "Type");
 
             ui.GetByName("UserList").SetItems(users_map, true);
 

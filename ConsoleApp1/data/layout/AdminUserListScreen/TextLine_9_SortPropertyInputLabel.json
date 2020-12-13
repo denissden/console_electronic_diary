@@ -1,0 +1,13 @@
+{
+  "Fit": 0,
+  "Color": 1,
+  "Style": 0,
+  "Hidden": false,
+  "X": 91,
+  "Y": 0,
+  "W": 20,
+  "H": 0,
+  "OriginalText": "Sort by",
+  "Text": "      Sort by       ",
+  "Name": "SortPropertyInputLabel"
+}

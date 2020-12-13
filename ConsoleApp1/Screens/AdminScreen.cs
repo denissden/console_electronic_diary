@@ -29,6 +29,7 @@ namespace ConsoleApp1
             {
                 Style = 1,
                 Color = 1,
+                ActionType = "admin_user_list",
             };
             ui.Elements.Add(b);
 
@@ -66,6 +67,7 @@ namespace ConsoleApp1
                 clicked = ui.SelectByKey(key);
 
                 if (clicked == "Back") break;
+                else if (clicked == "Appoval" || clicked == "UserList") ui.Update();
             } while (key.Key != ConsoleKey.Escape);
 
             Functions.SetColor(1);

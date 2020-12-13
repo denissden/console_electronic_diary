@@ -10,34 +10,79 @@ namespace ConsoleApp1
     {
         public static void MainScreen(dynamic _)
         {
-            // UI ui = DB.READ_JSON_UI("layout/AdminApprovalListScreen");
+            UI ui = DB.READ_JSON_UI("layout/AdminUserListScreen");
 
-            UI ui = new UI();
+            //UI ui = new UI();
 
-            TextLine t; InputBox i; Button b; ListSelect l;
+            //TextLine t; InputBox i; Button b; ListSelect l; ListView lv;
 
-            // HEADER
-            t = new TextLine("Header", "Admin Menu", (0, 0), 120, 0);
-            ui.Elements.Add(t);
+            ui.InterceptsInput = "UserList";
+            ui.DoInterceptInput = true;
 
+            List<dynamic> users = DB.LOAD_ALL_PEOPLE();
+            List<ChoiceMapElement> users_map = Functions.CreateChoiceMap(users, default_choice: "Unchanged");
 
-            // BUTTONS
-            b = new Button("UserList", "List of users", (47, 5), (26, 3))
+            dynamic userlist = ui.GetByName("UserList");
+            userlist.SetItems(users_map, true);
+            userlist.AddToValueAction = "admin_edit_user";
+
+            ui.Update();
+            ConsoleKeyInfo key;
+            string clicked;
+            do
             {
-                Style = 1,
-                Color = 1,
-            };
-            ui.Elements.Add(b);
+                ui.Draw();
+                key = Console.ReadKey(true);
+                clicked = ui.SelectByKey(key);
 
-            /*b = new Button("Back", "Back", (47, 19), (26, 3))
-            {
-                Style = 1,
-                Color = 2,
-            };
-            ui.Elements.Add(b);*/
+                if (clicked == "SortPropertyInputBox")
+                {
+                    string property = ui.GetByName("SortPropertyInputBox").OriginalText;
+                    userlist.Sort(property);
+                }
+                else if (clicked == "Search")
+                {
+                    string query = ui.GetByName("SearchInputBox").OriginalText;
+                    string property = ui.GetByName("SearchPropertyInputBox").OriginalText;
+
+                    string count = userlist.Search(query, property);
+
+                    ui.GetByName("SearchQueryInfo").AddText(query);
+                    ui.GetByName("SearchPropertyInfo").AddText(property);
+                    ui.GetByName("SearchResultsInfo").AddText(count);
+                    ui.Update(clear: false);
+                }
+                else if (clicked == "Exit")
+                {
+                    bool yes = WarningScreen.NoYes("All changes will be lost. Are you sure?");
+                    if (yes) break;
+                    else ui.Update();
+                }
+                else if (clicked == "Save")
+                {
+                    bool yes = WarningScreen.NoYes("You are going to save changes. There is no undo. Are you sure?");
+                    if (yes) DB.SAVE_PERSON_CHOICE_MAP(ui.GetByName("UserList").Items, false);
+                    userlist.UnchangeAll();
+                    ui.Update();
+                }
+                else if (clicked == "SaveExit")
+                {
+                    bool yes = WarningScreen.NoYes("You are going to save changes. There is no undo. Are you sure?");
+                    if (yes)
+                    {
+                        DB.SAVE_PERSON_CHOICE_MAP(ui.GetByName("UserList").Items, false);
+                        break;
+                    }
+                    else ui.Update();
+                }
+                else if (clicked == "UPDATE") ui.Update();
+            } while (key.Key != ConsoleKey.Escape);
+
+            Functions.SetColor(1);
+            Console.Clear();
 
 
-            //DB.JSON_UI(ui, "layout/AdminApprovalListScreen");
+            // DB.JSON_UI(ui, "layout/AdminUserListScreen");
         }
     }
 }

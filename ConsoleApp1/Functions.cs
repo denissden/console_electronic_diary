@@ -8,14 +8,15 @@ using System.Globalization;
 
 namespace ConsoleApp1
 {
-    class Functions
+    internal class Functions
     {
 
         // CONSOLE
         public static bool WriteAt(string s, int x, int y)
         {
             if (x > Console.WindowWidth || y > Console.WindowWidth) return false;
-            if (x + s.Length > Console.WindowWidth && x <= Console.WindowWidth) s = s.Substring(0, Console.WindowWidth - x);
+            if (s != null)
+                if (x + s.Length > Console.WindowWidth && x <= Console.WindowWidth) s = s.Substring(0, Console.WindowWidth - x);
             try
             {
                 Console.SetCursorPosition(x, y);
@@ -94,22 +95,58 @@ namespace ConsoleApp1
             return input >= a && input <= b;
         }
 
-        public static List<dynamic> CreateChoiceMap(List<dynamic> input,
+        public static List<ChoiceMapElement> CreateChoiceMap(List<dynamic> input,
                                             string default_choice = null,
                                             string get_property = null)
         {
-            List<dynamic> res = new List<dynamic>();
+            List<ChoiceMapElement> res = new List<ChoiceMapElement>();
             foreach(dynamic element in input)
             {
                 string choice = "";
                 if (default_choice != null)
                     choice = default_choice;
-                else if (get_property != null)
+                else if (HasProperty(element, get_property))
                     choice = element.GetType().GetProperty(get_property).GetValue(element, null);
 
-                res.Add(new dynamic[4] { element, choice, choice, false });
+                res.Add(new ChoiceMapElement(element, choice, choice));
             }
             return res;
+        }
+
+        public static List<int> FindInChoiceMap(List<ChoiceMapElement> map, string property, dynamic value)
+        {
+            List<int> res = new List<int>();
+            
+            for (int i = 0; i < map.Count; i++)
+            {
+                dynamic element = map[i].Element;
+                if (HasProperty(element, property))
+                {
+                    dynamic v = element.GetType().GetProperty(property).GetValue(element, null);
+                    string _v = v.ToString().ToLower();
+                    string _value = value.ToString().ToLower();
+                    if (_value.Length > 0 && _value[0] == '_')
+                    {
+                        _value = _value.Substring(1, value.Length - 1);
+                        if (_v.Contains(_value))
+                        {
+                            res.Add(i);
+                        }
+                    }
+                    else
+                        if (_v == _value)
+                    {
+                        res.Add(i);
+                    }
+                }
+            }
+
+            return res;
+        }
+
+        public static bool HasProperty(object obj, string propertyName)
+        {
+            return obj.GetType().GetProperty(propertyName) != null;
         }
 
     }

@@ -1,0 +1,19 @@
+{
+  "InputValid": true,
+  "AcceptedCharacters": "[A-Za-z0-9\u0410-\u042F\u0430-\u044F_@.#\u0026\u002B]",
+  "ValidationType": [
+    "shorter20",
+    "person_has_property"
+  ],
+  "Fit": 0,
+  "Color": 1,
+  "Style": 1,
+  "Hidden": false,
+  "X": 91,
+  "Y": 1,
+  "W": 20,
+  "H": 0,
+  "OriginalText": "Login",
+  "Text": "       Login        ",
+  "Name": "SortPropertyInputBox"
+}

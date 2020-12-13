@@ -71,8 +71,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChoiceMapElement.cs" />
     <Compile Include="GenerateUsers.cs" />
     <Compile Include="Screens\AdminApprovalListScreen.cs" />
+    <Compile Include="Screens\AdminEditUser.cs" />
     <Compile Include="Screens\AdminUserListScreen.cs" />
     <Compile Include="Screens\StartScreen.cs" />
     <Compile Include="Screens\TeacherScreen.cs" />

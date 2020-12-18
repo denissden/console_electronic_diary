@@ -56,5 +56,56 @@ namespace ConsoleApp1
             while (true)
                 Console.WriteLine(Console.ReadKey().Key.ToString());
         }
+
+        public static void Run3()
+        {
+            UI ui = new UI();
+
+            TextLine t; Button b;
+
+            //строки для демострации
+
+            // строка на координатах 0, 0 с длиной в 40
+            t = new TextLine("Test1", "Текст по левому краю", (0, 0), 60, -1);
+            ui.Elements.Add(t);
+
+            t = new TextLine("Test2", "Текст посередине", (0, 1), 60, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("Test3", "Текст по правому краю", (0, 2), 60, 1);
+            ui.Elements.Add(t);
+
+            t = new TextLine("Test4", "Текст с fit=2", (0, 3), 60, 2);
+            ui.Elements.Add(t);
+            t.AddText("fit = 2");
+
+            // кнопка на координатах 0, 5 длиной в 60 символов и высотой в 3
+            b = new Button("Knopka1", "кнопка 1", (0, 5), (60, 3));
+            ui.Elements.Add(b);
+
+            // вторая кнопка немного ниже
+            b = new Button("Knopka2", "кнопка 2", (0, 8), (60, 3));
+            ui.Elements.Add(b);
+
+            // эта строка выводит имя нажатой кнопки
+            t = new TextLine("Vivod", "Была нажата строка с именем", (0, 11), 60, 2);
+            t.Color = 2; // меняем цвет
+            ui.Elements.Add(t);
+
+            ui.Update();
+            ConsoleKeyInfo key;
+            string clicked;
+            do
+            {
+                ui.Draw(true); // рисуем все элементы
+                key = Console.ReadKey(true); // ввод с клавиатуры
+                clicked = ui.SelectByKey(key); // UI сам решает, что с этой кнопкой делать
+                // clicked = название нажатого элемента
+
+                // получаем элемент с названием Vivod
+                // и с его тексту добавляем название нажатого элемента
+                ui.GetByName("Vivod").AddText(clicked);
+            } while (key.Key != ConsoleKey.Escape);
+        }
     }
 }

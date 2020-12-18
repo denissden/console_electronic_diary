@@ -41,7 +41,15 @@ namespace ConsoleApp1
             };
             ui.Elements.Add(b);
 
-            b = new Button("Back", "Log out", (47, 19), (26, 3))
+            b = new Button("EditGroups", "Edit Groups", (47, 15), (26, 3))
+            {
+                Style = 1,
+                Color = 1,
+                ActionType = "admin_edit_groups",
+            };
+            ui.Elements.Add(b);
+
+            b = new Button("Back", "Log out", (47, 24), (26, 3))
             {
                 Style = 1,
                 Color = 2,

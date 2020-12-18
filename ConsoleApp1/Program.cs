@@ -9,8 +9,10 @@ namespace ConsoleApp1
     class Constants
     {
         public static readonly string DB_Path = @"D:\_C# projects\Elektronniy_Dnevnik\ConsoleApp1\data\";
+        // public static readonly string DB_Path = @"C:\Users\user\Desktop\data\";
         public static readonly string USERS_Path = @"users\";
         public static readonly string IDS_Path = @"id_lib\";
+        public static readonly string GROUPS_Path = @"groups\";
         public static readonly string[,] Styles = { { "-", "|", "+", " " }, { "=", " ", "#", " " }, { "#", "#", "#", "-" } };
         public static readonly ConsoleColor[,] Colors = {
             { ConsoleColor.Black, ConsoleColor.White },
@@ -26,6 +28,7 @@ namespace ConsoleApp1
             { "Admin", ConsoleColor.Red},
             { "Unchanged", ConsoleColor.DarkGray},
             { "Changed", ConsoleColor.DarkMagenta},
+            { "Removed", ConsoleColor.DarkRed},
         };
         public static readonly List<string> ColoringOrder = new List<string>() {
             "Unchanged",
@@ -34,6 +37,7 @@ namespace ConsoleApp1
             "Teacher",
             "Admin",
             "Changed",
+            "Removed",
         };
         public static readonly List<string> UserTypes = new List<string>() { "Guest", "Student", "Teacher", "Admin" };
 
@@ -53,6 +57,11 @@ namespace ConsoleApp1
             {"admin_user_list", AdminUserListScreen.MainScreen },
             {"admin_approval_list", AdminApprovalListScreen.MainScreen },
             {"admin_edit_user", AdminEditUser.MainScreen },
+            {"admin_edit_groups", AdminEditGroups.MainScreen },
+            {"admin_edit_group", AdminEditGroup.MainScreen },
+            {"teacher_screen", TeacherScreen.MainScreen },
+            {"teacher_edit_subject", TeacherEditSubject.MainScreen },
+            {"teacher_edit_group", TeacherEditGroup.MainScreen },
         };
 
         public static readonly Dictionary<string, Func<string, bool>> Validations = new Dictionary<string, Func<string, bool>>()
@@ -66,22 +75,27 @@ namespace ConsoleApp1
             {"shorter20", Validation.Shorter20},
             {"shorter10", Validation.Shorter10},
             {"date", Validation.Date},
+            {"group", Validation.GroupExists},
             {"login", Validation.NewLogin},
             {"password", Validation.Password},
             {"passwords_match1", Validation.PasswordsMatchAdd},
             {"passwords_match2", Validation.PasswordsMatchCheck},
             {"login_exists", Validation.LoginExists},
             {"person_has_property", Validation.PersonHasProperty},
+            {"person_can_display", Validation.PersonCanDisplay},
+            {"new_group", Validation.NewGroup},
         };
         public static readonly Dictionary<string, Action<dynamic>> UserMainScreens = new Dictionary<string, Action<dynamic>>()
         {
             {"Guest", GuestScreen.MainScreen },
             {"Student", Functions.Pass },
-            {"Teacher", Functions.Pass },
+            {"Teacher", TeacherScreen.MainScreen },
             {"Admin", AdminScreen.MainScreen },
         };
 
-        public static readonly bool SkipVerificationAtAccountCreation = false;
+        public static readonly bool SkipVerificationAtAccountCreation = true;
+        public static readonly int GroupDisplayInListViewMaxLength = 100;
+        
     }
 
 
@@ -89,11 +103,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args) // 120 x 30
         {
-            // Test.Run2();
+            //Test.Run3();
             // Console.ReadKey();
             //GenerateUsers.Generate(0);
             //Console.ReadKey();
             AdminScreen.MainScreen("admin");
+            //TeacherScreen.MainScreen("Teacher");
             Console.WriteLine(Constants.SkipVerificationAtAccountCreation);
             StartScreen.MainScreen(null);
 

@@ -88,7 +88,11 @@ namespace ConsoleApp1
 
         public static T READ_JSON_OBJECT<T>(FileInfo path)
         {
-            string s = File.ReadAllText(path.FullName);
+            string s;
+            using (StreamReader sr = new StreamReader(path.FullName))
+            {
+                s = sr.ReadToEnd();
+            }
             object t = JsonSerializer.Deserialize<T>(s);
             return (T)t;
         }
@@ -104,7 +108,7 @@ namespace ConsoleApp1
         public static void WRITE_BINARY_ULONG(string path, ulong value)
         {
             using (BinaryWriter writer = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate)))
-                writer.Write(value);
+                writer.Write(Convert.ToUInt64(value));
         }
 
         // PERSON
@@ -154,7 +158,7 @@ namespace ConsoleApp1
         {
             var options = new JsonSerializerOptions()
             {
-                IncludeFields = true,
+                IncludeFields = false,
             };
             System.IO.Directory.CreateDirectory($"{Constants.DB_Path}{path}");
             using (FileStream fs = File.Create($"{Constants.DB_Path}{path}/id{p.Id}.json"))
@@ -166,8 +170,7 @@ namespace ConsoleApp1
         public static T READ_PERSON_BY_LOGIN<T>(string login)
         {
             ulong id = READ_BINARY_ULONG(Constants.DB_Path + Constants.IDS_Path + $"{login}.dat");
-            FileInfo path = new FileInfo(Constants.DB_Path + Constants.USERS_Path + $"id{id}.json");
-            T ret = READ_JSON_OBJECT<T>(path);
+            T ret = READ_PERSON_BY_ID<T>(id);
             return ret;
         }
 
@@ -212,21 +215,36 @@ namespace ConsoleApp1
             List<dynamic> result = new List<dynamic>();
             foreach (FileInfo file in files)
             {
-                Person p = READ_PERSON_BY_LOGIN<Person>(file.Name.Replace(".dat", ""));
-                result.Add(p);
+                try
+                {
+                    Person p = READ_PERSON_BY_LOGIN<Person>(file.Name.Replace(".dat", ""));
+                    p.GetAge();
+                    result.Add(p);
+                }
+                catch
+                {
+                    Console.WriteLine($"Error reading {file}");
+                }
             }
             return result;
         }
 
-        public static List<dynamic> SELECT_OBJECT_BY_PROPERTY(List<dynamic> data, string property, dynamic value) 
+        public static List<dynamic> LOAD_PERSON_BY_PROPERTY_MATCH(string property, dynamic value) 
         {
             List<dynamic> result = new List<dynamic>();
 
-            foreach (dynamic d in data)
+            Person test = new Person();
+            if (!Functions.HasProperty(test, property)) return null;
+
+            DirectoryInfo d = new DirectoryInfo(Constants.DB_Path + Constants.IDS_Path);
+            FileInfo[] files = d.GetFiles();
+
+            foreach (FileInfo file in files)
             {
-                dynamic v = d.GetType().GetProperty(property).GetValue(d, null);
+                Person p = READ_PERSON_BY_LOGIN<Person>(file.Name.Replace(".dat", ""));
+                dynamic v = p.GetType().GetProperty(property).GetValue(p, null);
                 if (v == value)
-                    result.Add(d);
+                    result.Add(p);
             }
 
             return result;
@@ -241,6 +259,7 @@ namespace ConsoleApp1
                     dynamic person = p.Element;
                     if (set_type)
                         person.Type = p.State.ToString();
+                    ADD_USER_TO_GROUP(person);
                     JSON_PERSON(person, Constants.USERS_Path);
                     Console.WriteLine($"{person} {person.Type}");
                 }
@@ -248,5 +267,107 @@ namespace ConsoleApp1
             Console.ReadKey();
         }
 
+        // GROUP
+        public static void JSON_GROUP(dynamic g, string path)
+        {
+            System.IO.Directory.CreateDirectory($"{Constants.DB_Path}{path}");
+            string s = JsonSerializer.Serialize(g);
+            File.WriteAllText($"{Constants.DB_Path}{path}/{g.Name}.json", s);
+
+        }
+
+        public static List<dynamic> LOAD_ALL_GROUPS()
+        {
+            DirectoryInfo d = new DirectoryInfo(Constants.DB_Path + Constants.GROUPS_Path);
+            FileInfo[] files = d.GetFiles();
+            List<dynamic> result = new List<dynamic>();
+            foreach (FileInfo file in files)
+            {
+                try
+                {
+                    Group p = READ_JSON_OBJECT<Group>(file);
+                    result.Add(p);
+                }
+                catch
+                {
+                    Console.WriteLine($"Error reading {file}");
+                }
+            }
+            return result;
+        }
+
+        public static void SAVE_GROUP_CHOICE_MAP(List<ChoiceMapElement> map)
+        {
+            foreach (ChoiceMapElement g in map)
+            {
+                if (g.Changed == true && g.State != g.InitState)
+                {
+                    if (g.State == "Removed") 
+                    {
+                        string path = Constants.DB_Path + Constants.GROUPS_Path + g.Element.Name + ".json";
+                        if (File.Exists(path))
+                        {
+                            File.Delete(path);
+                            Console.WriteLine($"Deleted {g.Element}");
+                        }
+                    }
+                    else
+                    {
+                        dynamic group = g.Element;
+                        JSON_GROUP(group, Constants.GROUPS_Path);
+                        Console.WriteLine($"{group}");
+                    }
+                }
+            }
+            Console.ReadKey();
+        }
+
+        public static bool NEW_GROUP(Group g)
+        {
+            if (!Validation.NewGroup(g.Name)) return false;
+
+            JSON_GROUP(g, Constants.GROUPS_Path);
+            return true;
+        }
+
+        public static void REMOVE_USER_FROM_GROUP(ulong id, string group)
+        { 
+            if (Validation.GroupExists(group))
+            {
+                Console.WriteLine($"Removing {id} from {group}");
+                FileInfo path = new FileInfo(Constants.DB_Path + Constants.GROUPS_Path + $"{group}.json");
+                Group g = READ_JSON_OBJECT<Group>(path);
+                g.People.RemoveAll(p => p == id);
+                JSON_GROUP(g, Constants.GROUPS_Path);
+            }
+        }
+
+        public static void ADD_USER_TO_GROUP(Person p) 
+        {
+            ulong id = p.Id;
+            string new_group = p.Group;
+            string old_group = p.OldGroup;
+            REMOVE_USER_FROM_GROUP(id, old_group);
+            if (Validation.GroupExists(new_group))
+            {
+                Console.WriteLine($"Adding {p.Id} to {new_group}");
+                FileInfo path = new FileInfo(Constants.DB_Path + Constants.GROUPS_Path + $"{new_group}.json");
+                Group g = READ_JSON_OBJECT<Group>(path);
+                if (!g.People.Contains(id))
+                    g.People.Add(id);
+                JSON_GROUP(g, Constants.GROUPS_Path);
+            }
+        }
+
+        public static bool PERSON_IN_GROUP(ulong id, string group)
+        {
+            if (Validation.GroupExists(group))
+            {
+                FileInfo path = new FileInfo(Constants.DB_Path + Constants.GROUPS_Path + $"{group}.json");
+                Group g = READ_JSON_OBJECT<Group>(path);
+                return g.People.Contains(id);
+            }
+            return false;
+        }
     }
 }

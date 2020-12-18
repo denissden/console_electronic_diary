@@ -73,5 +73,35 @@ namespace ConsoleApp1
             return typeof(Person).GetProperty(s) != null;
         }
 
+        public static bool PersonCanDisplay(string s)
+        {
+            s = s.ToLower();
+            string[] ToStringOptions = s.Split(new char[] { ',', '.', '-', '/' });
+            string[] accepted = new string[] {
+                "login",
+                "id",
+                "name",
+                "date",
+                "age",
+                "group",
+                "type", };
+            bool ret = true;
+            foreach (string option in ToStringOptions)
+            {
+                ret = ret && (accepted.Contains(option) || accepted.Contains(option.Replace("_", "")));
+            }
+            return ret;
+        }
+
+        // group
+        public static bool NewGroup(string s)
+        {
+            return !File.Exists(Constants.DB_Path + Constants.GROUPS_Path + $"{s}.json");
+        } 
+        
+        public static bool GroupExists(string s)
+        {
+            return File.Exists(Constants.DB_Path + Constants.GROUPS_Path + $"{s}.json");
+        }
     }
 }

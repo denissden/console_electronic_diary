@@ -1,0 +1,19 @@
+{
+  "InputValid": true,
+  "AcceptedCharacters": "[A-Za-z0-9\u0410-\u042F\u0430-\u044F_@.,#\u0026\u002B]",
+  "ValidationType": [
+    "shorter30",
+	"person_can_display"
+  ],
+  "Fit": 0,
+  "Color": 1,
+  "Style": 1,
+  "Hidden": false,
+  "X": 3,
+  "Y": 27,
+  "W": 30,
+  "H": 0,
+  "OriginalText": "login,_date,id",
+  "Text": "        login,_date,id        ",
+  "Name": "ShowPropertyInputBox"
+}

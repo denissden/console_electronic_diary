@@ -8,21 +8,29 @@ using System.IO;
 
 namespace ConsoleApp1
 {
- 
+
     public class Person
     {
+        // USED FOR ALL USER TYPES
         public string Type { get; set; }
         public DateTime DateCreated { get; set; }
         public ulong Id { get; set; }
         public string Login { get; set; }
         public string PasswordHash { get; set; }
         public string Group { get; set; }
+        public string OldGroup = ""; 
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
         public DateTime BirthYear { get; set; }
+        public List<string> ToStringOptions = new List<string>() { "Login" };
 
+        // USED FOR STUDENT
+        public List<MarkList> SubjectMarks { get; set; }
+
+        // USED FOR TEACHER
+        public List<Subject> Subjects { get; set; }
 
         public Person()
         {
@@ -30,9 +38,11 @@ namespace ConsoleApp1
             LastName = "";
             FirstName = "";
             MiddleName = "";
-            Age = -1;
+            Age = -1;     
             PasswordHash = Functions.GetHashString("");
             DateCreated = DateTime.Now;
+            SubjectMarks = new List<MarkList>();
+            Subjects = new List<Subject>();
         }
 
         public bool SetPassword(string _new, string old = "")
@@ -65,14 +75,61 @@ namespace ConsoleApp1
             return res;
         }
 
+        public int GetAge()
+        {
+            if (BirthYear == null) return -1;
+            DateTime today = DateTime.Today;
+            int age = today.Year - BirthYear.Year;
+            if (BirthYear.Date > today.AddYears(-age)) age--;
+            Age = age;
+            return age;
+        }
+
+        public void SetToStringOptions(string s)
+        {
+            s = s.ToLower();
+            ToStringOptions = s.Split(new char[] { ',', '.', '-', '/' }).OfType<string>().ToList();
+        }
+
         public override string ToString()
         {
-            string result = "Login: ";
-            result += Login;
-            result += "  Name: ";
-            result += GetShortName();
-            result += "  Born ";
-            result += BirthYear.ToString("dd.MM.yyyy");
+            string result = "";
+            foreach (string s in ToStringOptions)
+            {
+                string property = s;
+                string add = $"{s}: ";
+                if (property.Length > 0 && property[0] == '_')
+                {
+                    add = "";
+                    property = property.Substring(1, property.Length - 1);
+                }
+                result += add;
+                switch (property) 
+                {
+                    case "login":
+                        result += Login;
+                        break;
+                    case "id":
+                        result += Id;
+                        break;
+                    case "name":
+                        result += GetShortName();
+                        break;
+                    case "date":
+                        result += BirthYear.ToString("dd.MM.yyyy");
+                        break;
+                    case "age":
+                        result += GetAge();
+                        break;
+                    case "group":
+                        result += Group;
+                        break;
+                    case "type":
+                        result += Type;
+                        break;
+                }
+                result += "  ";
+            }
             return result;
         }
 

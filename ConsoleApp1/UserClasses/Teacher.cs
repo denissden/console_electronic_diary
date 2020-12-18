@@ -8,10 +8,10 @@ namespace ConsoleApp1
 {
     class Teacher : Person
     {
-        public List<string> HasGroups { get; set; }
+        public List<string> Groups { get; set; }
         public Teacher()
         {
-            HasGroups = new List<string>();
+            Groups = new List<string>();
             Type = "Teacher";
         }
     }

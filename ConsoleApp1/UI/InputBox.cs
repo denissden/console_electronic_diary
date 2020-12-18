@@ -12,6 +12,7 @@ namespace ConsoleApp1
         public bool Selected = false;
         public bool OnlySelectText = false;
         public bool InputValid { get; set; }
+        public bool IsPassword { get; set; }
         public string AcceptedCharacters { get; set; }
         public List<string> ValidationType { get; set; }
 
@@ -56,9 +57,10 @@ namespace ConsoleApp1
                 }
                 else if (c == '\n' || c == '\r' || c == '\u001B') break;
                 else if (reg.IsMatch(Convert.ToString(c))) s += c;
+                else if (c == '\\') IsPassword = !IsPassword;
 
                 InputValid = ValidateString(s);
-                SetText(s);
+                SetText(IsPassword ? new String('*', s.Length) : s);
                 Draw();
             } while (s.Length <= W);
             OriginalText = s;

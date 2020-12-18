@@ -1,0 +1,19 @@
+{
+  "Value": null,
+  "ValueClipMax": 2147483647,
+  "ValueClipMin": -2147483648,
+  "Fill": true,
+  "DrawBorder": true,
+  "ActionType": "default",
+  "Fit": 0,
+  "Color": 2,
+  "Style": 1,
+  "Hidden": false,
+  "X": 90,
+  "Y": 27,
+  "W": 25,
+  "H": 2,
+  "OriginalText": "Exit without saving",
+  "Text": "  Exit without saving   ",
+  "Name": "Exit"
+}

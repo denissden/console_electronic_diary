@@ -25,6 +25,7 @@ namespace ConsoleApp1
         public int SearchResultIndex = 0;
         public string AddToValueAction = "";
         public string FooterInfo = "";
+        public string PersonToStringOptions = "";
 
         public ListView(string name, (int, int) pos, (int, int) size)
         {
@@ -33,7 +34,9 @@ namespace ConsoleApp1
             (W, H) = size;
             PageLength = H - 2;
 
-            Header = new TextLine("Header", "Use up/down keys to select, left/right to change pages, period/comma to move between search results", (X, Y), W, 0);
+            Header = new TextLine("Header",
+                "Use J/K keys to select, H/L to change pages, [/] to change values, period/comma to move between search results",
+                (X, Y), W, 0);
             for (int i = 0; i <= PageLength; i++)
             {
                 ListSelect e = new ListSelect($"{Name}_{i}", "", (X, Y + i + 1), W);
@@ -64,6 +67,13 @@ namespace ConsoleApp1
                 }
                 SetOptions();
             }
+        }
+
+        public void Add(ChoiceMapElement e)
+        {
+            Items.Add(e);
+            ItemsLength++;
+            Update(true);
         }
 
         public void SetPage(int page)
@@ -193,22 +203,17 @@ namespace ConsoleApp1
             Footer.Color = 4;
             Update();
             return Name;
-            /*Selected = false;
-            string clicked = "";
-            ConsoleKeyInfo key;
-            do
-            {
-                Draw(clicked == "UPDATE");
-                key = Console.ReadKey(true);
-                clicked = SelectByKey(key);
-            } while (key.Key != ConsoleKey.Escape);
-            Selected = true;*/
         }
 
         public virtual string GetValueAtIndex(int index)
         {
             if (Functions.IntInRange(index, 0, ItemsLength - 1))
-                return Items[index].Element.ToString();
+            {
+                dynamic e = Items[index].Element;
+                if (e.GetType() == typeof(Person))
+                    e.SetToStringOptions(PersonToStringOptions);
+                return e.ToString();
+            }
             return "";
         }
 
@@ -216,7 +221,7 @@ namespace ConsoleApp1
         {
             if (Functions.IntInRange(index, 0, ItemsLength - 1))
                 return Items[index].State;
-            return "";
+            return " ";
         }
 
         public virtual string GetHiddenProperty(int index)
@@ -257,9 +262,10 @@ namespace ConsoleApp1
             {
                 ChoiceMapElement item = Items[CurrentItemGlobal];
                 Constants.Actions[AddToValueAction](item);
-                dynamic res = OutputStack.Pop();
+                ChoiceMapElement? res = OutputStack.Pop();
                 
-                Items[CurrentItemGlobal] = res;
+                if (res.HasValue)
+                    Items[CurrentItemGlobal] = res.Value;
                 Update();
             }
             else
@@ -349,8 +355,21 @@ namespace ConsoleApp1
             {
                 ChoiceMapElement tmp = Items[i];
                 tmp.Changed = false;
+                tmp.State = "Unchanged";
                 Items[i] = tmp;
             }
+        }
+
+        public void RemoveAtState(string state)
+        {
+            int i = 0;
+            while (i < Items.Count)
+            {
+                ChoiceMapElement tmp = Items[i];
+                if (tmp.State == state) Items.RemoveAt(i);
+                else i++;
+            }
+            ItemsLength = Items.Count;
         }
     }
 }

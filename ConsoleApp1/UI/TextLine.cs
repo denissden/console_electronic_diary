@@ -37,7 +37,7 @@ namespace ConsoleApp1
             int length = s.Length + added_text.Length;
             if (length > W)
             {
-                Text = s.Substring(0, W);
+                Text = s.Substring(0, W - 1);
             }
             else
             {

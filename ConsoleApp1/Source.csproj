@@ -73,12 +73,20 @@
   <ItemGroup>
     <Compile Include="ChoiceMapElement.cs" />
     <Compile Include="GenerateUsers.cs" />
+    <Compile Include="Group.cs" />
+    <Compile Include="MarkList.cs" />
     <Compile Include="Screens\AdminApprovalListScreen.cs" />
+    <Compile Include="Screens\AdminEditGroup.cs" />
+    <Compile Include="Screens\AdminEditGroups.cs" />
     <Compile Include="Screens\AdminEditUser.cs" />
     <Compile Include="Screens\AdminUserListScreen.cs" />
     <Compile Include="Screens\StartScreen.cs" />
+    <Compile Include="Screens\TeacherEditGroup.cs" />
     <Compile Include="Screens\TeacherScreen.cs" />
+    <Compile Include="Screens\TeacherViewGroup.cs" />
     <Compile Include="Screens\WarningScreen.cs" />
+    <Compile Include="Subject.cs" />
+    <Compile Include="TeacherEditSubject.cs" />
     <Compile Include="UI\BasicElement.cs" />
     <Compile Include="UI\ListSelect.cs" />
     <Compile Include="UI\ListView.cs" />
@@ -101,6 +109,7 @@
     <Compile Include="Test.cs" />
     <Compile Include="UI\TextLine.cs" />
     <Compile Include="UI\UI.cs" />
+    <Compile Include="UserClasses\TypeGetter.cs" />
     <Compile Include="ValidateLogin.cs" />
     <Compile Include="Validation.cs" />
   </ItemGroup>

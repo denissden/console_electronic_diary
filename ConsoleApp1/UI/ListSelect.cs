@@ -40,7 +40,7 @@ namespace ConsoleApp1
         public override void Update(bool fulldraw = true)
         {
             SetText(OriginalText);
-            AddText(Options[Value.HasValue && Value != -1 ? Value.Value : 0]);
+            AddText(Value.HasValue && Value != -1 ? Options[Value.Value] : " ");
         }
 
         public void SetOptionSelect(string option, bool set_default = false)

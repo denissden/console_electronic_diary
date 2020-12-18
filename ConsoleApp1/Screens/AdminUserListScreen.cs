@@ -25,6 +25,7 @@ namespace ConsoleApp1
             dynamic userlist = ui.GetByName("UserList");
             userlist.SetItems(users_map, true);
             userlist.AddToValueAction = "admin_edit_user";
+            userlist.PersonToStringOptions = "login,_date,id";
 
             ui.Update();
             ConsoleKeyInfo key;
@@ -52,6 +53,11 @@ namespace ConsoleApp1
                     ui.GetByName("SearchResultsInfo").AddText(count);
                     ui.Update(clear: false);
                 }
+                else if (clicked == "ShowPropertyInputBox")
+                {
+                    userlist.PersonToStringOptions = ui.GetByName("ShowPropertyInputBox").OriginalText;
+                    userlist.Update();
+                }
                 else if (clicked == "Exit")
                 {
                     bool yes = WarningScreen.NoYes("All changes will be lost. Are you sure?");
@@ -61,7 +67,7 @@ namespace ConsoleApp1
                 else if (clicked == "Save")
                 {
                     bool yes = WarningScreen.NoYes("You are going to save changes. There is no undo. Are you sure?");
-                    if (yes) DB.SAVE_PERSON_CHOICE_MAP(ui.GetByName("UserList").Items, false);
+                    if (yes)DB.SAVE_PERSON_CHOICE_MAP(ui.GetByName("UserList").Items, false);
                     userlist.UnchangeAll();
                     ui.Update();
                 }

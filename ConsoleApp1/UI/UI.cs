@@ -77,11 +77,7 @@ namespace ConsoleApp1
             switch (key.Key)
             {
                 case ConsoleKey.Enter:
-                    ret = ClickSelected();
-                    /*if (ret == InterceptsInput)
-                        DoInterceptInput = true;*/
-
-                    return ret;
+                    return ClickSelected();
 
                 case ConsoleKey.F5:
                     Update(true, true);

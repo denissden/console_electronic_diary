@@ -66,14 +66,17 @@ namespace ConsoleApp1
             i = new InputBox("GroupInputBox", "", (67, 11), 36, 0)
             {
                 Style = 1,
-                ValidationType = new List<string>() { "shorter30" },
+                ValidationType = new List<string>() { "shorter30", "group" },
             };
             ui.Elements.Add(i);
 
-            t = new TextLine("IdLabel", "Id: ", (47, 14), 26, 2);
+            t = new TextLine("IsInGroup", "Is in group: ", (67, 14), 36, 0);
             ui.Elements.Add(t);
 
-            l = new ListSelect($"TypeSelect", "Account type: ", (47, 15), 26);
+            t = new TextLine("IdLabel", "Id: ", (47, 15), 26, 2);
+            ui.Elements.Add(t);
+
+            l = new ListSelect($"TypeSelect", "Account type: ", (47, 16), 26);
             l.Options = Constants.UserTypes;
             ui.Elements.Add(l);
 
@@ -89,7 +92,6 @@ namespace ConsoleApp1
             {
                 Style = 1,
                 Color = 1,
-                ActionType = "admin_user_list",
             };
             ui.Elements.Add(b);
 
@@ -100,6 +102,7 @@ namespace ConsoleApp1
             ui.GetByName("LastNameInputBox").OriginalText = p.LastName;
             ui.GetByName("DateInputBox").OriginalText = p.BirthYear.ToString("dd.MM.yyyy");
             ui.GetByName("GroupInputBox").OriginalText = p.Group;
+            ui.GetByName("IsInGroup").AddText(DB.PERSON_IN_GROUP(p.Id, p.Group).ToString());
             ui.GetByName("IdLabel").AddText(p.Id.ToString());
             ui.GetByName("TypeSelect").SetOptionSelect(p.Type);
 
@@ -119,13 +122,14 @@ namespace ConsoleApp1
                     if (yes) break;
                     else ui.Update();
                 }
-                else if (clicked == "Apply")
+                else if (clicked == "Apply" && ui.AllValid())
                 {
                     ui.Update();
                     p.FirstName = ui.GetByName("FirstNameInputBox").OriginalText;
                     p.MiddleName = ui.GetByName("MiddleNameInputBox").OriginalText;
                     p.LastName = ui.GetByName("LastNameInputBox").OriginalText;
                     p.BirthYear = Functions.ToDatetime(ui.GetByName("DateInputBox").OriginalText);
+                    p.OldGroup = p.Group;
                     p.Group = ui.GetByName("GroupInputBox").OriginalText;
                     p.Type = ui.GetByName("TypeSelect").AddedText;
 

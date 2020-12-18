@@ -95,12 +95,12 @@ namespace ConsoleApp1
             return input >= a && input <= b;
         }
 
-        public static List<ChoiceMapElement> CreateChoiceMap(List<dynamic> input,
+        public static List<ChoiceMapElement> CreateChoiceMap(dynamic input_list,
                                             string default_choice = null,
                                             string get_property = null)
         {
             List<ChoiceMapElement> res = new List<ChoiceMapElement>();
-            foreach(dynamic element in input)
+            foreach(dynamic element in input_list)
             {
                 string choice = "";
                 if (default_choice != null)
@@ -146,6 +146,7 @@ namespace ConsoleApp1
 
         public static bool HasProperty(object obj, string propertyName)
         {
+            if (propertyName == null) return false;
             return obj.GetType().GetProperty(propertyName) != null;
         }
 

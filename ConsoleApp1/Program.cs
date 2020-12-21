@@ -131,7 +131,7 @@ namespace ConsoleApp1
             //Console.ReadKey();
             //AdminScreen.MainScreen("admin");
             //TeacherScreen.MainScreen("Teacher2");
-            StudentScreen.MainScreen("test");
+            //StudentScreen.MainScreen("test");
             Console.WriteLine(Constants.SkipVerificationAtAccountCreation);
             StartScreen.MainScreen(null);
 

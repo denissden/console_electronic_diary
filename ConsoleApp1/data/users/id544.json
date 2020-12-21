@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:14.5699724+03:00",
+  "Id": 544,
+  "Login": "cousinoer5",
+  "PasswordHash": "5C8674BCB4B0A0BDF1557E00946AF66AFDEE982A53358D929B1CE2AC8F788BD4",
+  "Group": "generated",
+  "FirstName": "cousinoer5",
+  "MiddleName": "cousinoer5",
+  "LastName": "cousinoer5",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:14.5690029+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

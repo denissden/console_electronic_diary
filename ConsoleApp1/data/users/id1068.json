@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:49.0424072+03:00",
+  "Id": 1068,
+  "Login": "tbrynner",
+  "PasswordHash": "A4AE366E2586DFEA768D512E7DA6ACB69243EFB4E6BF141B5C62C04187D942CB",
+  "Group": "generated",
+  "FirstName": "tbrynner",
+  "MiddleName": "tbrynner",
+  "LastName": "tbrynner",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:49.0414094+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

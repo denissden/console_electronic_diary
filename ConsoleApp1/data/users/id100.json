@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:07.8162039+03:00",
+  "Id": 100,
+  "Login": "Riczone",
+  "PasswordHash": "1418D325AE32E98F1607BFE148873278CF66DEE52F3B5B74354A1A708305AE51",
+  "Group": "generated",
+  "FirstName": "Riczone",
+  "MiddleName": "Riczone",
+  "LastName": "Riczone",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:07.8152058+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

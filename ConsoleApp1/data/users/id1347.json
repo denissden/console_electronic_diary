@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:07.427245+03:00",
+  "Id": 1347,
+  "Login": "Tstrike",
+  "PasswordHash": "B7C65C54307F5B3130118FA481318836E553564B7545DB6F99E0CFC2C79C88AA",
+  "Group": "generated",
+  "FirstName": "Tstrike",
+  "MiddleName": "Tstrike",
+  "LastName": "Tstrike",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:07.4262472+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

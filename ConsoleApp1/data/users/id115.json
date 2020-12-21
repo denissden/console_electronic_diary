@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:08.8346476+03:00",
+  "Id": 115,
+  "Login": "spacepotatoman",
+  "PasswordHash": "B1DFDDFDE9078EB023504CEEEDAB38E2E45E48EE6473D41B89ADF9C3E5C3D5EF",
+  "Group": "generated",
+  "FirstName": "spacepotatoman",
+  "MiddleName": "spacepotatoman",
+  "LastName": "spacepotatoman",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:08.8336508+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

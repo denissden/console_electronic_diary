@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:00.1315205+03:00",
+  "Id": 1236,
+  "Login": "Beavisback",
+  "PasswordHash": "B3B775BE0B88C586E6E2625143DE7F268BCB233FFF63FCF5F59C49CF6DB25422",
+  "Group": "generated",
+  "FirstName": "Beavisback",
+  "MiddleName": "Beavisback",
+  "LastName": "Beavisback",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:00.1305227+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

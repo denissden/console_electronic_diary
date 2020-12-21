@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:04.3000537+03:00",
+  "Id": 388,
+  "Login": "slatie",
+  "PasswordHash": "4613FB25ECCE9485B0507C89167336CD05A37769A685726BACA25E7850FD5913",
+  "Group": "generated",
+  "FirstName": "slatie",
+  "MiddleName": "slatie",
+  "LastName": "slatie",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:04.3000537+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

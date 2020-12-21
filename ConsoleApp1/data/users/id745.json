@@ -1,0 +1,21 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:27.8179916+03:00",
+  "Id": 745,
+  "Login": "00pig",
+  "PasswordHash": "09481390E72CE80166305DED7B18DADD94995E420D009E9AB02CC903055C3903",
+  "Group": "generated",
+  "FirstName": "00pig",
+  "MiddleName": "00pig",
+  "LastName": "00pig",
+  "Age": 0,
+  "BirthYear": "2020-12-21T00:00:00",
+  "SubjectMarks": [
+    {
+      "SubjectName": "\u041C\u0410\u0422\u0415\u0428\u0410",
+      "CreatorId": 1353,
+      "Marks": {}
+    }
+  ],
+  "Subjects": []
+}

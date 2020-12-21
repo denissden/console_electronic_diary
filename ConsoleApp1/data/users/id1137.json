@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:53.5775736+03:00",
+  "Id": 1137,
+  "Login": "domvito123",
+  "PasswordHash": "C653CF77C2FB22B7D0931A00DF0E599257885EEAA99BA5632F34C3FE875B9DB5",
+  "Group": "generated",
+  "FirstName": "domvito123",
+  "MiddleName": "domvito123",
+  "LastName": "domvito123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:53.5765985+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:36.7675222+03:00",
+  "Id": 881,
+  "Login": "coreylawd",
+  "PasswordHash": "A4D41800BE4965121B8C8083E68A1AD6112F3CD350DDFACBACC2448809253113",
+  "Group": "generated",
+  "FirstName": "coreylawd",
+  "MiddleName": "coreylawd",
+  "LastName": "coreylawd",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:36.7665446+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

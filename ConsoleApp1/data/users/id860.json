@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:35.3847695+03:00",
+  "Id": 860,
+  "Login": "comete99",
+  "PasswordHash": "86247DE0E33B60C1954E575FE7C9618A8AB0894DA2F71483AFB023D910339A69",
+  "Group": "generated",
+  "FirstName": "comete99",
+  "MiddleName": "comete99",
+  "LastName": "comete99",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:35.3838027+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:06.8209514+03:00",
+  "Id": 426,
+  "Login": "George1997",
+  "PasswordHash": "30B0F4AA89E2AA02A1C0C22A25D1FFA9FBC5FA648136BEB4DFB35327E9C09D87",
+  "Group": "generated",
+  "FirstName": "George1997",
+  "MiddleName": "George1997",
+  "LastName": "George1997",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:06.8201378+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

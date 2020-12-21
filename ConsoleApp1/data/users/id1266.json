@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:59:02.1017275+03:00",
+  "Id": 1266,
+  "Login": "adamonfire2",
+  "PasswordHash": "52690FE85083A5530625B6A682C419C3085A808D120C222DEFAEADD7067B9302",
+  "Group": "generated",
+  "FirstName": "adamonfire2",
+  "MiddleName": "adamonfire2",
+  "LastName": "adamonfire2",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:02.1007292+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

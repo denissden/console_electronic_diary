@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:21.612194+03:00",
+  "Id": 651,
+  "Login": "Mini_Zen",
+  "PasswordHash": "A0AD3427ED957DF1474FCBC235A20C7F88256BA3D7099EB48D0FC58FB6DBEB11",
+  "Group": "generated",
+  "FirstName": "Mini_Zen",
+  "MiddleName": "Mini_Zen",
+  "LastName": "Mini_Zen",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:21.6112253+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:40.4497384+03:00",
+  "Id": 937,
+  "Login": "miley123",
+  "PasswordHash": "CEB58181D61C96C89BF184BFFEDF15F42F69F0C4AFD2537D364647912D23290E",
+  "Group": "generated",
+  "FirstName": "miley123",
+  "MiddleName": "miley123",
+  "LastName": "miley123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:40.4477318+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

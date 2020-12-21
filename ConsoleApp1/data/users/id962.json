@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:42.1008137+03:00",
+  "Id": 962,
+  "Login": "macejoe",
+  "PasswordHash": "ABAD31E882E9D8EC3E137CFC1D0EDC4D35832FC2F0E6A5AEA13463B79667D7C0",
+  "Group": "generated",
+  "FirstName": "macejoe",
+  "MiddleName": "macejoe",
+  "LastName": "macejoe",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:42.0998153+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

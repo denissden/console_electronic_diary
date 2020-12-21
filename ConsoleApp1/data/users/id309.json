@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:59.0476982+03:00",
+  "Id": 309,
+  "Login": "wollemamoth",
+  "PasswordHash": "EDA2C7D6C435F3F08E5D77090F30BB32DA3E75B656334A8DDCCE8D93A585FC96",
+  "Group": "generated",
+  "FirstName": "wollemamoth",
+  "MiddleName": "wollemamoth",
+  "LastName": "wollemamoth",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:59.0457028+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:22.6645741+03:00",
+  "Id": 667,
+  "Login": "kmmeerts",
+  "PasswordHash": "796E09EF5D180124C8119F2E74C58532DFE57870A95DA1345FBF2FD44CC53827",
+  "Group": "generated",
+  "FirstName": "kmmeerts",
+  "MiddleName": "kmmeerts",
+  "LastName": "kmmeerts",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:22.6635746+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:04.8126308+03:00",
+  "Id": 58,
+  "Login": "Damien76",
+  "PasswordHash": "23B306C4D6A0E57CFC1E2EA09DC0D74EEB18041CA9A3210E0C8DCCF482C0924C",
+  "Group": "generated",
+  "FirstName": "Damien76",
+  "MiddleName": "Damien76",
+  "LastName": "Damien76",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:04.8116332+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

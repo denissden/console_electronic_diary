@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:59:00.9904918+03:00",
+  "Id": 1249,
+  "Login": "jbeaudette",
+  "PasswordHash": "3742EE4CDA17F828D2671F2D4DC5FBE0EFCD7395C036934F429D2A63E9FC82B3",
+  "Group": "generated",
+  "FirstName": "jbeaudette",
+  "MiddleName": "jbeaudette",
+  "LastName": "jbeaudette",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:00.9894781+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

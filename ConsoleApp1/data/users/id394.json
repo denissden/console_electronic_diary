@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:04.6907851+03:00",
+  "Id": 394,
+  "Login": "MisterYura",
+  "PasswordHash": "666987C0091B348971342D734DDEF0ECF339CB7A2481DD0C3A21E4C5A4B3F720",
+  "Group": "generated",
+  "FirstName": "MisterYura",
+  "MiddleName": "MisterYura",
+  "LastName": "MisterYura",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:04.6897849+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

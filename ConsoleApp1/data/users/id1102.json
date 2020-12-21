@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:51.2772283+03:00",
+  "Id": 1102,
+  "Login": "sonicjoe2",
+  "PasswordHash": "1A7AFBC8A2EDCC5402991E22A4F639D3914EBDD038B85773E4237FF9E2317522",
+  "Group": "generated",
+  "FirstName": "sonicjoe2",
+  "MiddleName": "sonicjoe2",
+  "LastName": "sonicjoe2",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:51.2769527+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

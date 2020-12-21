@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:08.9994321+03:00",
+  "Id": 459,
+  "Login": "o7uk",
+  "PasswordHash": "D37314B989F45041B1CA620BB78CFD483A84BC7993663AE7D52CD32BF606F388",
+  "Group": "generated",
+  "FirstName": "o7uk",
+  "MiddleName": "o7uk",
+  "LastName": "o7uk",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:08.9984059+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

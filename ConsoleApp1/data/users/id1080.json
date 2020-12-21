@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:49.8234602+03:00",
+  "Id": 1080,
+  "Login": "Messy_Turkey",
+  "PasswordHash": "8CCF70E493BF86B4C718741F507FDB8306D94B027A56FC2BC207DA7F202307B6",
+  "Group": "generated",
+  "FirstName": "Messy_Turkey",
+  "MiddleName": "Messy_Turkey",
+  "LastName": "Messy_Turkey",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:49.8224613+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

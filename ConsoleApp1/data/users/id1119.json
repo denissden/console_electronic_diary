@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.3947499+03:00",
+  "Id": 1119,
+  "Login": "semoyu",
+  "PasswordHash": "BF5D73C507CC8BDC0033C15CE8036FFAE53502C682B25327FEE72374024D8A65",
+  "Group": "generated",
+  "FirstName": "semoyu",
+  "MiddleName": "semoyu",
+  "LastName": "semoyu",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.3945066+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:05.8288607+03:00",
+  "Id": 411,
+  "Login": "lomelith",
+  "PasswordHash": "4B408D3CDE97AE20A979D04F6E7DF9E0B74B1F057565FA4C6E4A346E62AE09E6",
+  "Group": "generated",
+  "FirstName": "lomelith",
+  "MiddleName": "lomelith",
+  "LastName": "lomelith",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:05.8278643+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

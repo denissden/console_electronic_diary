@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:58.085699+03:00",
+  "Id": 1205,
+  "Login": "zebbe9999",
+  "PasswordHash": "1386A8C229E3788F043C46A45F10951223C3E8D9D8C406A4F88EBB597AF5EDBE",
+  "Group": "generated",
+  "FirstName": "zebbe9999",
+  "MiddleName": "zebbe9999",
+  "LastName": "zebbe9999",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:58.0847028+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:43.9290855+03:00",
+  "Id": 990,
+  "Login": "sevrer",
+  "PasswordHash": "CC033445C1EF4262099AE28DC7B28AB09AEEF871EB1070D03B8E107A12CF335F",
+  "Group": "generated",
+  "FirstName": "sevrer",
+  "MiddleName": "sevrer",
+  "LastName": "sevrer",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:43.9282747+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:25.1792803+03:00",
+  "Id": 705,
+  "Login": "nikeneo",
+  "PasswordHash": "BD14FD959C2B9AC6F328627622284606EC2ADDA97888870D8CB33787D75E5BA6",
+  "Group": "generated",
+  "FirstName": "nikeneo",
+  "MiddleName": "nikeneo",
+  "LastName": "nikeneo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:25.1782829+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

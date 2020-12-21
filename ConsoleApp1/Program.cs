@@ -8,8 +8,12 @@ namespace ConsoleApp1
 {
     class Constants
     {
+        // ЗАМЕНИТЬ ЭТУ ПЕРЕМЕННУЮ
+        // ------------
         public static readonly string DB_Path = @"D:\_C# projects\Elektronniy_Dnevnik\ConsoleApp1\data\";
-        // public static readonly string DB_Path = @"C:\Users\user\Desktop\data\";
+        // ------------
+        // ЗАМЕНИТЬ ЭТУ ПЕРЕМЕННУЮ
+
         public static readonly string USERS_Path = @"users\";
         public static readonly string IDS_Path = @"id_lib\";
         public static readonly string GROUPS_Path = @"groups\";
@@ -126,8 +130,8 @@ namespace ConsoleApp1
             //GenerateUsers.Generate(0);
             //Console.ReadKey();
             //AdminScreen.MainScreen("admin");
-            TeacherScreen.MainScreen("Teacher");
-            //StudentScreen.MainScreen("maxlenstring");
+            //TeacherScreen.MainScreen("Teacher2");
+            StudentScreen.MainScreen("test");
             Console.WriteLine(Constants.SkipVerificationAtAccountCreation);
             StartScreen.MainScreen(null);
 

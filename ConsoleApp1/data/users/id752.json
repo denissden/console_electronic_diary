@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:28.2758925+03:00",
+  "Id": 752,
+  "Login": "biorisk",
+  "PasswordHash": "4C31A4DAE335F10D3E461E875F35BB9F50472A09653DE4F952687770F838789A",
+  "Group": "generated",
+  "FirstName": "biorisk",
+  "MiddleName": "biorisk",
+  "LastName": "biorisk",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:28.2748927+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

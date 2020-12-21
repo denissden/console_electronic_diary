@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:51.3436048+03:00",
+  "Id": 1103,
+  "Login": "spikey123",
+  "PasswordHash": "4BDF81D3D35296B98454A18C39AEB8FB7E0ED071AFB262A2E07497495AD89AA1",
+  "Group": "generated",
+  "FirstName": "spikey123",
+  "MiddleName": "spikey123",
+  "LastName": "spikey123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:51.3420851+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

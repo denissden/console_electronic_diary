@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:10.1739454+03:00",
+  "Id": 477,
+  "Login": "andocmdo",
+  "PasswordHash": "CF7D84AFD914EDDF52F66508C3BDD4110BA2F58D603B3DB7D816EFADF91B5FA3",
+  "Group": "generated",
+  "FirstName": "andocmdo",
+  "MiddleName": "andocmdo",
+  "LastName": "andocmdo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:10.1729768+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

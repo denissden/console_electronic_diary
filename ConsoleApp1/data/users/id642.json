@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:21.0202458+03:00",
+  "Id": 642,
+  "Login": "Grindforit",
+  "PasswordHash": "A9F8407723CB19D20BA4A379FC87FD01B00C0830526C75369E450D7E29B4D73D",
+  "Group": "generated",
+  "FirstName": "Grindforit",
+  "MiddleName": "Grindforit",
+  "LastName": "Grindforit",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:21.0192492+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

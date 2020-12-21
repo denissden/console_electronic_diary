@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.8531519+03:00",
+  "Id": 700,
+  "Login": "MrTomnus",
+  "PasswordHash": "323826A50B35C2463D309DA91BAF1E87CD8C74E5BAC6DB42C8DFA0914D96BEFE",
+  "Group": "generated",
+  "FirstName": "MrTomnus",
+  "MiddleName": "MrTomnus",
+  "LastName": "MrTomnus",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.8521546+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

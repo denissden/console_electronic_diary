@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:06.8947566+03:00",
+  "Id": 427,
+  "Login": "magnusgerner",
+  "PasswordHash": "E66F37D288165D2D85ED28A1F9B1CEEFD587AB83B52826502E43179FB70EBE42",
+  "Group": "generated",
+  "FirstName": "magnusgerner",
+  "MiddleName": "magnusgerner",
+  "LastName": "magnusgerner",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:06.8927627+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

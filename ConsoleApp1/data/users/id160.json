@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:11.8883697+03:00",
+  "Id": 160,
+  "Login": "timbo",
+  "PasswordHash": "8C478B5198797EA420413F25392BBCB1F15E872A0543F014CC3ADCAD44CA5416",
+  "Group": "generated",
+  "FirstName": "timbo",
+  "MiddleName": "timbo",
+  "LastName": "timbo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:11.8863758+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:57.2368821+03:00",
+  "Id": 282,
+  "Login": "Stressless",
+  "PasswordHash": "8D053F2C0537E3A266D69EAAA4D85D7E1EAA6CA5A1CA9429282BD993CBC2AC2E",
+  "Group": "generated",
+  "FirstName": "Stressless",
+  "MiddleName": "Stressless",
+  "LastName": "Stressless",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:57.2358839+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

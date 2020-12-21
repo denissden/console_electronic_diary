@@ -58,4 +58,21 @@ namespace ConsoleApp1
             return Value;
         }
     }
+
+    public struct SimplifiedMark
+    {
+        public string Value { get; set; }
+        public DateTime Date { get; set; }
+        public SimplifiedMark(string value, DateTime date)
+        {
+            Value = value;
+            Date = date.Date;
+        }
+
+        public override string ToString()
+        {
+            return Date.ToString("dd.MM.yyyy");
+        }
+
+    }
 }

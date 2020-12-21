@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:57.6550042+03:00",
+  "Id": 288,
+  "Login": "erikolanan",
+  "PasswordHash": "FE4DFFE182377F767ECCD3C76A075865F45F319514CDF63BC5CB9370E38F7647",
+  "Group": "generated",
+  "FirstName": "erikolanan",
+  "MiddleName": "erikolanan",
+  "LastName": "erikolanan",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:57.654007+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:02.6478112+03:00",
+  "Id": 29,
+  "Login": "timdv",
+  "PasswordHash": "F9A154EDD863BF0DFA07F53C4A4445A44270DC8F322B322124712BFF241A4E96",
+  "Group": "generated",
+  "FirstName": "timdv",
+  "MiddleName": "timdv",
+  "LastName": "timdv",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:02.6465291+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

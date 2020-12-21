@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:06.8523876+03:00",
+  "Id": 87,
+  "Login": "gumigoo",
+  "PasswordHash": "296167DA6173C9537C2BE72FA1B5FC5002A71D3F02CF3D713D046BA0C62D6E58",
+  "Group": "generated",
+  "FirstName": "gumigoo",
+  "MiddleName": "gumigoo",
+  "LastName": "gumigoo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:06.8515735+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

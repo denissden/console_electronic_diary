@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.8652125+03:00",
+  "Id": 246,
+  "Login": "tazelhoff",
+  "PasswordHash": "784E84E533926F6B4F7038447D7A64A0C21CF03036BB7522EF41719872E748A0",
+  "Group": "generated",
+  "FirstName": "tazelhoff",
+  "MiddleName": "tazelhoff",
+  "LastName": "tazelhoff",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.8642024+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

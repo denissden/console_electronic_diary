@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:02.4915736+03:00",
+  "Id": 1272,
+  "Login": "brian_knight",
+  "PasswordHash": "450A36557F2841AF3B73F14A2EC55FF8EA9B9738209A49FAE251771BA2085F55",
+  "Group": "generated",
+  "FirstName": "brian_knight",
+  "MiddleName": "brian_knight",
+  "LastName": "brian_knight",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:02.491252+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:02.763219+03:00",
+  "Id": 1276,
+  "Login": "pongolongo",
+  "PasswordHash": "D855A17DC2EA7CA34432A468BBDE7CD7C0AE649DDE5B02FC5B00F949072A4366",
+  "Group": "generated",
+  "FirstName": "pongolongo",
+  "MiddleName": "pongolongo",
+  "LastName": "pongolongo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:02.7622504+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

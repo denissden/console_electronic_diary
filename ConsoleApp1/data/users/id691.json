@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.2624639+03:00",
+  "Id": 691,
+  "Login": "darkconsole",
+  "PasswordHash": "0637EBC912A7E9E51D524F6A341824FD6556740486051203A378047690B4A586",
+  "Group": "generated",
+  "FirstName": "darkconsole",
+  "MiddleName": "darkconsole",
+  "LastName": "darkconsole",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.2604973+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

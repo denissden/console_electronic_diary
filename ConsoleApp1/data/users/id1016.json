@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:45.6345344+03:00",
+  "Id": 1016,
+  "Login": "tpayne18",
+  "PasswordHash": "21787E170969CEB7CC5B080A97F1396EDFF13D4905B6AE693485AE876E1AC2FA",
+  "Group": "generated",
+  "FirstName": "tpayne18",
+  "MiddleName": "tpayne18",
+  "LastName": "tpayne18",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:45.6335379+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

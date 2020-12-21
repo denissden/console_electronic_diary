@@ -15,6 +15,11 @@
       "SubjectName": "s_test3",
       "CreatorId": 4,
       "Marks": {}
+    },
+    {
+      "SubjectName": "TEST_SUBJECT",
+      "CreatorId": 1353,
+      "Marks": {}
     }
   ],
   "Subjects": []

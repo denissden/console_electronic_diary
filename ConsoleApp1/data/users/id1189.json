@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:57.0187362+03:00",
+  "Id": 1189,
+  "Login": "AliCM333",
+  "PasswordHash": "F17D12A14FE5F8DBB830BD2475B78E55D9B6B378A6D6B78B1D84755820D062F4",
+  "Group": "generated",
+  "FirstName": "AliCM333",
+  "MiddleName": "AliCM333",
+  "LastName": "AliCM333",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:57.017739+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

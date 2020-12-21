@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:00.7366803+03:00",
+  "Id": 334,
+  "Login": "ddj88",
+  "PasswordHash": "0D6B943C6FD8996482083AD99044717B5750419C1B2F7A8F4CF9CB3C35D7ABEF",
+  "Group": "generated",
+  "FirstName": "ddj88",
+  "MiddleName": "ddj88",
+  "LastName": "ddj88",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:00.7356825+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:11.3594868+03:00",
+  "Id": 495,
+  "Login": "Starion",
+  "PasswordHash": "2E302DDEF73819D81559C3F79C0E9D59A995962F076273F727C843F1566F42F1",
+  "Group": "generated",
+  "FirstName": "Starion",
+  "MiddleName": "Starion",
+  "LastName": "Starion",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:11.3584775+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

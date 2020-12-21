@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:58:26.6889831+03:00",
+  "Id": 728,
+  "Login": "Poundcake",
+  "PasswordHash": "B92FEC5D3F67B51E30C1EC0141FBB722057D5C3276BEA41DDAD698EEB13AD890",
+  "Group": "generated",
+  "FirstName": "Poundcake",
+  "MiddleName": "Poundcake",
+  "LastName": "Poundcake",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:26.6879894+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

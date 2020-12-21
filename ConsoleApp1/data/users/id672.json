@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:23.0078157+03:00",
+  "Id": 672,
+  "Login": "nathan105",
+  "PasswordHash": "FD4D80E6B81A552045EEAF998045028220948DAF4CE9A6ADC9F011737F88EE16",
+  "Group": "generated",
+  "FirstName": "nathan105",
+  "MiddleName": "nathan105",
+  "LastName": "nathan105",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:23.0068202+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

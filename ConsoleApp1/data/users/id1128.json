@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.9835427+03:00",
+  "Id": 1128,
+  "Login": "DA_SWAMPMONSTA",
+  "PasswordHash": "4DA0A4E388555DF7D83B8DAFF0DD4B9AF43AEF5D59D659EB8FACF0784221B1E9",
+  "Group": "generated",
+  "FirstName": "DA_SWAMPMONSTA",
+  "MiddleName": "DA_SWAMPMONSTA",
+  "LastName": "DA_SWAMPMONSTA",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.982546+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

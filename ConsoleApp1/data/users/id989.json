@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:43.8646183+03:00",
+  "Id": 989,
+  "Login": "lukasmendez",
+  "PasswordHash": "0CD5670049125C336FE4FD1EAB609B26131E675D23AABF05823A2EA053A38405",
+  "Group": "generated",
+  "FirstName": "lukasmendez",
+  "MiddleName": "lukasmendez",
+  "LastName": "lukasmendez",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:43.8636172+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

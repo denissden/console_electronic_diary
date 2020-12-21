@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:55.2655616+03:00",
+  "Id": 252,
+  "Login": "Ginger987",
+  "PasswordHash": "267E98073DDEAC02DD152EAB64DA0615A64E34C5D6DFDEE68CF6567D5228A2F4",
+  "Group": "generated",
+  "FirstName": "Ginger987",
+  "MiddleName": "Ginger987",
+  "LastName": "Ginger987",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:55.2645655+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:54.1061575+03:00",
+  "Id": 1145,
+  "Login": "nastaman",
+  "PasswordHash": "1490AF3F8748F4D988B5F89D2F1ECEB6D59FCD87FC955BBCC6CC1AA91AD279D6",
+  "Group": "generated",
+  "FirstName": "nastaman",
+  "MiddleName": "nastaman",
+  "LastName": "nastaman",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:54.1051599+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

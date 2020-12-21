@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:59.9320518+03:00",
+  "Id": 1233,
+  "Login": "nonatz",
+  "PasswordHash": "C809F840DE773E1F7EEA9BE7B7A209BAD2C1907BE25C829E577AE08E3706756D",
+  "Group": "generated",
+  "FirstName": "nonatz",
+  "MiddleName": "nonatz",
+  "LastName": "nonatz",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:59.9317691+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

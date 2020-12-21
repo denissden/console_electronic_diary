@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:00.2343272+03:00",
+  "Id": 327,
+  "Login": "olliedag",
+  "PasswordHash": "9A9EA753FA12CC4B68C1E0F80A0772135B121FF04D50DA59D7E2E82962ECC15D",
+  "Group": "generated",
+  "FirstName": "olliedag",
+  "MiddleName": "olliedag",
+  "LastName": "olliedag",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:00.2333577+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

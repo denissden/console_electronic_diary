@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:15.8222615+03:00",
+  "Id": 563,
+  "Login": "Kantuz",
+  "PasswordHash": "872D8B5DF70C17A98A53043CD2A901D0E8E3051D0501353DEC7A6EFDEB999EF1",
+  "Group": "generated",
+  "FirstName": "Kantuz",
+  "MiddleName": "Kantuz",
+  "LastName": "Kantuz",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:15.8212896+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

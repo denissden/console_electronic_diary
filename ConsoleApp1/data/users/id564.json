@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:15.8920701+03:00",
+  "Id": 564,
+  "Login": "Jemeni",
+  "PasswordHash": "2DDAE3E4E71AFD22A5CD97805E0C400896D5635E1B80BC8B60C3BDA2FF8D586C",
+  "Group": "generated",
+  "FirstName": "Jemeni",
+  "MiddleName": "Jemeni",
+  "LastName": "Jemeni",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:15.8910732+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

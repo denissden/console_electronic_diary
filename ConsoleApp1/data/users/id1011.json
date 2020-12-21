@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:45.3048866+03:00",
+  "Id": 1011,
+  "Login": "dgsbgm35",
+  "PasswordHash": "037E274FCE2C1C9B1CF338A8F6859B18E6BB58B3EEA35724F0C693AF5A460D25",
+  "Group": "generated",
+  "FirstName": "dgsbgm35",
+  "MiddleName": "dgsbgm35",
+  "LastName": "dgsbgm35",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:45.303918+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

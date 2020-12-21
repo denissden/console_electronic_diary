@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:07.6731403+03:00",
+  "Id": 98,
+  "Login": "zionishe",
+  "PasswordHash": "8B50BC7A980384A626CA36D40B2F1F2B5DF37A2DFA9B72B8C9DCD8F5669617DB",
+  "Group": "generated",
+  "FirstName": "zionishe",
+  "MiddleName": "zionishe",
+  "LastName": "zionishe",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:07.672143+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

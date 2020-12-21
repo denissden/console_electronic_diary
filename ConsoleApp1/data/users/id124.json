@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:09.4411367+03:00",
+  "Id": 124,
+  "Login": "DevonWargod",
+  "PasswordHash": "666CE0FBC56D7FE846B42FF675BB36534008F4EFCB650510896AD6BFAE55D05C",
+  "Group": "generated",
+  "FirstName": "DevonWargod",
+  "MiddleName": "DevonWargod",
+  "LastName": "DevonWargod",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:09.4401409+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

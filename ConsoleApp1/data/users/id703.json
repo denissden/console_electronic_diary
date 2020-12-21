@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:25.0476592+03:00",
+  "Id": 703,
+  "Login": "Bugler",
+  "PasswordHash": "C9929CDE9F4E02A3575B91B8266A00F5C0CD4717E966C6CD5E972E70F0D36267",
+  "Group": "generated",
+  "FirstName": "Bugler",
+  "MiddleName": "Bugler",
+  "LastName": "Bugler",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:25.0466617+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

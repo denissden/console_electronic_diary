@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:12.1137667+03:00",
+  "Id": 163,
+  "Login": "robotnik185",
+  "PasswordHash": "8531AFCCD77FB49C2A60ED1E08B70865507B24ACC0A9B29F839FEFDF3D755A7F",
+  "Group": "generated",
+  "FirstName": "robotnik185",
+  "MiddleName": "robotnik185",
+  "LastName": "robotnik185",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:12.1127697+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

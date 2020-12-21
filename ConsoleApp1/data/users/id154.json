@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:11.4643374+03:00",
+  "Id": 154,
+  "Login": "Muwo",
+  "PasswordHash": "B616631EAAF71A411B8F4DC3C4CA45EED326D6D55360345EE46BB52E890D8F6E",
+  "Group": "generated",
+  "FirstName": "Muwo",
+  "MiddleName": "Muwo",
+  "LastName": "Muwo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:11.4633392+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

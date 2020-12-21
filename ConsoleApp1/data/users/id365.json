@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:02.7888576+03:00",
+  "Id": 365,
+  "Login": "Bipolarbear",
+  "PasswordHash": "426BEC26E7D417D637FBE4DCF1A2DE219F52607A9638846D6BBBA367918D3E4A",
+  "Group": "generated",
+  "FirstName": "Bipolarbear",
+  "MiddleName": "Bipolarbear",
+  "LastName": "Bipolarbear",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:02.7858653+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

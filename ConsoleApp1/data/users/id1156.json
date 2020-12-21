@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:54.8322467+03:00",
+  "Id": 1156,
+  "Login": "FaTaLwassap",
+  "PasswordHash": "EB0904DCEC166DD6FED9EA39B994B85841EAC3FA9EB10EBF5836D12A1A8FC7F1",
+  "Group": "generated",
+  "FirstName": "FaTaLwassap",
+  "MiddleName": "FaTaLwassap",
+  "LastName": "FaTaLwassap",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:54.8314443+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

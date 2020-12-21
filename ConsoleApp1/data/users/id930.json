@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:39.9919478+03:00",
+  "Id": 930,
+  "Login": "dgraves",
+  "PasswordHash": "B090C37A7D67EE546ABE70477D4F049688788B659B920989F72A5D79F6DAE3B5",
+  "Group": "generated",
+  "FirstName": "dgraves",
+  "MiddleName": "dgraves",
+  "LastName": "dgraves",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:39.9916659+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

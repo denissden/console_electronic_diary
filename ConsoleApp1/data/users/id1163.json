@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:55.2977688+03:00",
+  "Id": 1163,
+  "Login": "generalhowe",
+  "PasswordHash": "CB9AE63DE8FC78D687B3A6DA527374B6AAC59B002E70FDAAC6133D9344E20E3B",
+  "Group": "generated",
+  "FirstName": "generalhowe",
+  "MiddleName": "generalhowe",
+  "LastName": "generalhowe",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:55.2977688+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

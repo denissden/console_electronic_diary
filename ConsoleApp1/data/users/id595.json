@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:17.9333888+03:00",
+  "Id": 595,
+  "Login": "Locaido",
+  "PasswordHash": "5C13F05BC63D1B1C5BDE6BE1F9C2E3C516CFBA80F23E094E13F935BC73E8F947",
+  "Group": "generated",
+  "FirstName": "Locaido",
+  "MiddleName": "Locaido",
+  "LastName": "Locaido",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:17.9323716+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

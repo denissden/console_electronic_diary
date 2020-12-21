@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:12.45286+03:00",
+  "Id": 168,
+  "Login": "nickschober",
+  "PasswordHash": "208C9C16573833AB2084A48137E367EAB23B12DE9288F36FB3BD709FDDE839DE",
+  "Group": "generated",
+  "FirstName": "nickschober",
+  "MiddleName": "nickschober",
+  "LastName": "nickschober",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:12.4518626+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

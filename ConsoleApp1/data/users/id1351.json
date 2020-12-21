@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:07.6942766+03:00",
+  "Id": 1351,
+  "Login": "wietlem",
+  "PasswordHash": "238CA60D820FDE83F8E0BEAE3717B03FBA94104D878A8FF8221D632609E618D5",
+  "Group": "generated",
+  "FirstName": "wietlem",
+  "MiddleName": "wietlem",
+  "LastName": "wietlem",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:07.6932816+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

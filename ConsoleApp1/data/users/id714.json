@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:25.7642405+03:00",
+  "Id": 714,
+  "Login": "shnoka",
+  "PasswordHash": "CAD6A99BAEE1C1D2CBF72F9B8A90B36D2DE1E78172DA3E5A116C1F2B09164992",
+  "Group": "generated",
+  "FirstName": "shnoka",
+  "MiddleName": "shnoka",
+  "LastName": "shnoka",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:25.7634313+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:01.3950651+03:00",
+  "Id": 344,
+  "Login": "Intenzio",
+  "PasswordHash": "F90B40E5CD52F210B59521DC78F5E3B6062F1099268985B959A445EA8F764CB5",
+  "Group": "generated",
+  "FirstName": "Intenzio",
+  "MiddleName": "Intenzio",
+  "LastName": "Intenzio",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:01.3940452+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

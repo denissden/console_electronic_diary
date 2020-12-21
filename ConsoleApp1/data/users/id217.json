@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:52.9349846+03:00",
+  "Id": 217,
+  "Login": "Shazbot",
+  "PasswordHash": "BA417A972C733FF53D7BA012332EA0E05F1134015704F08213D7E4797A052B22",
+  "Group": "generated",
+  "FirstName": "Shazbot",
+  "MiddleName": "Shazbot",
+  "LastName": "Shazbot",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:52.9329903+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:10.868878+03:00",
+  "Id": 145,
+  "Login": "nerbil",
+  "PasswordHash": "2D295F45A89A191BD60FA2DE212E7DCEEAB8D96D63073714E029A6712B361A58",
+  "Group": "generated",
+  "FirstName": "nerbil",
+  "MiddleName": "nerbil",
+  "LastName": "nerbil",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:10.8678806+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

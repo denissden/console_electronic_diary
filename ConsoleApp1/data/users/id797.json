@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:31.2354826+03:00",
+  "Id": 797,
+  "Login": "charliekleiman",
+  "PasswordHash": "8098591D754E19544624A9EDE92498F48873DB5FC29AA91879CA4D58363C4FD6",
+  "Group": "generated",
+  "FirstName": "charliekleiman",
+  "MiddleName": "charliekleiman",
+  "LastName": "charliekleiman",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:31.2352033+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

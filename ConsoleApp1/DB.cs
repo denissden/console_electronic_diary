@@ -270,7 +270,6 @@ namespace ConsoleApp1
                     Console.WriteLine($"{person} {person.Type}");
                 }
             }
-            Console.ReadKey();
         }
 
 

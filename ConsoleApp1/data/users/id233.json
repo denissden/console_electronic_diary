@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.0046841+03:00",
+  "Id": 233,
+  "Login": "RedMageZidane",
+  "PasswordHash": "EC1E1B685E1F6ECC00FEEA63304B6D0C33FBF281AC19B6B7BA09BF603D488EDC",
+  "Group": "generated",
+  "FirstName": "RedMageZidane",
+  "MiddleName": "RedMageZidane",
+  "LastName": "RedMageZidane",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.0037141+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:35.7108983+03:00",
+  "Id": 865,
+  "Login": "conflictt",
+  "PasswordHash": "C5B675739635665085DC1D820A25B52091C8E317C714B5027656CDAF040E8CBF",
+  "Group": "generated",
+  "FirstName": "conflictt",
+  "MiddleName": "conflictt",
+  "LastName": "conflictt",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:35.7099287+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

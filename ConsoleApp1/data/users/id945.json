@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:40.9795908+03:00",
+  "Id": 945,
+  "Login": "fredddi",
+  "PasswordHash": "316CCE1B93A0E396B09B424FEE83DE44727BEA22138DA2847FA22B124367A87B",
+  "Group": "generated",
+  "FirstName": "fredddi",
+  "MiddleName": "fredddi",
+  "LastName": "fredddi",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:40.9756014+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

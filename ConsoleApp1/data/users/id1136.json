@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:53.5117786+03:00",
+  "Id": 1136,
+  "Login": "vvonders",
+  "PasswordHash": "E1E9133A9D171FC0B754587D53D872B298BDFCBEC4A2CD493CED24D82A867DB1",
+  "Group": "generated",
+  "FirstName": "vvonders",
+  "MiddleName": "vvonders",
+  "LastName": "vvonders",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:53.5107523+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:40.3170814+03:00",
+  "Id": 935,
+  "Login": "austin13mcleod",
+  "PasswordHash": "2D6E5C64E5F60D71A16F2C389CA9B258E5F6F7C3D920A09CDDF27F3B49FDF207",
+  "Group": "generated",
+  "FirstName": "austin13mcleod",
+  "MiddleName": "austin13mcleod",
+  "LastName": "austin13mcleod",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:40.3160832+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

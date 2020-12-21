@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:59:01.4477622+03:00",
+  "Id": 1256,
+  "Login": "sanathas",
+  "PasswordHash": "FC5CE2DA037C5851A926E7166548093B66B2779DC0B3FD3D094E095F4C973D8A",
+  "Group": "generated",
+  "FirstName": "sanathas",
+  "MiddleName": "sanathas",
+  "LastName": "sanathas",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:01.4467656+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

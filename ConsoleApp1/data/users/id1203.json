@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:57.950059+03:00",
+  "Id": 1203,
+  "Login": "iluvscooters",
+  "PasswordHash": "75D7BE5C3727785433400C68F15F9C62570FB0F44248F742D0B1C727A94B4429",
+  "Group": "generated",
+  "FirstName": "iluvscooters",
+  "MiddleName": "iluvscooters",
+  "LastName": "iluvscooters",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:57.9490624+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

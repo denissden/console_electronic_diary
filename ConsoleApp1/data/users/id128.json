@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:09.7099002+03:00",
+  "Id": 128,
+  "Login": "Mimore",
+  "PasswordHash": "13749FE7E787FA8A6F75005ADE015E84CF1A435FEF44C63EEEF80FC9BC3844A7",
+  "Group": "generated",
+  "FirstName": "Mimore",
+  "MiddleName": "Mimore",
+  "LastName": "Mimore",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:09.708874+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

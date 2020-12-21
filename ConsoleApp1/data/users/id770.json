@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:29.4646924+03:00",
+  "Id": 770,
+  "Login": "aerofl",
+  "PasswordHash": "B04C9AE56DC6638FCB1A590BAFAEBA37C8D83A6616C591C3453211BC95ED1112",
+  "Group": "generated",
+  "FirstName": "aerofl",
+  "MiddleName": "aerofl",
+  "LastName": "aerofl",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:29.463683+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

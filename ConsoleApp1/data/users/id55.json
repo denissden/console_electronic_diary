@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:04.6165793+03:00",
+  "Id": 55,
+  "Login": "UncleMonteh",
+  "PasswordHash": "03D55BCB73AEEBC81AAB624966998D524DB789A0DD11C2BE26B2DFD4E5F056F0",
+  "Group": "generated",
+  "FirstName": "UncleMonteh",
+  "MiddleName": "UncleMonteh",
+  "LastName": "UncleMonteh",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:04.6155531+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

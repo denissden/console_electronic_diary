@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:20.4268213+03:00",
+  "Id": 633,
+  "Login": "proffenke",
+  "PasswordHash": "EBF2A0880A6A1A48033DD76E0729F057A95804415AE15FE2F52254F0DC148E59",
+  "Group": "generated",
+  "FirstName": "proffenke",
+  "MiddleName": "proffenke",
+  "LastName": "proffenke",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:20.4258234+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

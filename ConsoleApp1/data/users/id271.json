@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:56.514106+03:00",
+  "Id": 271,
+  "Login": "anuador",
+  "PasswordHash": "A5E47A709CA0DDC2355EE9974F6C1C57F367B4B1DAC4F23ECADB6ABAD67A98C4",
+  "Group": "generated",
+  "FirstName": "anuador",
+  "MiddleName": "anuador",
+  "LastName": "anuador",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:56.5131357+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

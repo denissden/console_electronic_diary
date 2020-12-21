@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:03.6042571+03:00",
+  "Id": 43,
+  "Login": "instagibb",
+  "PasswordHash": "D0B56AB0C465B8CAF870635523ECE50D94ED0F45DA70FECC41EA2902235FD1AE",
+  "Group": "generated",
+  "FirstName": "instagibb",
+  "MiddleName": "instagibb",
+  "LastName": "instagibb",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:03.6032597+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

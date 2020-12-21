@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:58.3192535+03:00",
+  "Id": 298,
+  "Login": "starjik",
+  "PasswordHash": "0FE54745C5C46AC7477EC662CAE7B6DCF89B60CC92E4F9042D12F6ADE4DFA1C7",
+  "Group": "generated",
+  "FirstName": "starjik",
+  "MiddleName": "starjik",
+  "LastName": "starjik",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:58.3182843+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

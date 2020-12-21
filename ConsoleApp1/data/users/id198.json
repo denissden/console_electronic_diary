@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:51.1227869+03:00",
+  "Id": 198,
+  "Login": "RorySmale",
+  "PasswordHash": "40C158F913E22C0E76B1229758E296C68973D3E1023D064161A6EAB51E7E5A7F",
+  "Group": "generated",
+  "FirstName": "RorySmale",
+  "MiddleName": "RorySmale",
+  "LastName": "RorySmale",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:51.1197949+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:54.7019101+03:00",
+  "Id": 1154,
+  "Login": "ryanglavin",
+  "PasswordHash": "1D7AEA8A7F3394B0FE66F9F9D335938A71B4AF2603CE0C3F0B2DD67290CCE658",
+  "Group": "generated",
+  "FirstName": "ryanglavin",
+  "MiddleName": "ryanglavin",
+  "LastName": "ryanglavin",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:54.700924+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

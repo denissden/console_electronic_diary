@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:02.0605318+03:00",
+  "Id": 354,
+  "Login": "koroke2",
+  "PasswordHash": "9DA2E732F06BA4BC89A03916CD163E6C352CAF044434B90F2A8C9D305CA4A30D",
+  "Group": "generated",
+  "FirstName": "koroke2",
+  "MiddleName": "koroke2",
+  "LastName": "koroke2",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:02.0595617+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

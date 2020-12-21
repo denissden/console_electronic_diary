@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:07.4872712+03:00",
+  "Id": 436,
+  "Login": "NECHTOVIKING",
+  "PasswordHash": "8402851E707776C4DB828E36DA70078E811C0DDF15490D861F15BD054D5100A0",
+  "Group": "generated",
+  "FirstName": "NECHTOVIKING",
+  "MiddleName": "NECHTOVIKING",
+  "LastName": "NECHTOVIKING",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:07.4863029+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

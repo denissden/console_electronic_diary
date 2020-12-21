@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:53.9398547+03:00",
+  "Id": 232,
+  "Login": "deadmat",
+  "PasswordHash": "8D53B0BC21047CB7E922FC50C6671865F6755478486CCC06A65648104A654B23",
+  "Group": "generated",
+  "FirstName": "deadmat",
+  "MiddleName": "deadmat",
+  "LastName": "deadmat",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:53.9395743+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

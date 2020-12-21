@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:39.3372214+03:00",
+  "Id": 920,
+  "Login": "cubeman",
+  "PasswordHash": "488B806DBABB382EAFDA57C8B3BFC8F91B0EBBAF81FA907665E19A3C82C716EE",
+  "Group": "generated",
+  "FirstName": "cubeman",
+  "MiddleName": "cubeman",
+  "LastName": "cubeman",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:39.3362187+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

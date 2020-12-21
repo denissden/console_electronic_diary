@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:16.022889+03:00",
+  "Id": 566,
+  "Login": "Nepthan",
+  "PasswordHash": "6E8A38AC5BD79D06401E6172DE06AEA4F3D49FDDE4401E4919BD13341466C890",
+  "Group": "generated",
+  "FirstName": "Nepthan",
+  "MiddleName": "Nepthan",
+  "LastName": "Nepthan",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:16.0226109+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

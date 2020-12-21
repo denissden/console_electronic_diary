@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:17.6670798+03:00",
+  "Id": 591,
+  "Login": "Nylhin",
+  "PasswordHash": "304B9EE1CF2019DDA7BD0C53520E9BB608D52A67073FD80F2A4EFB467EADF387",
+  "Group": "generated",
+  "FirstName": "Nylhin",
+  "MiddleName": "Nylhin",
+  "LastName": "Nylhin",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:17.6660861+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

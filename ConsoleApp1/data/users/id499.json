@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:58:11.6180299+03:00",
+  "Id": 499,
+  "Login": "ansemx13",
+  "PasswordHash": "3209FAED5604DAD40C64C83084397F103CD98C74E1996608B8605F5E2DF36D9D",
+  "Group": "generated",
+  "FirstName": "ansemx13",
+  "MiddleName": "ansemx13",
+  "LastName": "ansemx13",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:11.6170324+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

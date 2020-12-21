@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:59:04.2679105+03:00",
+  "Id": 1299,
+  "Login": "nature_move",
+  "PasswordHash": "7729608692950B5CB88266EDCCA705F98FD9F5A9A5D7D763261CFC7BDDBF3A2C",
+  "Group": "generated",
+  "FirstName": "nature_move",
+  "MiddleName": "nature_move",
+  "LastName": "nature_move",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:04.2669138+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

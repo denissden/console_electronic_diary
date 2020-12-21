@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:21.4157468+03:00",
+  "Id": 648,
+  "Login": "onigame",
+  "PasswordHash": "DF1D4B1CFB74DA0D4BAC3E4F6194233AD917A745519003E678DE049ACC8153EC",
+  "Group": "generated",
+  "FirstName": "onigame",
+  "MiddleName": "onigame",
+  "LastName": "onigame",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:21.4147503+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

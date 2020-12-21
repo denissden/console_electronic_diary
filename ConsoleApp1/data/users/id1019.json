@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:45.827677+03:00",
+  "Id": 1019,
+  "Login": "jtmf26",
+  "PasswordHash": "69AC7481D98A7C8243377C0A1209353577876A78CA698A02822850B08471956B",
+  "Group": "generated",
+  "FirstName": "jtmf26",
+  "MiddleName": "jtmf26",
+  "LastName": "jtmf26",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:45.8266512+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

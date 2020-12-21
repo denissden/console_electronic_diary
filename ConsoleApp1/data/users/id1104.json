@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:51.4089494+03:00",
+  "Id": 1104,
+  "Login": "spin810",
+  "PasswordHash": "DDDDE42080E625FA824E935010BB11D838089DB0065FB33FB0B2EAFF86D0D05F",
+  "Group": "generated",
+  "FirstName": "spin810",
+  "MiddleName": "spin810",
+  "LastName": "spin810",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:51.4086565+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

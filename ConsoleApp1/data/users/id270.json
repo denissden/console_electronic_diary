@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:56.4483101+03:00",
+  "Id": 270,
+  "Login": "ollieg80",
+  "PasswordHash": "6C799A8C9EE9454E619270F47DC290A08AB7D4C508FF731A896A2A4A30D5371F",
+  "Group": "generated",
+  "FirstName": "ollieg80",
+  "MiddleName": "ollieg80",
+  "LastName": "ollieg80",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:56.4472835+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

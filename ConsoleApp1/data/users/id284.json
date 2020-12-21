@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:57.3665226+03:00",
+  "Id": 284,
+  "Login": "Evil_Otto",
+  "PasswordHash": "7134B4359BDA40C9760B079BB6DDD5F0250345A3555C23A434FB5A87AE402ED0",
+  "Group": "generated",
+  "FirstName": "Evil_Otto",
+  "MiddleName": "Evil_Otto",
+  "LastName": "Evil_Otto",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:57.3655536+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

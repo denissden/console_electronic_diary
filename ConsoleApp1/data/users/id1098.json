@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:51.0075164+03:00",
+  "Id": 1098,
+  "Login": "shmuck_coco",
+  "PasswordHash": "C601016CEC00CE573EE59DDD3114F7B877ED65460F96815FA103DF305ABD797A",
+  "Group": "generated",
+  "FirstName": "shmuck_coco",
+  "MiddleName": "shmuck_coco",
+  "LastName": "shmuck_coco",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:51.0065152+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.4605758+03:00",
+  "Id": 1120,
+  "Login": "joshmc10",
+  "PasswordHash": "622452E3A1EA326C29F9417BBF34091C9E3D69DECEE0831406CD1E58ECD1AFB2",
+  "Group": "generated",
+  "FirstName": "joshmc10",
+  "MiddleName": "joshmc10",
+  "LastName": "joshmc10",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.4596073+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

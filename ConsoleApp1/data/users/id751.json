@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:28.2101984+03:00",
+  "Id": 751,
+  "Login": "boudreau1996",
+  "PasswordHash": "A15A4672498549A499D17A4A033E2B8F22240F897A9754D677F3CB4732CC142C",
+  "Group": "generated",
+  "FirstName": "boudreau1996",
+  "MiddleName": "boudreau1996",
+  "LastName": "boudreau1996",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:28.209205+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

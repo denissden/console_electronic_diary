@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.2685302+03:00",
+  "Id": 237,
+  "Login": "ThePaperclip",
+  "PasswordHash": "6062D61F59FBB1CCC639281421EF7D831FCEEF0A25A5861BE8F0D1AE4598F464",
+  "Group": "generated",
+  "FirstName": "ThePaperclip",
+  "MiddleName": "ThePaperclip",
+  "LastName": "ThePaperclip",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.2675638+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

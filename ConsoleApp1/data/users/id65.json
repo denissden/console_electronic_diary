@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:05.2773885+03:00",
+  "Id": 65,
+  "Login": "Soulsy",
+  "PasswordHash": "44B332D2276679969439745B31FE7784AB837E4BE72ADAD305B6033AAFE20491",
+  "Group": "generated",
+  "FirstName": "Soulsy",
+  "MiddleName": "Soulsy",
+  "LastName": "Soulsy",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:05.2763912+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

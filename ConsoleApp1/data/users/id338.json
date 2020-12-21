@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:58:01.0003035+03:00",
+  "Id": 338,
+  "Login": "Raymose",
+  "PasswordHash": "2A18C62DB7E023BDAF38734AC3D225B64DAF3B95DB48C75BC61A363F04C58F27",
+  "Group": "generated",
+  "FirstName": "Raymose",
+  "MiddleName": "Raymose",
+  "LastName": "Raymose",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:00.9992971+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

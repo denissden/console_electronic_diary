@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:01.9329117+03:00",
+  "Id": 352,
+  "Login": "mnj777",
+  "PasswordHash": "68173822F53830CE06CCF04E28EBB9A0A7ED6F81425479F3481310934188DBDE",
+  "Group": "generated",
+  "FirstName": "mnj777",
+  "MiddleName": "mnj777",
+  "LastName": "mnj777",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:01.9309167+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

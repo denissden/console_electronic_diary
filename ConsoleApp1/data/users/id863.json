@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:35.5812499+03:00",
+  "Id": 863,
+  "Login": "conan87",
+  "PasswordHash": "C0A864B9D0B94266845F4B64EABDE62A94F0529BE9AC4CAC31D17FD45A309D5D",
+  "Group": "generated",
+  "FirstName": "conan87",
+  "MiddleName": "conan87",
+  "LastName": "conan87",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:35.580277+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

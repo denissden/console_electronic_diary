@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:02.5840268+03:00",
+  "Id": 362,
+  "Login": "spintherism",
+  "PasswordHash": "5359915F7E339D0AB396DFC629DE01CCCADA1CB9C892AF81909C07D1CF6D7EAF",
+  "Group": "generated",
+  "FirstName": "spintherism",
+  "MiddleName": "spintherism",
+  "LastName": "spintherism",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:02.5830306+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:58.5482076+03:00",
+  "Id": 1212,
+  "Login": "adamj333",
+  "PasswordHash": "E946E045F71EA3E335DDF44E82409C32F2B4D05E533507B10A69DEE6B6EDBC9C",
+  "Group": "generated",
+  "FirstName": "adamj333",
+  "MiddleName": "adamj333",
+  "LastName": "adamj333",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:58.5471949+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

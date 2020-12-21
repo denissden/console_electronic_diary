@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:05.2105668+03:00",
+  "Id": 64,
+  "Login": "Jimmybean",
+  "PasswordHash": "0E8DF00A27BCB30A7BD6BC111C70D98CBF1EEF753EDFCA0DD30FFE6B47AC51F8",
+  "Group": "generated",
+  "FirstName": "Jimmybean",
+  "MiddleName": "Jimmybean",
+  "LastName": "Jimmybean",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:05.2095692+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

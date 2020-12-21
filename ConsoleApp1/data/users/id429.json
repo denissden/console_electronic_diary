@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:07.0235091+03:00",
+  "Id": 429,
+  "Login": "Mariko",
+  "PasswordHash": "D3C316C353F004F7FA5A158D915E6246314DAAF2C975C0A82530603FF6C344C0",
+  "Group": "generated",
+  "FirstName": "Mariko",
+  "MiddleName": "Mariko",
+  "LastName": "Mariko",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:07.0235091+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

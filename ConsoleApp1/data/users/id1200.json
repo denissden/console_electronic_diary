@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:57.7519105+03:00",
+  "Id": 1200,
+  "Login": "knifeonly",
+  "PasswordHash": "B7CA94B458E2F64C95D129BEA3D6E552637F91629C5910518430B10018DFC44A",
+  "Group": "generated",
+  "FirstName": "knifeonly",
+  "MiddleName": "knifeonly",
+  "LastName": "knifeonly",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:57.7499149+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

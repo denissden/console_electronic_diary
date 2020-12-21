@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:05.7241941+03:00",
+  "Id": 71,
+  "Login": "Hutchenstein",
+  "PasswordHash": "708C59151B1F7EDE7C630E5D6922F1C9008CA151551E76B141152315E470A383",
+  "Group": "generated",
+  "FirstName": "Hutchenstein",
+  "MiddleName": "Hutchenstein",
+  "LastName": "Hutchenstein",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:05.7212033+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

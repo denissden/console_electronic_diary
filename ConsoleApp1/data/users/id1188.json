@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:56.9529407+03:00",
+  "Id": 1188,
+  "Login": "knightstriker",
+  "PasswordHash": "0D7A801877B82B9C75B7BB433E74A3E917F7FA70F099671D11E83BE846289998",
+  "Group": "generated",
+  "FirstName": "knightstriker",
+  "MiddleName": "knightstriker",
+  "LastName": "knightstriker",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:56.9519433+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

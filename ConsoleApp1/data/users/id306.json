@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:58.852661+03:00",
+  "Id": 306,
+  "Login": "Tilex",
+  "PasswordHash": "383E4F9C2B60CC13142EB65D45B0EA75CE4F8C02FF73FB2FBD2A0E2F9202159D",
+  "Group": "generated",
+  "FirstName": "Tilex",
+  "MiddleName": "Tilex",
+  "LastName": "Tilex",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:58.8516746+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

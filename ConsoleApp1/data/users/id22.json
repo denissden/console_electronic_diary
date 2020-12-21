@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:02.1618259+03:00",
+  "Id": 22,
+  "Login": "Zee_Man",
+  "PasswordHash": "1FFDDEC6013901983F09505E5FA7FDB7E0CB59159244ED0A1C6BDCEB64FA9905",
+  "Group": "generated",
+  "FirstName": "Zee_Man",
+  "MiddleName": "Zee_Man",
+  "LastName": "Zee_Man",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:02.1608281+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

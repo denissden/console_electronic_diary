@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:22.4029439+03:00",
+  "Id": 663,
+  "Login": "asger1002",
+  "PasswordHash": "9CB01D29B216A15A95993096310A0DB3C71389B41CA1FE1492BBD5F3ECF60695",
+  "Group": "generated",
+  "FirstName": "asger1002",
+  "MiddleName": "asger1002",
+  "LastName": "asger1002",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:22.4029439+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:49.3027119+03:00",
+  "Id": 1072,
+  "Login": "flyboy7",
+  "PasswordHash": "381D35B52B2126FEC6A56EB191101688956316382AD9013C0907DCD624D8DD32",
+  "Group": "generated",
+  "FirstName": "flyboy7",
+  "MiddleName": "flyboy7",
+  "LastName": "flyboy7",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:49.3017423+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

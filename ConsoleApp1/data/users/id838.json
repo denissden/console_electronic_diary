@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:33.9486258+03:00",
+  "Id": 838,
+  "Login": "cirqueman",
+  "PasswordHash": "53BCE90C8C7372F14E349BC63394455897EC7F109FB7AED91F0748D5B0F8719A",
+  "Group": "generated",
+  "FirstName": "cirqueman",
+  "MiddleName": "cirqueman",
+  "LastName": "cirqueman",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:33.9476277+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

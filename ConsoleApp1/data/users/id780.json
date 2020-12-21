@@ -1,0 +1,21 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:30.1199436+03:00",
+  "Id": 780,
+  "Login": "1037cky",
+  "PasswordHash": "F5624A31AB6C10571B7E11831D66AE127FCA5A1419A22867D7166DAFD0B8B040",
+  "Group": "generated",
+  "FirstName": "1037cky",
+  "MiddleName": "1037cky",
+  "LastName": "1037cky",
+  "Age": 0,
+  "BirthYear": "2020-12-21T00:00:00",
+  "SubjectMarks": [
+    {
+      "SubjectName": "\u041C\u0410\u0422\u0415\u0428\u0410",
+      "CreatorId": 1353,
+      "Marks": {}
+    }
+  ],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:19.0479894+03:00",
+  "Id": 612,
+  "Login": "slaven",
+  "PasswordHash": "360651837D8DFCC1BF3D3B6D4E00090224185B7D1A24987C315FAEF434966700",
+  "Group": "generated",
+  "FirstName": "slaven",
+  "MiddleName": "slaven",
+  "LastName": "slaven",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:19.0469916+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

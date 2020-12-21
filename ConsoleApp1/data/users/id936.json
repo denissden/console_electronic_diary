@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:40.3829047+03:00",
+  "Id": 936,
+  "Login": "lord_ethan",
+  "PasswordHash": "5C96F96468A3C9FA3D9CF5F1A7695E217199C4D3CF62A683B6976ADD824A95E9",
+  "Group": "generated",
+  "FirstName": "lord_ethan",
+  "MiddleName": "lord_ethan",
+  "LastName": "lord_ethan",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:40.3819241+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

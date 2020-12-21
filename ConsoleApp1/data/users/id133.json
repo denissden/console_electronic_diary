@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:10.0485055+03:00",
+  "Id": 133,
+  "Login": "zerox106",
+  "PasswordHash": "0C8BDCA41A30EFF9F162CA7AD8845C90241191F540784C47A74D0C83BEAA5BE0",
+  "Group": "generated",
+  "FirstName": "zerox106",
+  "MiddleName": "zerox106",
+  "LastName": "zerox106",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:10.0474794+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

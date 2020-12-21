@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:08.0184644+03:00",
+  "Id": 103,
+  "Login": "mups",
+  "PasswordHash": "1175319246C4902BA1A261A956E5AB41299C2643281791CE442D25C28A37D475",
+  "Group": "generated",
+  "FirstName": "mups",
+  "MiddleName": "mups",
+  "LastName": "mups",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:08.0164702+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

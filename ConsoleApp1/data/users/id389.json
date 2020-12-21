@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:04.3648966+03:00",
+  "Id": 389,
+  "Login": "Marict",
+  "PasswordHash": "C143BE23BB256CB1915C633E776DEF124C37AC9D2051370917B8F05FEFFB92B6",
+  "Group": "generated",
+  "FirstName": "Marict",
+  "MiddleName": "Marict",
+  "LastName": "Marict",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:04.3639137+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:53.0533706+03:00",
+  "Id": 1129,
+  "Login": "hazyairplane",
+  "PasswordHash": "598826D9C03833E0D464E220D5DAC4A1F576A2E93AB55D23163F08365CF5CBA3",
+  "Group": "generated",
+  "FirstName": "hazyairplane",
+  "MiddleName": "hazyairplane",
+  "LastName": "hazyairplane",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:53.0523594+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

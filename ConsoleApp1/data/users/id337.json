@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:00.9341521+03:00",
+  "Id": 337,
+  "Login": "JCabasquini",
+  "PasswordHash": "7B3E6E621962C8916E09963CE45CFA612B4DA7598815C7D4B965FC0E899CD5D1",
+  "Group": "generated",
+  "FirstName": "JCabasquini",
+  "MiddleName": "JCabasquini",
+  "LastName": "JCabasquini",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:00.9331646+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

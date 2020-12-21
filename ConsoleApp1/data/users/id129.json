@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:09.7747+03:00",
+  "Id": 129,
+  "Login": "reisyukaku",
+  "PasswordHash": "846CC6A298FF6D3FA151F93AB8BDD8496BCBE32CF098FDA246D4CD8F1EFE2D65",
+  "Group": "generated",
+  "FirstName": "reisyukaku",
+  "MiddleName": "reisyukaku",
+  "LastName": "reisyukaku",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:09.7737308+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

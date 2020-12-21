@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:36.5689943+03:00",
+  "Id": 878,
+  "Login": "coothmagi",
+  "PasswordHash": "86B2C99BC557069AC40EBA648BB5F5EFEBD03E768D26A23A0C7001665B17A772",
+  "Group": "generated",
+  "FirstName": "coothmagi",
+  "MiddleName": "coothmagi",
+  "LastName": "coothmagi",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:36.5680592+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:25.6974995+03:00",
+  "Id": 713,
+  "Login": "darkquilan",
+  "PasswordHash": "33082FF71C002DAF891F5BE7FED8B2DC9FB7CD2B6F96E39E95366DACCAC79C10",
+  "Group": "generated",
+  "FirstName": "darkquilan",
+  "MiddleName": "darkquilan",
+  "LastName": "darkquilan",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:25.6965307+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

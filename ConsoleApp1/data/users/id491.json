@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:11.0862337+03:00",
+  "Id": 491,
+  "Login": "Crunchy_Chicken",
+  "PasswordHash": "149C0C850F82BFA11FC78D3C308329E2FC51C70497782C58236575BFB4F72D32",
+  "Group": "generated",
+  "FirstName": "Crunchy_Chicken",
+  "MiddleName": "Crunchy_Chicken",
+  "LastName": "Crunchy_Chicken",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:11.085207+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

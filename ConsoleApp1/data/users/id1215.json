@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:58.7476871+03:00",
+  "Id": 1215,
+  "Login": "123bball",
+  "PasswordHash": "39B27A9BC0F7DBC8BEBBDFECFB25BE68525E588FAA4398244FC4F64A6BF36ACC",
+  "Group": "generated",
+  "FirstName": "123bball",
+  "MiddleName": "123bball",
+  "LastName": "123bball",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:58.7466905+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

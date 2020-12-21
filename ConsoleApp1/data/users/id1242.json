@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:00.5344429+03:00",
+  "Id": 1242,
+  "Login": "coalas",
+  "PasswordHash": "EB2C8CD77174810ECB38D9C88FBCF4E4836DEC63728B805ACD8BBE5325E80537",
+  "Group": "generated",
+  "FirstName": "coalas",
+  "MiddleName": "coalas",
+  "LastName": "coalas",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:00.5334453+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

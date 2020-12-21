@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:23.0766327+03:00",
+  "Id": 673,
+  "Login": "MartianCat",
+  "PasswordHash": "602A8CD8B0E1CAD9810AE3078262020290249BA39D95562A4195C9C578370141",
+  "Group": "generated",
+  "FirstName": "MartianCat",
+  "MiddleName": "MartianCat",
+  "LastName": "MartianCat",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:23.0756349+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

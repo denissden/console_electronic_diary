@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:11.1520287+03:00",
+  "Id": 492,
+  "Login": "Asytra",
+  "PasswordHash": "AF4578A609B64132DD803B723B28BC026B179ED61080A1772AD9700A1CA4691F",
+  "Group": "generated",
+  "FirstName": "Asytra",
+  "MiddleName": "Asytra",
+  "LastName": "Asytra",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:11.1510616+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

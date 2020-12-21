@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:46.5564935+03:00",
+  "Id": 1030,
+  "Login": "rebelcletus",
+  "PasswordHash": "E197951D9B2880D83614427D33775EF2D084B8CA63FDB3BC1FA6C7DC920C7688",
+  "Group": "generated",
+  "FirstName": "rebelcletus",
+  "MiddleName": "rebelcletus",
+  "LastName": "rebelcletus",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:46.5554671+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:17.8685701+03:00",
+  "Id": 594,
+  "Login": "MrSalvador",
+  "PasswordHash": "6790C873979A88B1230D3EA8E7CE8FBB6C4E63791F0BCD5938CC8C4783DAEF54",
+  "Group": "generated",
+  "FirstName": "MrSalvador",
+  "MiddleName": "MrSalvador",
+  "LastName": "MrSalvador",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:17.8675727+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

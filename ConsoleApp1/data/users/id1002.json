@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:44.7177158+03:00",
+  "Id": 1002,
+  "Login": "kiastoon",
+  "PasswordHash": "8F990B26359D66F1E35D12F70999CF4BB34B9F41EF8FCC8F513BF0C2C36063B1",
+  "Group": "generated",
+  "FirstName": "kiastoon",
+  "MiddleName": "kiastoon",
+  "LastName": "kiastoon",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:44.7167475+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

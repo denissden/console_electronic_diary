@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:48.1826865+03:00",
+  "Id": 1055,
+  "Login": "tcg528",
+  "PasswordHash": "41A72A8B8EB4B6254529BF8ADF0512E53B675F1035AA8BA53517DFCE339EAA9B",
+  "Group": "generated",
+  "FirstName": "tcg528",
+  "MiddleName": "tcg528",
+  "LastName": "tcg528",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:48.1816869+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

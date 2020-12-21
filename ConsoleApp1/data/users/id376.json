@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:03.507963+03:00",
+  "Id": 376,
+  "Login": "GrasshopperInPJs",
+  "PasswordHash": "C6E42E7CB589FF0711A4D13D4D91E9B4226F8E12FB3E3392F5FFC704589C2E66",
+  "Group": "generated",
+  "FirstName": "GrasshopperInPJs",
+  "MiddleName": "GrasshopperInPJs",
+  "LastName": "GrasshopperInPJs",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:03.5069371+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

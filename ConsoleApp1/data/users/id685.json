@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:23.8609604+03:00",
+  "Id": 685,
+  "Login": "jojo56",
+  "PasswordHash": "F7A9DA86E4F954F7CBE7F5EB0FCD674176A951DE1DF41EB2E0E44C42BB88FCF7",
+  "Group": "generated",
+  "FirstName": "jojo56",
+  "MiddleName": "jojo56",
+  "LastName": "jojo56",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:23.8599634+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

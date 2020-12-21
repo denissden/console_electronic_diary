@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.0020114+03:00",
+  "Id": 1113,
+  "Login": "mpf88",
+  "PasswordHash": "195DC8F5A2D31B0A060E15E6EE923F6F4840576D0E839135A5C7E26F97AD7C03",
+  "Group": "generated",
+  "FirstName": "mpf88",
+  "MiddleName": "mpf88",
+  "LastName": "mpf88",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.0010046+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

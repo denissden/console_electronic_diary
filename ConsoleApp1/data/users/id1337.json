@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:06.7641467+03:00",
+  "Id": 1337,
+  "Login": "Sivlon",
+  "PasswordHash": "0BD5A8D9D9034EDD5112738F8CB47F1170CFECC92913BC5C78BD56D6F1A80A40",
+  "Group": "generated",
+  "FirstName": "Sivlon",
+  "MiddleName": "Sivlon",
+  "LastName": "Sivlon",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:06.7631793+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

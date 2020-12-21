@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:55.3635951+03:00",
+  "Id": 1164,
+  "Login": "gloeglm",
+  "PasswordHash": "92580AECA5E55EE7D09D5B128B5B86C812E06288F7111FB1DAB9548594964813",
+  "Group": "generated",
+  "FirstName": "gloeglm",
+  "MiddleName": "gloeglm",
+  "LastName": "gloeglm",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:55.3625976+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

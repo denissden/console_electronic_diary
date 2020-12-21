@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.0705394+03:00",
+  "Id": 234,
+  "Login": "lukyluke",
+  "PasswordHash": "C09B538F5F0E8843A8F917C3E03316DADC26EA71945263F6577C77D502AFC6A9",
+  "Group": "generated",
+  "FirstName": "lukyluke",
+  "MiddleName": "lukyluke",
+  "LastName": "lukyluke",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.0695112+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

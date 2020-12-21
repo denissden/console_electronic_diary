@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:09.3293329+03:00",
+  "Id": 464,
+  "Login": "starian",
+  "PasswordHash": "3E046DFC40F99A82513E55C97509F519BB30B4FCD70A846BEF7BA21CEE629262",
+  "Group": "generated",
+  "FirstName": "starian",
+  "MiddleName": "starian",
+  "LastName": "starian",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:09.3283324+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.5909958+03:00",
+  "Id": 1122,
+  "Login": "willpie100",
+  "PasswordHash": "2E910AA40C9055CB275C0A81A48AC2612779E3A875EA4F72EF363B63154771CA",
+  "Group": "generated",
+  "FirstName": "willpie100",
+  "MiddleName": "willpie100",
+  "LastName": "willpie100",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.5899995+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

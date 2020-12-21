@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:11.4889496+03:00",
+  "Id": 497,
+  "Login": "Tim87",
+  "PasswordHash": "3B0FD18A22A8A501A9306C6DE3720919D96278CF959016BEC2BEA4B1A2D5B961",
+  "Group": "generated",
+  "FirstName": "Tim87",
+  "MiddleName": "Tim87",
+  "LastName": "Tim87",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:11.4879525+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

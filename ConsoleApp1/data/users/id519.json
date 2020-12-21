@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:12.9300429+03:00",
+  "Id": 519,
+  "Login": "UnlabledMilk",
+  "PasswordHash": "DEAA207BAC6F8F4AAD2689D713648485E850A10DDDF9A1ED3A7BFEDC32368FCD",
+  "Group": "generated",
+  "FirstName": "UnlabledMilk",
+  "MiddleName": "UnlabledMilk",
+  "LastName": "UnlabledMilk",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:12.9289988+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

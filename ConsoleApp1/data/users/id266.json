@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:56.1889156+03:00",
+  "Id": 266,
+  "Login": "VictoriouSecret",
+  "PasswordHash": "593118B2DD9756B7F0D740C189D08C2EAC8AF0C623FDC445AAE909D10D958FB6",
+  "Group": "generated",
+  "FirstName": "VictoriouSecret",
+  "MiddleName": "VictoriouSecret",
+  "LastName": "VictoriouSecret",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:56.1879183+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

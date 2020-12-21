@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:49.4323646+03:00",
+  "Id": 1074,
+  "Login": "samromer",
+  "PasswordHash": "380AD2C3447B61C79760A9E506AF26E387E2145C157B575B671576CB1C2BAD3B",
+  "Group": "generated",
+  "FirstName": "samromer",
+  "MiddleName": "samromer",
+  "LastName": "samromer",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:49.4313962+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

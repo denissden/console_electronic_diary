@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:31.4299646+03:00",
+  "Id": 800,
+  "Login": "chaser132",
+  "PasswordHash": "48AB0F5C5B1822CB549EE76FFB6392851339F35838DAEB0BB2500B82865EE2EE",
+  "Group": "generated",
+  "FirstName": "chaser132",
+  "MiddleName": "chaser132",
+  "LastName": "chaser132",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:31.4289672+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:07.4617144+03:00",
+  "Id": 95,
+  "Login": "kazeako",
+  "PasswordHash": "9FBE94AA8C33487E45B93939478C122B22FFE42B2A7ACDF6D6888FB1DB3B7474",
+  "Group": "generated",
+  "FirstName": "kazeako",
+  "MiddleName": "kazeako",
+  "LastName": "kazeako",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:07.4607294+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

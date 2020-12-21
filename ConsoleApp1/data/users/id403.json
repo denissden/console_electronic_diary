@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:05.2999172+03:00",
+  "Id": 403,
+  "Login": "DarthFJ",
+  "PasswordHash": "F338820359C3CB162F03BDCEB3B69BF76F2D29A1BC6737B8E9A362733DF4BA79",
+  "Group": "generated",
+  "FirstName": "DarthFJ",
+  "MiddleName": "DarthFJ",
+  "LastName": "DarthFJ",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:05.2989199+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

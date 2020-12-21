@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:23.795137+03:00",
+  "Id": 684,
+  "Login": "Tnextdoor",
+  "PasswordHash": "25D99484106EE45CBBAD513F88443BDE6BA0FB436F3ECDD0CA48355B49C00374",
+  "Group": "generated",
+  "FirstName": "Tnextdoor",
+  "MiddleName": "Tnextdoor",
+  "LastName": "Tnextdoor",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:23.7941698+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

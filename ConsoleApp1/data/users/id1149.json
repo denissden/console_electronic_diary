@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:54.3687997+03:00",
+  "Id": 1149,
+  "Login": "reccanize",
+  "PasswordHash": "55BA90104B2CA11B9D62F34D03B1ACFB1AF9541FBBB1DDE53F07D2D8355F2025",
+  "Group": "generated",
+  "FirstName": "reccanize",
+  "MiddleName": "reccanize",
+  "LastName": "reccanize",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:54.3678019+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

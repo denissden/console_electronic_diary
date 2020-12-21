@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:23.9920238+03:00",
+  "Id": 687,
+  "Login": "Tekneus",
+  "PasswordHash": "248A21C0B80FF8B38E2C48EEEACF091FF526D1C2A8E51DBF4C82BFCC40DA5FEE",
+  "Group": "generated",
+  "FirstName": "Tekneus",
+  "MiddleName": "Tekneus",
+  "LastName": "Tekneus",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:23.9912011+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

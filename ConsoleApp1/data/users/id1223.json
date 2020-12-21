@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:59.2769558+03:00",
+  "Id": 1223,
+  "Login": "tupitupa",
+  "PasswordHash": "D5347B233AF8F819EDCA39FA8E4577C2D784CE58E9A116D7CC07A68A1A01C912",
+  "Group": "generated",
+  "FirstName": "tupitupa",
+  "MiddleName": "tupitupa",
+  "LastName": "tupitupa",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:59.2761831+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

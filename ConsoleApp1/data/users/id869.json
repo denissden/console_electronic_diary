@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:35.9762192+03:00",
+  "Id": 869,
+  "Login": "consoso",
+  "PasswordHash": "B11CA34468F3B5213888D6A6678DD618D927A7D16C11EEDA3171C6C2973FFE5D",
+  "Group": "generated",
+  "FirstName": "consoso",
+  "MiddleName": "consoso",
+  "LastName": "consoso",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:35.9752194+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

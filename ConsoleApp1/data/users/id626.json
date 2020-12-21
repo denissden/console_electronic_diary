@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:19.9728059+03:00",
+  "Id": 626,
+  "Login": "Parilax",
+  "PasswordHash": "2F85F4FA7924546587D74F4BC32245189B3AAC4B7316AC8D4EF407DA0EFACDFE",
+  "Group": "generated",
+  "FirstName": "Parilax",
+  "MiddleName": "Parilax",
+  "LastName": "Parilax",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:19.971836+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

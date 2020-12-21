@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:36.6333637+03:00",
+  "Id": 879,
+  "Login": "copley123",
+  "PasswordHash": "6D4F0DF9EB2E7A97E2072B51F54BDBDE0A9C9453043E434CFEEB3A994409CCEA",
+  "Group": "generated",
+  "FirstName": "copley123",
+  "MiddleName": "copley123",
+  "LastName": "copley123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:36.6323673+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:47.5326108+03:00",
+  "Id": 1045,
+  "Login": "statix138",
+  "PasswordHash": "40A8C3478193B73233358286BF878496D9FC18AB3A07780A56458504998270FE",
+  "Group": "generated",
+  "FirstName": "statix138",
+  "MiddleName": "statix138",
+  "LastName": "statix138",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:47.5316133+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

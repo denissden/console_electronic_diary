@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:20.9554192+03:00",
+  "Id": 641,
+  "Login": "MothBones",
+  "PasswordHash": "14D65FDD5A6126EED1B2D6C17BFF743FC2EC90E09AF6C43BF322244CC5465059",
+  "Group": "generated",
+  "FirstName": "MothBones",
+  "MiddleName": "MothBones",
+  "LastName": "MothBones",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:20.9544215+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:18.9825616+03:00",
+  "Id": 611,
+  "Login": "DrillDazer",
+  "PasswordHash": "76AA6A57918CC291AAC5F2B246CD5E1F9FFD6F80A7AF4CD0AEFC4BB0608AB5EA",
+  "Group": "generated",
+  "FirstName": "DrillDazer",
+  "MiddleName": "DrillDazer",
+  "LastName": "DrillDazer",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:18.9815627+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

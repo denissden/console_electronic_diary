@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:02.125378+03:00",
+  "Id": 355,
+  "Login": "ImaShortKid",
+  "PasswordHash": "546916CEC6CBBED34C21AC848BC2C51AF6D9BB0727392726AFB23B3A68965EFD",
+  "Group": "generated",
+  "FirstName": "ImaShortKid",
+  "MiddleName": "ImaShortKid",
+  "LastName": "ImaShortKid",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:02.12436+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:11.2000018+03:00",
+  "Id": 150,
+  "Login": "AndrijaG1",
+  "PasswordHash": "6ADE140E9E05919B32FCB925E4C34C1A1BFB11826E50D474B1B58A3ACFE4714C",
+  "Group": "generated",
+  "FirstName": "AndrijaG1",
+  "MiddleName": "AndrijaG1",
+  "LastName": "AndrijaG1",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:11.1997288+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

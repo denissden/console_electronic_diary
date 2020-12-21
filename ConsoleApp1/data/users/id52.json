@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:04.423069+03:00",
+  "Id": 52,
+  "Login": "Delirus",
+  "PasswordHash": "3F3B0EA6C209AFD03F71E7D90E0063FC77C6F4E616A59A4BE3698D7E4BD20459",
+  "Group": "generated",
+  "FirstName": "Delirus",
+  "MiddleName": "Delirus",
+  "LastName": "Delirus",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:04.4220714+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

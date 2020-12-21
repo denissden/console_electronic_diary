@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:47.2698343+03:00",
+  "Id": 1041,
+  "Login": "wolpaladin",
+  "PasswordHash": "FCF7CB6637DE493F31D06890640315EFB8B738ED43FBD17286581AAB4EEF38A7",
+  "Group": "generated",
+  "FirstName": "wolpaladin",
+  "MiddleName": "wolpaladin",
+  "LastName": "wolpaladin",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:47.2695487+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

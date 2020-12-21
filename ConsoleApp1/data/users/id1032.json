@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:46.686119+03:00",
+  "Id": 1032,
+  "Login": "sam444",
+  "PasswordHash": "BC1DFBF21D6BD3A6795A69C7496B3357E3F44E9EF83EDE72DFCFF3C9741763C4",
+  "Group": "generated",
+  "FirstName": "sam444",
+  "MiddleName": "sam444",
+  "LastName": "sam444",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:46.6851211+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

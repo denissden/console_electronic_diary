@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:05.1457689+03:00",
+  "Id": 63,
+  "Login": "Kanten",
+  "PasswordHash": "040D0BFEA91DE64ABA4015569E8767779FB185E04BC9B9A565B27DE48322811F",
+  "Group": "generated",
+  "FirstName": "Kanten",
+  "MiddleName": "Kanten",
+  "LastName": "Kanten",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:05.1447756+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:32.1025881+03:00",
+  "Id": 810,
+  "Login": "cheezbox",
+  "PasswordHash": "CCAF96B937D4BD8A3F17548ECD2BAFB00E765E33A2A704940619F2898812120E",
+  "Group": "generated",
+  "FirstName": "cheezbox",
+  "MiddleName": "cheezbox",
+  "LastName": "cheezbox",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:32.1015869+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

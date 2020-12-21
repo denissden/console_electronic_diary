@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:09.372322+03:00",
+  "Id": 123,
+  "Login": "Ninjila",
+  "PasswordHash": "0D2397C1886533D3F2948B6EE148586099A048A0DE4FFB830B3F5C6B61C071E1",
+  "Group": "generated",
+  "FirstName": "Ninjila",
+  "MiddleName": "Ninjila",
+  "LastName": "Ninjila",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:09.3713212+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

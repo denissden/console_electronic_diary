@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:29.1979375+03:00",
+  "Id": 766,
+  "Login": "bluelight51",
+  "PasswordHash": "128706F512C547BA3A1D296FB9AB740D543BB8CDE477E8A056F6FD73A6192299",
+  "Group": "generated",
+  "FirstName": "bluelight51",
+  "MiddleName": "bluelight51",
+  "LastName": "bluelight51",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:29.1979375+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

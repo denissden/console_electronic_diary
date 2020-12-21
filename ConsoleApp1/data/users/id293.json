@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:57.9841765+03:00",
+  "Id": 293,
+  "Login": "Invisix",
+  "PasswordHash": "00FECCFD68AE292C4ECB6E4676389B119CF76A408CFA75BEED1F061451C009D8",
+  "Group": "generated",
+  "FirstName": "Invisix",
+  "MiddleName": "Invisix",
+  "LastName": "Invisix",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:57.9831507+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

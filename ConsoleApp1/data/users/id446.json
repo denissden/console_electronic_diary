@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:08.1398706+03:00",
+  "Id": 446,
+  "Login": "GracefulTed",
+  "PasswordHash": "8B47357ECB4DCBD706E5300484E4E107F00D78D74F2D4986438D07ADDD814447",
+  "Group": "generated",
+  "FirstName": "GracefulTed",
+  "MiddleName": "GracefulTed",
+  "LastName": "GracefulTed",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:08.1388723+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

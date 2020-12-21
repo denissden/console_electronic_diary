@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:54.5318646+03:00",
+  "Id": 241,
+  "Login": "Novaok",
+  "PasswordHash": "7DDA1451114E51C3CCF09191B9D09F5F2790503AD18C6B67339D0F21B50678BE",
+  "Group": "generated",
+  "FirstName": "Novaok",
+  "MiddleName": "Novaok",
+  "LastName": "Novaok",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.530867+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

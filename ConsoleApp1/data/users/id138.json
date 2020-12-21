@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:10.3876539+03:00",
+  "Id": 138,
+  "Login": "peter_buchan",
+  "PasswordHash": "6940C95E817847748BA3407E33828710E250DDEFFF2B30A83E2BE75F78BD63A8",
+  "Group": "generated",
+  "FirstName": "peter_buchan",
+  "MiddleName": "peter_buchan",
+  "LastName": "peter_buchan",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:10.3873543+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

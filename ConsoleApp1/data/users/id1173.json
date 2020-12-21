@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:55.9691476+03:00",
+  "Id": 1173,
+  "Login": "pepthedog05",
+  "PasswordHash": "9C4164E42CA9B3307CC842E5CDEE7EA1043E5AEB679AB0E67D54824CCFDC4236",
+  "Group": "generated",
+  "FirstName": "pepthedog05",
+  "MiddleName": "pepthedog05",
+  "LastName": "pepthedog05",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:55.968151+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

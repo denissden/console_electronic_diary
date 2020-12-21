@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:45.958321+03:00",
+  "Id": 1021,
+  "Login": "djbomber",
+  "PasswordHash": "5071260E906A587FABD1549B044EBD71D5F4B34C5DDCDF73A4CA55183656419C",
+  "Group": "generated",
+  "FirstName": "djbomber",
+  "MiddleName": "djbomber",
+  "LastName": "djbomber",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:45.957303+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

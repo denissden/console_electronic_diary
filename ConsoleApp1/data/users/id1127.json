@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.9177191+03:00",
+  "Id": 1127,
+  "Login": "aac93",
+  "PasswordHash": "C8A85B21BC71C21A04F92461B677B66DADF9B4718A87B06E81A8B92E4DF5D741",
+  "Group": "generated",
+  "FirstName": "aac93",
+  "MiddleName": "aac93",
+  "LastName": "aac93",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.9167213+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

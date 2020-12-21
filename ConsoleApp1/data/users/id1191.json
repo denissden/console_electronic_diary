@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:57.1524063+03:00",
+  "Id": 1191,
+  "Login": "OprahChrist",
+  "PasswordHash": "BE9B393EE86B4B3E760AC5078CE20172742DE06FB10F817E88C007DA957E7F90",
+  "Group": "generated",
+  "FirstName": "OprahChrist",
+  "MiddleName": "OprahChrist",
+  "LastName": "OprahChrist",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:57.1524063+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

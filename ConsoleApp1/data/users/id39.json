@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:03.3250052+03:00",
+  "Id": 39,
+  "Login": "Parger129",
+  "PasswordHash": "79D395EA8289309705C57D19045120D6B8233CF689F027992C9C2C451AB7485D",
+  "Group": "generated",
+  "FirstName": "Parger129",
+  "MiddleName": "Parger129",
+  "LastName": "Parger129",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:03.3240059+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

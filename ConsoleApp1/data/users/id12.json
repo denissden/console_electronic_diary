@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:00.6628331+03:00",
+  "Id": 12,
+  "Login": "AmpTxFeaR",
+  "PasswordHash": "16309DE64EEDD5B2DAA47AD4371550F31ADFDA7AEB76DF768632027C7257050C",
+  "Group": "generated",
+  "FirstName": "AmpTxFeaR",
+  "MiddleName": "AmpTxFeaR",
+  "LastName": "AmpTxFeaR",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:00.6608379+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

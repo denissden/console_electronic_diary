@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:19.3743878+03:00",
+  "Id": 617,
+  "Login": "Blockbyblockx",
+  "PasswordHash": "4E6600A9AA928A0E80CC9D4BAD6C40E0A0D961516AADD2B2FA38AE31A9D996DE",
+  "Group": "generated",
+  "FirstName": "Blockbyblockx",
+  "MiddleName": "Blockbyblockx",
+  "LastName": "Blockbyblockx",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:19.3733622+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

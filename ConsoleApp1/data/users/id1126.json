@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.8509261+03:00",
+  "Id": 1126,
+  "Login": "aaronon123",
+  "PasswordHash": "40F23AA295B576E283F968925BD91FCBFB2785C6526903B2AD7A6F07B0D392AE",
+  "Group": "generated",
+  "FirstName": "aaronon123",
+  "MiddleName": "aaronon123",
+  "LastName": "aaronon123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.849901+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

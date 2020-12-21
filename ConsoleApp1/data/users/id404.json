@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:05.3657697+03:00",
+  "Id": 404,
+  "Login": "sfbobz",
+  "PasswordHash": "14BD57328B4744DFCBAC4AAF16A9EBBD012ECC8ADB1D274413F14DF7787890D6",
+  "Group": "generated",
+  "FirstName": "sfbobz",
+  "MiddleName": "sfbobz",
+  "LastName": "sfbobz",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:05.3647723+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:07.6807829+03:00",
+  "Id": 439,
+  "Login": "kanuck",
+  "PasswordHash": "1EEA90784F628E7AE703826A91553CC68DB3DBF398ED54BDC3795B52E4AF0378",
+  "Group": "generated",
+  "FirstName": "kanuck",
+  "MiddleName": "kanuck",
+  "LastName": "kanuck",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:07.679818+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

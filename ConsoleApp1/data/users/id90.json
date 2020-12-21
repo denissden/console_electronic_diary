@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:07.1125591+03:00",
+  "Id": 90,
+  "Login": "BrianBoyko",
+  "PasswordHash": "C46658368069EAA5A91BFB66AE7E4DF531A2C31369F40C1A09D462BAF6E1BE53",
+  "Group": "generated",
+  "FirstName": "BrianBoyko",
+  "MiddleName": "BrianBoyko",
+  "LastName": "BrianBoyko",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:07.1115609+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

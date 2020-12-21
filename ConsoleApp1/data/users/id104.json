@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:08.0870621+03:00",
+  "Id": 104,
+  "Login": "varun_nath93",
+  "PasswordHash": "CC362FECC989A21F4EC3DF8E4B6F04B56FBBB778DF5D1557C8F187450EB200BE",
+  "Group": "generated",
+  "FirstName": "varun_nath93",
+  "MiddleName": "varun_nath93",
+  "LastName": "varun_nath93",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:08.085067+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

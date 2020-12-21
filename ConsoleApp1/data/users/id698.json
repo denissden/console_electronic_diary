@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.7231167+03:00",
+  "Id": 698,
+  "Login": "Ewstar",
+  "PasswordHash": "9EC12BB0E65D76561102E98EDB7C3A4B796F455A03A9D9BECA9FFF99562F437E",
+  "Group": "generated",
+  "FirstName": "Ewstar",
+  "MiddleName": "Ewstar",
+  "LastName": "Ewstar",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.7222276+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

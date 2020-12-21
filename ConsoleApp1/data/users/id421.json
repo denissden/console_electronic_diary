@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:06.4902024+03:00",
+  "Id": 421,
+  "Login": "Regrub",
+  "PasswordHash": "781BBD712EEB5E0C7E659F31D44889F9740D8BFA24BB491DD2EBB65C0BFD6AD8",
+  "Group": "generated",
+  "FirstName": "Regrub",
+  "MiddleName": "Regrub",
+  "LastName": "Regrub",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:06.489205+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

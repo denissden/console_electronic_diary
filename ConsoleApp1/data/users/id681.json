@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:23.5985877+03:00",
+  "Id": 681,
+  "Login": "TNASESRaider",
+  "PasswordHash": "A8F7CEC24BFB787E4AACEE4534B55792FEEE384FC08D2B021F5688C6F1D6D8CB",
+  "Group": "generated",
+  "FirstName": "TNASESRaider",
+  "MiddleName": "TNASESRaider",
+  "LastName": "TNASESRaider",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:23.5976174+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

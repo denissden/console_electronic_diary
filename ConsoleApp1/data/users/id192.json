@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:14.0326249+03:00",
+  "Id": 192,
+  "Login": "accronym",
+  "PasswordHash": "C548E18A942F173AAEEAD46EF5B80CC3034F388ADFB5D05379062D5F4C720855",
+  "Group": "generated",
+  "FirstName": "accronym",
+  "MiddleName": "accronym",
+  "LastName": "accronym",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:14.031656+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

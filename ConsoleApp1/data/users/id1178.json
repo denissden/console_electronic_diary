@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:56.2979377+03:00",
+  "Id": 1178,
+  "Login": "Topo15",
+  "PasswordHash": "C0E5DBDD21E0C99E2DA0A16EBA391010022F866F135208A5E540A7001DC96844",
+  "Group": "generated",
+  "FirstName": "Topo15",
+  "MiddleName": "Topo15",
+  "LastName": "Topo15",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:56.2979377+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

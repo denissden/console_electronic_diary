@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:27.4828644+03:00",
+  "Id": 740,
+  "Login": "nessling",
+  "PasswordHash": "1F5E88D150424E0F3681BBD663C915641EA2620CDD7C94D53C3BB770FB492DEC",
+  "Group": "generated",
+  "FirstName": "nessling",
+  "MiddleName": "nessling",
+  "LastName": "nessling",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:27.481866+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

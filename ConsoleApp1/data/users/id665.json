@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:22.53334+03:00",
+  "Id": 665,
+  "Login": "npack72",
+  "PasswordHash": "308C5255096A296C73843800A0667E0C88DD43C898B882F947EAC66FA99C1D92",
+  "Group": "generated",
+  "FirstName": "npack72",
+  "MiddleName": "npack72",
+  "LastName": "npack72",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:22.5323423+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

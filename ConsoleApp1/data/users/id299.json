@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:58.3840793+03:00",
+  "Id": 299,
+  "Login": "Verail",
+  "PasswordHash": "AE081222C767F94FB7EBED4DF960A1DCFD8A37E6B90D893576D738D32F2E9854",
+  "Group": "generated",
+  "FirstName": "Verail",
+  "MiddleName": "Verail",
+  "LastName": "Verail",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:58.3830823+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

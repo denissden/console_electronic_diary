@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:43.6037041+03:00",
+  "Id": 985,
+  "Login": "odinlevi",
+  "PasswordHash": "23BA9B33791FBC80A182ED267ACBFDA501D7CF65FF302DC98EAD20568B9A07A3",
+  "Group": "generated",
+  "FirstName": "odinlevi",
+  "MiddleName": "odinlevi",
+  "LastName": "odinlevi",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:43.6028935+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

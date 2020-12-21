@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:02.8286809+03:00",
+  "Id": 1277,
+  "Login": "vijaya",
+  "PasswordHash": "1F3EA4DBB90BC4E0C4A063AF8BE7F6921DD8C1C35706B1682D05494691038056",
+  "Group": "generated",
+  "FirstName": "vijaya",
+  "MiddleName": "vijaya",
+  "LastName": "vijaya",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:02.8276817+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

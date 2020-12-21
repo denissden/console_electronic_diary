@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:59:06.7003155+03:00",
+  "Id": 1336,
+  "Login": "Seedy_George",
+  "PasswordHash": "C5499B6CA1EC80FDBE78F2C96574223831F733E84DC5CA3D4D3FBE8463671611",
+  "Group": "generated",
+  "FirstName": "Seedy_George",
+  "MiddleName": "Seedy_George",
+  "LastName": "Seedy_George",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:06.6995361+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

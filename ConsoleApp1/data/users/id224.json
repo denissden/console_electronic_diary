@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:53.4175031+03:00",
+  "Id": 224,
+  "Login": "bails12",
+  "PasswordHash": "84F81FA4EE85D119B0B4B1D00968C2CD5AB107FD1BB5933DBF6EA9BA7EEA9E77",
+  "Group": "generated",
+  "FirstName": "bails12",
+  "MiddleName": "bails12",
+  "LastName": "bails12",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:53.4165048+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

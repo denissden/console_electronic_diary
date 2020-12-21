@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:53.1830103+03:00",
+  "Id": 1131,
+  "Login": "Kinorana",
+  "PasswordHash": "BEDE32953538BBF65758F6824AE1A1ACD3964767851BE161DD620C106F445476",
+  "Group": "generated",
+  "FirstName": "Kinorana",
+  "MiddleName": "Kinorana",
+  "LastName": "Kinorana",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:53.1820128+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

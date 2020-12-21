@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:00.1694978+03:00",
+  "Id": 326,
+  "Login": "ethos231",
+  "PasswordHash": "330B2ECD60F162C0C0194DDDE9D94C0112EC35E4CA01ACE74ECB8935C95B71AE",
+  "Group": "generated",
+  "FirstName": "ethos231",
+  "MiddleName": "ethos231",
+  "LastName": "ethos231",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:00.1694978+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

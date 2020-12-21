@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:43.3400036+03:00",
+  "Id": 981,
+  "Login": "lemonlary",
+  "PasswordHash": "FFBCD418419DFD6605286E1130131925B096CC8BD2A1805CA0EA2B4C9673BD81",
+  "Group": "generated",
+  "FirstName": "lemonlary",
+  "MiddleName": "lemonlary",
+  "LastName": "lemonlary",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:43.3400036+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:20.685633+03:00",
+  "Id": 637,
+  "Login": "onarga88",
+  "PasswordHash": "11DACBEB2CDDF989F12DD021D7CB8C320038B5E5E9CE1FA0C72B2252A1D5787A",
+  "Group": "generated",
+  "FirstName": "onarga88",
+  "MiddleName": "onarga88",
+  "LastName": "onarga88",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:20.684664+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

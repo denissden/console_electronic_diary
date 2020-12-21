@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:36.1058419+03:00",
+  "Id": 871,
+  "Login": "cookie1337",
+  "PasswordHash": "EE6856863C68D878C8128F53364B47943A17B2F8C3359B07257944737F7B044A",
+  "Group": "generated",
+  "FirstName": "cookie1337",
+  "MiddleName": "cookie1337",
+  "LastName": "cookie1337",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:36.1048704+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

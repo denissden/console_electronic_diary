@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.4031701+03:00",
+  "Id": 239,
+  "Login": "Nik_Mahmood",
+  "PasswordHash": "EDB116D49E44F01E6AB13E95877B663A17ECF60A62F6A51776E6B6A212F8FC8E",
+  "Group": "generated",
+  "FirstName": "Nik_Mahmood",
+  "MiddleName": "Nik_Mahmood",
+  "LastName": "Nik_Mahmood",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.4011746+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

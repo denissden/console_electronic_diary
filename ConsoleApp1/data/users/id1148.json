@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:54.3049739+03:00",
+  "Id": 1148,
+  "Login": "reareaw",
+  "PasswordHash": "7E37343896B6910B875D743CF5E4788209DCF0DCE53E5736C5F25F62F931ED55",
+  "Group": "generated",
+  "FirstName": "reareaw",
+  "MiddleName": "reareaw",
+  "LastName": "reareaw",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:54.3039704+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

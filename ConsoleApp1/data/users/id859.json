@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:35.32094+03:00",
+  "Id": 859,
+  "Login": "colserra",
+  "PasswordHash": "B4939D667C1196D89F0DAFBC2FD703CB1D43B6ECCFD6801C98C037BC46E452BB",
+  "Group": "generated",
+  "FirstName": "colserra",
+  "MiddleName": "colserra",
+  "LastName": "colserra",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:35.3199731+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:42.2344558+03:00",
+  "Id": 964,
+  "Login": "lasercam",
+  "PasswordHash": "1F60A02165A6C881A13A48538C3346D19E855FF85E894496512A03B697CE04AF",
+  "Group": "generated",
+  "FirstName": "lasercam",
+  "MiddleName": "lasercam",
+  "LastName": "lasercam",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:42.2334583+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

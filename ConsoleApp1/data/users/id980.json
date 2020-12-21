@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:43.2756527+03:00",
+  "Id": 980,
+  "Login": "leftone",
+  "PasswordHash": "7C63027406752C4F8A1DAD132CB1E29976F52DE8677D167DAD20A54B108361EE",
+  "Group": "generated",
+  "FirstName": "leftone",
+  "MiddleName": "leftone",
+  "LastName": "leftone",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:43.2746551+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

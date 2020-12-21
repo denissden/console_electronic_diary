@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.0694927+03:00",
+  "Id": 1114,
+  "Login": "imji",
+  "PasswordHash": "4776E32B303CC193B527323077F6C1BC8B461ED7DD3B9E7148C1373C1F6FF0CD",
+  "Group": "generated",
+  "FirstName": "imji",
+  "MiddleName": "imji",
+  "LastName": "imji",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.0684928+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

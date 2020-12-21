@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:04.593686+03:00",
+  "Id": 1304,
+  "Login": "dimmes",
+  "PasswordHash": "0D8FF55246BD262E474A1C87F28292AE9379432F95588749FDECD4F216F534D5",
+  "Group": "generated",
+  "FirstName": "dimmes",
+  "MiddleName": "dimmes",
+  "LastName": "dimmes",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:04.5926598+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

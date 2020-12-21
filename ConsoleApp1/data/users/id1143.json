@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:53.9665308+03:00",
+  "Id": 1143,
+  "Login": "seanmc11",
+  "PasswordHash": "E38F0283F51D1F9D5F7C2F80CA9C01D6AAEF4699CAE5486A4BABDD84BDF7E7F9",
+  "Group": "generated",
+  "FirstName": "seanmc11",
+  "MiddleName": "seanmc11",
+  "LastName": "seanmc11",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:53.9655346+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

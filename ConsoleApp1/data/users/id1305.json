@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:04.6604787+03:00",
+  "Id": 1305,
+  "Login": "snikerfreak",
+  "PasswordHash": "AD64C4C90B727534BCAA86CADB9C81C3B9EEEB6F1B6480F20A23CB70C3D82575",
+  "Group": "generated",
+  "FirstName": "snikerfreak",
+  "MiddleName": "snikerfreak",
+  "LastName": "snikerfreak",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:04.6594814+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

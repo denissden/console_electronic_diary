@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.7860881+03:00",
+  "Id": 1125,
+  "Login": "chicken500",
+  "PasswordHash": "9B340768956B58CAF81593EF168A7FF9DA6BD5B9C7BFE17550D356332E27E973",
+  "Group": "generated",
+  "FirstName": "chicken500",
+  "MiddleName": "chicken500",
+  "LastName": "chicken500",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.7850736+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

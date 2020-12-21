@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:06.7870141+03:00",
+  "Id": 86,
+  "Login": "killian123",
+  "PasswordHash": "665866E5698A04DAFD637B5B0A89E0389D506F3CBB67221A67A1DC3E2259D99F",
+  "Group": "generated",
+  "FirstName": "killian123",
+  "MiddleName": "killian123",
+  "LastName": "killian123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:06.7850177+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

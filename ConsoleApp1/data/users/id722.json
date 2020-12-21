@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:26.2899209+03:00",
+  "Id": 722,
+  "Login": "MnehDroid",
+  "PasswordHash": "6A16AA15B521C054EE097D69E5EED7ACC447FFEBA5AF7D8516645B08D9B17A97",
+  "Group": "generated",
+  "FirstName": "MnehDroid",
+  "MiddleName": "MnehDroid",
+  "LastName": "MnehDroid",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:26.2899209+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

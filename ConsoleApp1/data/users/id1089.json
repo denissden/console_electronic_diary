@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:50.409981+03:00",
+  "Id": 1089,
+  "Login": "kevinbo",
+  "PasswordHash": "3996DE9BA232D70D56E6052F91B0FF7C087C1F8AB7AA7F09999B2D1843722439",
+  "Group": "generated",
+  "FirstName": "kevinbo",
+  "MiddleName": "kevinbo",
+  "LastName": "kevinbo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:50.4089834+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

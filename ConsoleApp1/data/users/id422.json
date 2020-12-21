@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:06.5549658+03:00",
+  "Id": 422,
+  "Login": "SgtWesticles",
+  "PasswordHash": "8AAEBB7C5B6CAF34B30BF260FFF7CE65FC52E0EC71BBD0A4B205987317840133",
+  "Group": "generated",
+  "FirstName": "SgtWesticles",
+  "MiddleName": "SgtWesticles",
+  "LastName": "SgtWesticles",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:06.553997+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

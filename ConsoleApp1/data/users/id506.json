@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:12.079603+03:00",
+  "Id": 506,
+  "Login": "Slaveg",
+  "PasswordHash": "E327660B30BB8077CF8F84BB3C84926ADAF164F5925F8B8D77FA80268083B5BF",
+  "Group": "generated",
+  "FirstName": "Slaveg",
+  "MiddleName": "Slaveg",
+  "LastName": "Slaveg",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:12.0786061+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

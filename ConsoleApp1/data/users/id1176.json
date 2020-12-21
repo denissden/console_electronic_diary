@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:56.1695834+03:00",
+  "Id": 1176,
+  "Login": "pie0017",
+  "PasswordHash": "246B3BAB8B048C7FD5B481FCEF3932F84842F25A8A14D92FCD67BB584C360D65",
+  "Group": "generated",
+  "FirstName": "pie0017",
+  "MiddleName": "pie0017",
+  "LastName": "pie0017",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:56.1685855+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

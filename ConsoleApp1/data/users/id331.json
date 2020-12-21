@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:00.5292347+03:00",
+  "Id": 331,
+  "Login": "devinmrn",
+  "PasswordHash": "63E0A2DB7095B3F82E7AE33364410F8F9DC34EE92A051B45A6892E860D4FF4B2",
+  "Group": "generated",
+  "FirstName": "devinmrn",
+  "MiddleName": "devinmrn",
+  "LastName": "devinmrn",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:00.5282368+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

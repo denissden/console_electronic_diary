@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:15.2218192+03:00",
+  "Id": 554,
+  "Login": "Nehmulos",
+  "PasswordHash": "BF9C6A9C9F35F8A18732ADFF3208B62DAD642398326B8AB58AC2CD3E596DD9BD",
+  "Group": "generated",
+  "FirstName": "Nehmulos",
+  "MiddleName": "Nehmulos",
+  "LastName": "Nehmulos",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:15.2218192+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:13.9031404+03:00",
+  "Id": 190,
+  "Login": "HelloMeow",
+  "PasswordHash": "B79E2EEE01255CBE89ECBD57EA0FFD96483065CF6098F18321B795E012199907",
+  "Group": "generated",
+  "FirstName": "HelloMeow",
+  "MiddleName": "HelloMeow",
+  "LastName": "HelloMeow",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:13.9021187+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

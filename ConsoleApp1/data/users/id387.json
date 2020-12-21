@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:04.2354088+03:00",
+  "Id": 387,
+  "Login": "Tuddywutwut",
+  "PasswordHash": "8412E0F199F29BEDB729A8985F9DB2DE7C5B189CFD5B76925F9C850A46B54936",
+  "Group": "generated",
+  "FirstName": "Tuddywutwut",
+  "MiddleName": "Tuddywutwut",
+  "LastName": "Tuddywutwut",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:04.2344114+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

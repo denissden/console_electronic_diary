@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:07.3195331+03:00",
+  "Id": 93,
+  "Login": "Elad98",
+  "PasswordHash": "BAE1E04FE21F3C78BA137E3D0F2A9451DDED953CDC01828BCAEF9FF2C67B9584",
+  "Group": "generated",
+  "FirstName": "Elad98",
+  "MiddleName": "Elad98",
+  "LastName": "Elad98",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:07.3185429+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

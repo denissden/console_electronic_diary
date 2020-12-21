@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:02.453394+03:00",
+  "Id": 360,
+  "Login": "Zxcvbnmkj",
+  "PasswordHash": "F2373B059BA0F8B07ACC6D540B628BE436B56A4AB330BE7A537ADDE44A145949",
+  "Group": "generated",
+  "FirstName": "Zxcvbnmkj",
+  "MiddleName": "Zxcvbnmkj",
+  "LastName": "Zxcvbnmkj",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:02.452379+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

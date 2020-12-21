@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:14.11056+03:00",
+  "Id": 537,
+  "Login": "bsdpunk",
+  "PasswordHash": "128640D18673099A41DCAE17CBFFEF3C0510BE756BE02F52014B7E7D7444155D",
+  "Group": "generated",
+  "FirstName": "bsdpunk",
+  "MiddleName": "bsdpunk",
+  "LastName": "bsdpunk",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:14.1095917+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

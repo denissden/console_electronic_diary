@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:35.1916208+03:00",
+  "Id": 857,
+  "Login": "colinmccook",
+  "PasswordHash": "FB0454095326C52508EFBA4BEC0E8B4723884B065B29872A001C3BE2DBDDF5DE",
+  "Group": "generated",
+  "FirstName": "colinmccook",
+  "MiddleName": "colinmccook",
+  "LastName": "colinmccook",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:35.1906558+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

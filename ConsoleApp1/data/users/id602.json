@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:18.3917367+03:00",
+  "Id": 602,
+  "Login": "juxxi",
+  "PasswordHash": "689E7B51E5F115ECCC190F7517F628FDD75A3E3B1F42F3F8022BDC19A74E6111",
+  "Group": "generated",
+  "FirstName": "juxxi",
+  "MiddleName": "juxxi",
+  "LastName": "juxxi",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:18.3907096+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

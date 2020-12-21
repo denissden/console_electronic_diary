@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.1946451+03:00",
+  "Id": 690,
+  "Login": "PillowTalk",
+  "PasswordHash": "9065C61EABFF13E05557725C396D20C978C16616CE3FBF1253BF97FF4A310EF3",
+  "Group": "generated",
+  "FirstName": "PillowTalk",
+  "MiddleName": "PillowTalk",
+  "LastName": "PillowTalk",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.1936449+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

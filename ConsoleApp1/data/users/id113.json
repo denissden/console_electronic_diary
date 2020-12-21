@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:08.6943438+03:00",
+  "Id": 113,
+  "Login": "interfect",
+  "PasswordHash": "B2702676CB9AC0C1A1E18AA2443525134C1FA445FFA253A67DC8FD86A67EC2E9",
+  "Group": "generated",
+  "FirstName": "interfect",
+  "MiddleName": "interfect",
+  "LastName": "interfect",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:08.6933441+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

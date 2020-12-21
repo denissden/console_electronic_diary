@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:32.3621689+03:00",
+  "Id": 814,
+  "Login": "chilli99",
+  "PasswordHash": "F31457967AFB3E4577D13B2B0AD5BA75EC4AAD0018A2D31CF246877554B86B7D",
+  "Group": "generated",
+  "FirstName": "chilli99",
+  "MiddleName": "chilli99",
+  "LastName": "chilli99",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:32.3613714+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

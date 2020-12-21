@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:16.6183767+03:00",
+  "Id": 575,
+  "Login": "RedneckNinja",
+  "PasswordHash": "758A501706AC46211E00B8F130690E6E94EEB4202B65363FED846BDBB0C4CBC6",
+  "Group": "generated",
+  "FirstName": "RedneckNinja",
+  "MiddleName": "RedneckNinja",
+  "LastName": "RedneckNinja",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:16.6174082+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

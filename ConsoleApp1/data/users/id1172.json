@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:55.9032943+03:00",
+  "Id": 1172,
+  "Login": "pedrobacala",
+  "PasswordHash": "179BB0DC1AEA5CD8EB4E57397754EA8F7920A8D1F7EA213C13C6C0E410C57F45",
+  "Group": "generated",
+  "FirstName": "pedrobacala",
+  "MiddleName": "pedrobacala",
+  "LastName": "pedrobacala",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:55.9022973+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:01.468678+03:00",
+  "Id": 17,
+  "Login": "Rufus1852",
+  "PasswordHash": "0DF709778194D1E2BFF4B1FFECEAFA95F0F8FF87BE5F28DDB3B384CB5548D114",
+  "Group": "generated",
+  "FirstName": "Rufus1852",
+  "MiddleName": "Rufus1852",
+  "LastName": "Rufus1852",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:01.460699+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

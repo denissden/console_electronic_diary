@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:16.8168459+03:00",
+  "Id": 578,
+  "Login": "KenjiNinja",
+  "PasswordHash": "24A3FDFA582057EF82C24FAE61B3522DDC7860BADC7E074179A6E35DD2B6FE93",
+  "Group": "generated",
+  "FirstName": "KenjiNinja",
+  "MiddleName": "KenjiNinja",
+  "LastName": "KenjiNinja",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:16.8158773+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

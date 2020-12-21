@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:53.2508283+03:00",
+  "Id": 1132,
+  "Login": "bigfootyeti",
+  "PasswordHash": "07A8CFCA44A4ADAAB2E386E927E14082B0A4FF642E46769B7CCCAD6B2F0E5CA6",
+  "Group": "generated",
+  "FirstName": "bigfootyeti",
+  "MiddleName": "bigfootyeti",
+  "LastName": "bigfootyeti",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:53.2498588+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

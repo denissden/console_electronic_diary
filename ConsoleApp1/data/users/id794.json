@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:31.0400234+03:00",
+  "Id": 794,
+  "Login": "chaosmac",
+  "PasswordHash": "7A55C1A0F9CF400DA8AD9C55617A7D6A2764B4FE4289625FF7AA3561F5920E2C",
+  "Group": "generated",
+  "FirstName": "chaosmac",
+  "MiddleName": "chaosmac",
+  "LastName": "chaosmac",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:31.0390541+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

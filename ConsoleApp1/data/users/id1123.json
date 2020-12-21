@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.6568482+03:00",
+  "Id": 1123,
+  "Login": "toddy96",
+  "PasswordHash": "EDB52B7597F0EBF55F4A0A52173E4CE0FBA265B5A3986D9B1B064583347E71A0",
+  "Group": "generated",
+  "FirstName": "toddy96",
+  "MiddleName": "toddy96",
+  "LastName": "toddy96",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.6558512+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

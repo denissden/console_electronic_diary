@@ -16,17 +16,21 @@ namespace ConsoleApp1
 
             TextLine t; InputBox i; Button b; ListView lv;
 
-            Console.WriteLine(marks.Marks.Count);
+            if(marks.Marks.Count == 0)
+            {
+                WarningScreen.Error("You have no marks in this subject!");
+                return;
+            }
 
             // HEADER
             t = new TextLine("Header", "", (0, 0), 120, 0);
             ui.Elements.Add(t);
 
-            lv = new ListView("SubjectList", (0, 2), (120, 15));
+            lv = new ListView("SubjectList", (0, 2), (120, 24));
             lv.SetOptions(new List<string>() { " " });
             ui.Elements.Add(lv);
 
-            b = new Button("Back", "Log out", (47, 27), (26, 3))
+            b = new Button("Back", "Back", (47, 27), (26, 3))
             {
                 Style = 1,
                 Color = 2,
@@ -39,17 +43,18 @@ namespace ConsoleApp1
 
             ui.GetByName("Header").SetText(marks.SubjectName);
 
-            List<string> marks_show = new List<string>();
+            List<dynamic> marks_show = new List<dynamic>();
             foreach (Mark mark in marks.Marks.Values)
             {
-                marks_show.Add($"{mark.Value}   {mark.Date.ToString("dd.MM.yyyy")}");
+                marks_show.Add(new SimplifiedMark(mark.Value, mark.Date));
             }
 
-            List<ChoiceMapElement> groups_map = Functions.CreateChoiceMap(marks_show);
+            List<ChoiceMapElement> groups_map = Functions.CreateChoiceMap(marks_show, get_property: "Value");
 
             dynamic subjectlist = ui.GetByName("SubjectList");
-            subjectlist.AddToValueAction = "student_view_subject";
+            subjectlist.SetOptions(new List<string> { " ", "H", "2", "3", "4", "5" });
             subjectlist.SetItems(groups_map, false);
+            subjectlist.AllowEdit = false;
 
             ui.Update();
             //ui.ValidateAll();

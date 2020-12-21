@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:26.8854599+03:00",
+  "Id": 731,
+  "Login": "hellshell",
+  "PasswordHash": "340C101963FA165AD59052C8C48D50875F7ABDCA9C6DEF83BC1747C02C265928",
+  "Group": "generated",
+  "FirstName": "hellshell",
+  "MiddleName": "hellshell",
+  "LastName": "hellshell",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:26.8844625+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

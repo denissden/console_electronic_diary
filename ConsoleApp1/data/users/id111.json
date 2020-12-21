@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:08.5627046+03:00",
+  "Id": 111,
+  "Login": "sully96",
+  "PasswordHash": "346FD4D222B9FCD802BCC7BCA1E6FF1D802270E2737BAD2A4A8FA6D9C24AD3DF",
+  "Group": "generated",
+  "FirstName": "sully96",
+  "MiddleName": "sully96",
+  "LastName": "sully96",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:08.5617348+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

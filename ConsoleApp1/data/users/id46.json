@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:03.8775276+03:00",
+  "Id": 46,
+  "Login": "RyleLGS",
+  "PasswordHash": "6AC9D6C2827BEE918EBD4B291A76F6BBD56A2586CC578871CF9CD96BD877138A",
+  "Group": "generated",
+  "FirstName": "RyleLGS",
+  "MiddleName": "RyleLGS",
+  "LastName": "RyleLGS",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:03.8595745+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:59.908709+03:00",
+  "Id": 322,
+  "Login": "Arachnid0101",
+  "PasswordHash": "F66328ECF7318B9FB190317EDE2408E77518D6CF5CB9770160E04B2BA4C5A392",
+  "Group": "generated",
+  "FirstName": "Arachnid0101",
+  "MiddleName": "Arachnid0101",
+  "LastName": "Arachnid0101",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:59.9047181+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

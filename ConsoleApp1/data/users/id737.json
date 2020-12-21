@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:27.2863882+03:00",
+  "Id": 737,
+  "Login": "mango786",
+  "PasswordHash": "FBBD85F9F596109C537332833EF87082E74860E82FE6DBA82BCE3183A274CF79",
+  "Group": "generated",
+  "FirstName": "mango786",
+  "MiddleName": "mango786",
+  "LastName": "mango786",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:27.2853917+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

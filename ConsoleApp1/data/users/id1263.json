@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:01.9073415+03:00",
+  "Id": 1263,
+  "Login": "brent8",
+  "PasswordHash": "A05735D7F40705A84F815F71E43E3FE86305C2F7D2E9A124AD8F3D2929A3EE3F",
+  "Group": "generated",
+  "FirstName": "brent8",
+  "MiddleName": "brent8",
+  "LastName": "brent8",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:01.906342+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

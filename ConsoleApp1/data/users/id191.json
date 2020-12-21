@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:13.9689395+03:00",
+  "Id": 191,
+  "Login": "Souleh",
+  "PasswordHash": "178D344AD832F33BF4DC8C382EBA8C5E5DA9DEBC148E99C958F3C01C05146CBB",
+  "Group": "generated",
+  "FirstName": "Souleh",
+  "MiddleName": "Souleh",
+  "LastName": "Souleh",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:13.9679429+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

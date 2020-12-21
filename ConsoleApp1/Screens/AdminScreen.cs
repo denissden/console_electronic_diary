@@ -75,7 +75,7 @@ namespace ConsoleApp1
                 clicked = ui.SelectByKey(key);
 
                 if (clicked == "Back") break;
-                else if (clicked == "Appoval" || clicked == "UserList") ui.Update();
+                else if (clicked == "Appoval" || clicked == "UserList" || clicked == "EditGroups") ui.Update();
             } while (key.Key != ConsoleKey.Escape);
 
             Functions.SetColor(1);

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:10.7614552+03:00",
+  "Id": 486,
+  "Login": "leekyboy",
+  "PasswordHash": "8A7350DB6CAFA22CB9B02DC7883B9915700A704F691A372D2DE4E8254B9AC6A3",
+  "Group": "generated",
+  "FirstName": "leekyboy",
+  "MiddleName": "leekyboy",
+  "LastName": "leekyboy",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:10.7604524+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

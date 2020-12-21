@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:54.5722556+03:00",
+  "Id": 1152,
+  "Login": "meerca8",
+  "PasswordHash": "197ECE590CD88EB172C807AC03E4889BEDB4BE717E9E337D2684328CB8628D7B",
+  "Group": "generated",
+  "FirstName": "meerca8",
+  "MiddleName": "meerca8",
+  "LastName": "meerca8",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:54.5702604+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

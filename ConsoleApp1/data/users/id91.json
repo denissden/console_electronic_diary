@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:07.1769125+03:00",
+  "Id": 91,
+  "Login": "zarkboy",
+  "PasswordHash": "87AF8E5DAC2A5D234104D1EC05F3CFF68FA594B2C559DD48C4A0AEF962A5DF34",
+  "Group": "generated",
+  "FirstName": "zarkboy",
+  "MiddleName": "zarkboy",
+  "LastName": "zarkboy",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:07.1769125+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

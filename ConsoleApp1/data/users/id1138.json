@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:53.6433981+03:00",
+  "Id": 1138,
+  "Login": "perryplat98",
+  "PasswordHash": "7C275CC36E987DE1DA34A6B51BFE800C5EEC746A54363FF4D10726BDF832104F",
+  "Group": "generated",
+  "FirstName": "perryplat98",
+  "MiddleName": "perryplat98",
+  "LastName": "perryplat98",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:53.6424001+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

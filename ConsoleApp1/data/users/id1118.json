@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.3293729+03:00",
+  "Id": 1118,
+  "Login": "sakul1000",
+  "PasswordHash": "D2E37DDE6D4DAF3B289D493443401AB3B56AD538DCF0800B306F1D6613C0A570",
+  "Group": "generated",
+  "FirstName": "sakul1000",
+  "MiddleName": "sakul1000",
+  "LastName": "sakul1000",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.3283744+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

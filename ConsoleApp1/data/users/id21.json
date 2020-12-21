@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:02.0820391+03:00",
+  "Id": 21,
+  "Login": "Steelion",
+  "PasswordHash": "C55C0DB382D5349AFCC27144BC8DAF5564FF5C4D604D66024566303055D02DFD",
+  "Group": "generated",
+  "FirstName": "Steelion",
+  "MiddleName": "Steelion",
+  "LastName": "Steelion",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:02.0810416+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

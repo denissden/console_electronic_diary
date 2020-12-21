@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:27.5477186+03:00",
+  "Id": 741,
+  "Login": "neonxp",
+  "PasswordHash": "DAFC03B397E390513CA6B6C748EDA237A5F6DEEBD9BF9EE2D8C94D5AA86B0248",
+  "Group": "generated",
+  "FirstName": "neonxp",
+  "MiddleName": "neonxp",
+  "LastName": "neonxp",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:27.5467209+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

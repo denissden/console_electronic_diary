@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:06.6344989+03:00",
+  "Id": 1335,
+  "Login": "robotronic",
+  "PasswordHash": "C36C080D061CF27D370CF85036BA9375FA98144FDF094804203ABB379250F040",
+  "Group": "generated",
+  "FirstName": "robotronic",
+  "MiddleName": "robotronic",
+  "LastName": "robotronic",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:06.6344989+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

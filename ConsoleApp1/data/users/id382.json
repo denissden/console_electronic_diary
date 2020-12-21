@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:03.9069672+03:00",
+  "Id": 382,
+  "Login": "Link709",
+  "PasswordHash": "3BEBE6803FD5BAF63E9837E9C664ADA40CBE26DC06C8A041543BDC243D2AEBE8",
+  "Group": "generated",
+  "FirstName": "Link709",
+  "MiddleName": "Link709",
+  "LastName": "Link709",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:03.9059698+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

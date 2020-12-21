@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:43.5354846+03:00",
+  "Id": 984,
+  "Login": "gamemusic",
+  "PasswordHash": "076D9AC580DA049583DF956CDC3BDFDDE26BF9BA9F09FF6988CF68865A4DFC88",
+  "Group": "generated",
+  "FirstName": "gamemusic",
+  "MiddleName": "gamemusic",
+  "LastName": "gamemusic",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:43.5352081+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

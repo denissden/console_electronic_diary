@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:06.1939371+03:00",
+  "Id": 77,
+  "Login": "Triss247",
+  "PasswordHash": "08AEDFF00F7244128029200AA610391C33C050B1DA8130E84BC649DD0AE02DA9",
+  "Group": "generated",
+  "FirstName": "Triss247",
+  "MiddleName": "Triss247",
+  "LastName": "Triss247",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:06.1939371+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

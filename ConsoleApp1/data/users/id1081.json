@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:49.8872598+03:00",
+  "Id": 1081,
+  "Login": "Norberedv1",
+  "PasswordHash": "A84671110B5B9D8A5A9005D141E7479C2BFFCBE75617E1DDB983BD37744BDD7C",
+  "Group": "generated",
+  "FirstName": "Norberedv1",
+  "MiddleName": "Norberedv1",
+  "LastName": "Norberedv1",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:49.8862913+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

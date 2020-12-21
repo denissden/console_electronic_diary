@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:30.7143681+03:00",
+  "Id": 789,
+  "Login": "chaito",
+  "PasswordHash": "FD53651951C1862789EF718E00F13BB0A34739F59BB60C50A9FF655604AF0D84",
+  "Group": "generated",
+  "FirstName": "chaito",
+  "MiddleName": "chaito",
+  "LastName": "chaito",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:30.7133705+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:02.2314077+03:00",
+  "Id": 1268,
+  "Login": "tommy623",
+  "PasswordHash": "FD072B43EC16AF3E121DEAFB884E6CCBD0C95F61C50B3916E4330BE154380B6E",
+  "Group": "generated",
+  "FirstName": "tommy623",
+  "MiddleName": "tommy623",
+  "LastName": "tommy623",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:02.230413+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

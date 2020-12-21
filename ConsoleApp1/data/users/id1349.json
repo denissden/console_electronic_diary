@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:07.556658+03:00",
+  "Id": 1349,
+  "Login": "Vox",
+  "PasswordHash": "27B2F3ADDD3D00794DABD18362D157491D81D80244FF982F22B6AEC76C0E67EB",
+  "Group": "generated",
+  "FirstName": "Vox",
+  "MiddleName": "Vox",
+  "LastName": "Vox",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:07.5556678+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

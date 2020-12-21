@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:36.8343437+03:00",
+  "Id": 882,
+  "Login": "corgblam",
+  "PasswordHash": "A32C6CA30699067E2C02847205C0BD822C08276772B29D85FD54304660D290A6",
+  "Group": "generated",
+  "FirstName": "corgblam",
+  "MiddleName": "corgblam",
+  "LastName": "corgblam",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:36.8333459+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

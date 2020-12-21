@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:42.035987+03:00",
+  "Id": 961,
+  "Login": "cocosboy10",
+  "PasswordHash": "4E3AFF55AF9ABB27539180C1A0F8FC9E6C6E107D15175F488BD74A25573229B1",
+  "Group": "generated",
+  "FirstName": "cocosboy10",
+  "MiddleName": "cocosboy10",
+  "LastName": "cocosboy10",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:42.0350173+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

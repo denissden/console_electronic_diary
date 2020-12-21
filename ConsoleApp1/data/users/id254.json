@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:55.3990668+03:00",
+  "Id": 254,
+  "Login": "verado",
+  "PasswordHash": "0B79FD04A43B3A3C0DE6F6184F9C2526037379B08D9E44992AE14E2F7B35C579",
+  "Group": "generated",
+  "FirstName": "verado",
+  "MiddleName": "verado",
+  "LastName": "verado",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:55.3980693+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

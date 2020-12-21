@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:41.9023432+03:00",
+  "Id": 959,
+  "Login": "hamara",
+  "PasswordHash": "17CA8F990CF4C2749EE8C461420A6A9BDD087BF5CC9B118B0FAF2BF39B80BDA3",
+  "Group": "generated",
+  "FirstName": "hamara",
+  "MiddleName": "hamara",
+  "LastName": "hamara",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:41.9023432+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

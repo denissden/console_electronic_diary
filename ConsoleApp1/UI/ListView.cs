@@ -26,6 +26,7 @@ namespace ConsoleApp1
         public string AddToValueAction = "";
         public string FooterInfo = "";
         public string PersonToStringOptions = "";
+        public bool AllowEdit = true;
 
         public ListView(string name, (int, int) pos, (int, int) size)
         {
@@ -132,11 +133,11 @@ namespace ConsoleApp1
                     break;
                 
                 case ConsoleKey.E:
-                    if (SelectedButtonId != -1)
+                    if (SelectedButtonId != -1 && AllowEdit)
                         AddToValue(1);
                     break;
                 case ConsoleKey.Q:
-                    if (SelectedButtonId != -1)
+                    if (SelectedButtonId != -1 && AllowEdit)
                         AddToValue(-1);
                     break;
                 case ConsoleKey.Spacebar:

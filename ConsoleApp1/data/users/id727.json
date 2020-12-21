@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:26.6201247+03:00",
+  "Id": 727,
+  "Login": "ChestStrongwell",
+  "PasswordHash": "41FF956F0F0A717A72BD68CC46E050395EC801C0544FF3CD4D9E2ED1278C1EF4",
+  "Group": "generated",
+  "FirstName": "ChestStrongwell",
+  "MiddleName": "ChestStrongwell",
+  "LastName": "ChestStrongwell",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:26.6191278+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

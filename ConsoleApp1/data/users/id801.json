@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:31.5021653+03:00",
+  "Id": 801,
+  "Login": "chavey6",
+  "PasswordHash": "FDE0C2C6F1AA09B748D2301F1725BCC628531AC33ED19C9AC6F7250E9CDE3B5A",
+  "Group": "generated",
+  "FirstName": "chavey6",
+  "MiddleName": "chavey6",
+  "LastName": "chavey6",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:31.5001703+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

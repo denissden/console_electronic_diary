@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:40.0577739+03:00",
+  "Id": 931,
+  "Login": "diablosbg",
+  "PasswordHash": "C51A259DB9928DF70BA9AB1691CA1D0BCE7DF15F7D80DBCC9367C3E74BEC7D80",
+  "Group": "generated",
+  "FirstName": "diablosbg",
+  "MiddleName": "diablosbg",
+  "LastName": "diablosbg",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:40.0567838+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

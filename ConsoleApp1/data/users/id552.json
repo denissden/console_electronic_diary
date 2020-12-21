@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:15.09221+03:00",
+  "Id": 552,
+  "Login": "RinPinion",
+  "PasswordHash": "3E0F395D381A718FC3C2FE1B5F29DA8462620BAA06126693C5761B78E0865CD8",
+  "Group": "generated",
+  "FirstName": "RinPinion",
+  "MiddleName": "RinPinion",
+  "LastName": "RinPinion",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:15.090214+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

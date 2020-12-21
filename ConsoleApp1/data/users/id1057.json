@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:48.3129907+03:00",
+  "Id": 1057,
+  "Login": "unorfc",
+  "PasswordHash": "9B471069AAFC258047570981145741C8860CD41227FA4D8518B2604045F1B623",
+  "Group": "generated",
+  "FirstName": "unorfc",
+  "MiddleName": "unorfc",
+  "LastName": "unorfc",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:48.3120255+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:02.2286468+03:00",
+  "Id": 23,
+  "Login": "jackpeneycad",
+  "PasswordHash": "8E7FF3F150CF833830416C5F507D27A36403C9A6393C9D77302912B60BDE83E1",
+  "Group": "generated",
+  "FirstName": "jackpeneycad",
+  "MiddleName": "jackpeneycad",
+  "LastName": "jackpeneycad",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:02.227649+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

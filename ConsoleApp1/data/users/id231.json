@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:53.8734927+03:00",
+  "Id": 231,
+  "Login": "Fudgelette",
+  "PasswordHash": "666A8493E6AFD16A18F3AF970A40DB974B5D50712E93F7676FB5A3EA1A3EB997",
+  "Group": "generated",
+  "FirstName": "Fudgelette",
+  "MiddleName": "Fudgelette",
+  "LastName": "Fudgelette",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:53.8724952+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:47.2051041+03:00",
+  "Id": 1040,
+  "Login": "suadeo",
+  "PasswordHash": "2042AA38DAB726BBB6FCAB65E854B1C3557572FF71144E1E7B631E963DC3CE0D",
+  "Group": "generated",
+  "FirstName": "suadeo",
+  "MiddleName": "suadeo",
+  "LastName": "suadeo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:47.2051041+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

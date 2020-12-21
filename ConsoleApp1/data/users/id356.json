@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:02.190987+03:00",
+  "Id": 356,
+  "Login": "Doomliquor",
+  "PasswordHash": "802110F72A2C4779918CB5E84D8A71E0690F4B9C3C6B2F9CB00C877733678749",
+  "Group": "generated",
+  "FirstName": "Doomliquor",
+  "MiddleName": "Doomliquor",
+  "LastName": "Doomliquor",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:02.1899894+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

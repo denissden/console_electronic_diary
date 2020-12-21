@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:59.3724736+03:00",
+  "Id": 314,
+  "Login": "farmerfarley",
+  "PasswordHash": "E03873952F28102911BDE751430BDC93D31C347BA19396C132F5E2DD6C1DEECF",
+  "Group": "generated",
+  "FirstName": "farmerfarley",
+  "MiddleName": "farmerfarley",
+  "LastName": "farmerfarley",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:59.3715047+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

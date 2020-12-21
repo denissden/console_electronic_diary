@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:18.4555379+03:00",
+  "Id": 603,
+  "Login": "jclong98",
+  "PasswordHash": "F38BD4B0DC86E3CAE559DC7E039C96FF36CA2E06A3006FF62B4AC4941A180B06",
+  "Group": "generated",
+  "FirstName": "jclong98",
+  "MiddleName": "jclong98",
+  "LastName": "jclong98",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:18.4545402+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

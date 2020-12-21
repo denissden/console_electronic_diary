@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:08.3643207+03:00",
+  "Id": 108,
+  "Login": "dannyrocker",
+  "PasswordHash": "EE6D0DB47E9E571C67645168878F6C387262AE1FCFB2DEC5705F8ED9962DCD00",
+  "Group": "generated",
+  "FirstName": "dannyrocker",
+  "MiddleName": "dannyrocker",
+  "LastName": "dannyrocker",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:08.3633237+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

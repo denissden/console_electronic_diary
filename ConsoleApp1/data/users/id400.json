@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:05.0978737+03:00",
+  "Id": 400,
+  "Login": "Nyholtern",
+  "PasswordHash": "C0C364A2ACCC1381AA01745BC3EB1EF29B3E57C52F01471F9E8799703C25B692",
+  "Group": "generated",
+  "FirstName": "Nyholtern",
+  "MiddleName": "Nyholtern",
+  "LastName": "Nyholtern",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:05.0978737+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

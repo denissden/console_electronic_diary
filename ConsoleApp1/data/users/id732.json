@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:26.9522812+03:00",
+  "Id": 732,
+  "Login": "ericcronin",
+  "PasswordHash": "55A2CF354AC17F30D4BE89E32E572F0F9377EEC98907A15A86B47CDE0C313E46",
+  "Group": "generated",
+  "FirstName": "ericcronin",
+  "MiddleName": "ericcronin",
+  "LastName": "ericcronin",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:26.9512839+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

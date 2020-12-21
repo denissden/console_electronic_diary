@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:44.8468638+03:00",
+  "Id": 1004,
+  "Login": "gnomar97",
+  "PasswordHash": "4136C6ABED6221DCFB08EDFBAFEEF2B8C241A699A1FA1D6FD82355BD9778EED9",
+  "Group": "generated",
+  "FirstName": "gnomar97",
+  "MiddleName": "gnomar97",
+  "LastName": "gnomar97",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:44.8468638+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

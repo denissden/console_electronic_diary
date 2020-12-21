@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:11.2698181+03:00",
+  "Id": 151,
+  "Login": "JeffersonWilson",
+  "PasswordHash": "3E2DCB8F27806CB3A9A6D38F76CE6E11590F48A1C48768269378AD711E3C3606",
+  "Group": "generated",
+  "FirstName": "JeffersonWilson",
+  "MiddleName": "JeffersonWilson",
+  "LastName": "JeffersonWilson",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:11.2688515+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

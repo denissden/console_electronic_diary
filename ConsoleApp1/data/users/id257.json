@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:55.5950824+03:00",
+  "Id": 257,
+  "Login": "czechplz",
+  "PasswordHash": "9D10DB8B52DE6F5A39AB4EB26BD2349503E6F59F5D853532BB44CE057ADA44B1",
+  "Group": "generated",
+  "FirstName": "czechplz",
+  "MiddleName": "czechplz",
+  "LastName": "czechplz",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:55.594085+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

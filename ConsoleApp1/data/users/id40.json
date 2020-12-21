@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:03.3968122+03:00",
+  "Id": 40,
+  "Login": "Snowbar",
+  "PasswordHash": "1AC56F162DD4257DE04C5E38492A451C12A98262B98A959F10FF042A9A5A13CA",
+  "Group": "generated",
+  "FirstName": "Snowbar",
+  "MiddleName": "Snowbar",
+  "LastName": "Snowbar",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:03.3958147+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:07.2229784+03:00",
+  "Id": 432,
+  "Login": "Arkanatos",
+  "PasswordHash": "43A1A29328EFDFC3F064C08D89D3CE2765438BB1C0269F4E9215FD052A3C8922",
+  "Group": "generated",
+  "FirstName": "Arkanatos",
+  "MiddleName": "Arkanatos",
+  "LastName": "Arkanatos",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:07.2220079+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

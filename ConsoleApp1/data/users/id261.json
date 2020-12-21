@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:55.8607189+03:00",
+  "Id": 261,
+  "Login": "mvit",
+  "PasswordHash": "8E38201FE205307FE11022989433DD2FB37B42DD0F06CD7C26788AEB5E23817F",
+  "Group": "generated",
+  "FirstName": "mvit",
+  "MiddleName": "mvit",
+  "LastName": "mvit",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:55.8597205+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

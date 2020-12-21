@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:05.0769526+03:00",
+  "Id": 62,
+  "Login": "Gigith",
+  "PasswordHash": "626C793641FA8D96451FD0C6A3AFE582D83410FDFD67D9F94EEBC7BE282E40F3",
+  "Group": "generated",
+  "FirstName": "Gigith",
+  "MiddleName": "Gigith",
+  "LastName": "Gigith",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:05.0759549+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.5928134+03:00",
+  "Id": 696,
+  "Login": "Dooxie",
+  "PasswordHash": "F2C8A4AA4770F90E24CDBEACB88D25236B1CE0B0EC9D982ECCC1D5D17BCE1C89",
+  "Group": "generated",
+  "FirstName": "Dooxie",
+  "MiddleName": "Dooxie",
+  "LastName": "Dooxie",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.591816+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

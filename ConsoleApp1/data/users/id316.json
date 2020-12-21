@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:59.5025934+03:00",
+  "Id": 316,
+  "Login": "Zharger",
+  "PasswordHash": "C8CF2AC2A9F9CF7761273CDC2092A6426AE43AFF43B69AD9AE201CE00BF08EE6",
+  "Group": "generated",
+  "FirstName": "Zharger",
+  "MiddleName": "Zharger",
+  "LastName": "Zharger",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:59.5021607+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:58:10.4368969+03:00",
+  "Id": 481,
+  "Login": "8U",
+  "PasswordHash": "22A6A332F6303F6795A671498CBE604E73F90D799C7A4B2B236B691463C6D6DA",
+  "Group": "teachers",
+  "FirstName": "8U",
+  "MiddleName": "8U",
+  "LastName": "8U",
+  "Age": 0,
+  "BirthYear": "2020-12-21T00:00:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

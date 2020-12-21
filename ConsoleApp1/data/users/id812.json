@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:58:32.2328406+03:00",
+  "Id": 812,
+  "Login": "chicco713",
+  "PasswordHash": "6D1FC21C9A90F536F2BAC4A2C8B4370CB542B4AD58DC6E4AD3FA5AD3002A64FD",
+  "Group": "generated",
+  "FirstName": "chicco713",
+  "MiddleName": "chicco713",
+  "LastName": "chicco713",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:32.2318441+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

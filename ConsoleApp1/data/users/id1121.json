@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.5261667+03:00",
+  "Id": 1121,
+  "Login": "MarinePenguin",
+  "PasswordHash": "04E273D0458B4372AB79200182C46879DED4A439B2BEE0C71CCC0B8FA9A1422E",
+  "Group": "generated",
+  "FirstName": "MarinePenguin",
+  "MiddleName": "MarinePenguin",
+  "LastName": "MarinePenguin",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.5244335+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

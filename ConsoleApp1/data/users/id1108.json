@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:51.6752394+03:00",
+  "Id": 1108,
+  "Login": "taski165",
+  "PasswordHash": "109224B0F2C83FF69D07BA798631DF613C4A2796524271CFEB3E5E00E6D7C2AC",
+  "Group": "generated",
+  "FirstName": "taski165",
+  "MiddleName": "taski165",
+  "LastName": "taski165",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:51.6742416+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:00.7515948+03:00",
+  "Id": 13,
+  "Login": "danteELITE",
+  "PasswordHash": "20CBC4A5A88DDCF505725237958D97C12539856C4D753B21010E80BFF02C5926",
+  "Group": "generated",
+  "FirstName": "danteELITE",
+  "MiddleName": "danteELITE",
+  "LastName": "danteELITE",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:00.739627+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

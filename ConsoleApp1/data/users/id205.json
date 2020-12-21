@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:52.0333533+03:00",
+  "Id": 205,
+  "Login": "josefkenny",
+  "PasswordHash": "080AF87508287D2A520765D16738EF56FE8F91F388FE167DBA752B341D3A9284",
+  "Group": "generated",
+  "FirstName": "josefkenny",
+  "MiddleName": "josefkenny",
+  "LastName": "josefkenny",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:52.032356+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

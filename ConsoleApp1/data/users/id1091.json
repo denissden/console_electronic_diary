@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:50.5422987+03:00",
+  "Id": 1091,
+  "Login": "koolcallumrocks",
+  "PasswordHash": "EFD53B43DD787D24921E607F7FACE356D2D3BCD52FC27E60D135CE807CD78D5C",
+  "Group": "generated",
+  "FirstName": "koolcallumrocks",
+  "MiddleName": "koolcallumrocks",
+  "LastName": "koolcallumrocks",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:50.5412979+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

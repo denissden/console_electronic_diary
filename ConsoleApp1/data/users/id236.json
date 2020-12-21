@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.2046977+03:00",
+  "Id": 236,
+  "Login": "tegera1",
+  "PasswordHash": "8F36A8EF36AD762FD7F2F076EA61E997F05587B583D48A9234ABBE50F73ADAF3",
+  "Group": "generated",
+  "FirstName": "tegera1",
+  "MiddleName": "tegera1",
+  "LastName": "tegera1",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.2037456+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

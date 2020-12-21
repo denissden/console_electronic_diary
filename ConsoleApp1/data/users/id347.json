@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:01.5900904+03:00",
+  "Id": 347,
+  "Login": "luckydog1123",
+  "PasswordHash": "347326828DA74813AB4E4F1950E76076F94C8D03201B9ADF91EEEE061A547C6F",
+  "Group": "generated",
+  "FirstName": "luckydog1123",
+  "MiddleName": "luckydog1123",
+  "LastName": "luckydog1123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:01.5890964+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

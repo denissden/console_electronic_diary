@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:27.6863925+03:00",
+  "Id": 743,
+  "Login": "murdlih",
+  "PasswordHash": "1890DD2F1AB7E7109A773A53B1E125778C85302D1D7F0A872CAA53B036E1193A",
+  "Group": "generated",
+  "FirstName": "murdlih",
+  "MiddleName": "murdlih",
+  "LastName": "murdlih",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:27.6854232+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

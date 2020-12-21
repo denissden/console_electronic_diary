@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:37.3+03:00",
+  "Id": 889,
+  "Login": "cougar88",
+  "PasswordHash": "F2DF4E059B01D09047CB407DB692882C0E608824330B2CDAF8E897E55812452C",
+  "Group": "generated",
+  "FirstName": "cougar88",
+  "MiddleName": "cougar88",
+  "LastName": "cougar88",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:37.2990028+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

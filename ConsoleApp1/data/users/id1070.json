@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:49.1730797+03:00",
+  "Id": 1070,
+  "Login": "scorpio10",
+  "PasswordHash": "3A46EF45233F55AAF8FADFB50D39A6FDAB94055B56A057E2774771E406440DE9",
+  "Group": "generated",
+  "FirstName": "scorpio10",
+  "MiddleName": "scorpio10",
+  "LastName": "scorpio10",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:49.1720617+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

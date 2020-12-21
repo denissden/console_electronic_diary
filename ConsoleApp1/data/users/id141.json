@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:10.5853897+03:00",
+  "Id": 141,
+  "Login": "iNTENZOR",
+  "PasswordHash": "38323E2BFEEC13D747D3135AE17755D67CB6ED00951A3D0BA4A267FE5FE894EB",
+  "Group": "generated",
+  "FirstName": "iNTENZOR",
+  "MiddleName": "iNTENZOR",
+  "LastName": "iNTENZOR",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:10.5843646+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

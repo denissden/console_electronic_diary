@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:51.4737781+03:00",
+  "Id": 1105,
+  "Login": "stormfire99",
+  "PasswordHash": "788FA21C8E0018E539A8A20142EFDC277F2E06D4995628D80B54799694A6D2E9",
+  "Group": "generated",
+  "FirstName": "stormfire99",
+  "MiddleName": "stormfire99",
+  "LastName": "stormfire99",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:51.4727808+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

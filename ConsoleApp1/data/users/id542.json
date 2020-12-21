@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:14.4353641+03:00",
+  "Id": 542,
+  "Login": "Kjermy",
+  "PasswordHash": "9C40440D53E5B673AEFCE59E4620847E6FF218192C926F36AC3CC300FAE8A8E1",
+  "Group": "generated",
+  "FirstName": "Kjermy",
+  "MiddleName": "Kjermy",
+  "LastName": "Kjermy",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:14.4343468+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:33.2806513+03:00",
+  "Id": 828,
+  "Login": "chrisjarman231",
+  "PasswordHash": "A0D248CBF41D707242A56B6551D0A14FD04C87C3EF1D3F5E60CCC7F51DD24F4F",
+  "Group": "generated",
+  "FirstName": "chrisjarman231",
+  "MiddleName": "chrisjarman231",
+  "LastName": "chrisjarman231",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:33.279651+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

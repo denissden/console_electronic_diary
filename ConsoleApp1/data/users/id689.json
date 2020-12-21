@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:24.1292939+03:00",
+  "Id": 689,
+  "Login": "CraZyKoKeNo",
+  "PasswordHash": "E8423919FEEDC0063A1EDD757495C5066D7772ABBC8DF5BD30931459E349932B",
+  "Group": "generated",
+  "FirstName": "CraZyKoKeNo",
+  "MiddleName": "CraZyKoKeNo",
+  "LastName": "CraZyKoKeNo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.1282967+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

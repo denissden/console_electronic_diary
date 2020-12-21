@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:05.5173025+03:00",
+  "Id": 1318,
+  "Login": "ninja32",
+  "PasswordHash": "A84BC698D70FE8880C3A9BF27D1B0528E51DE4CD00B7753C692FF2F0DC77FC81",
+  "Group": "generated",
+  "FirstName": "ninja32",
+  "MiddleName": "ninja32",
+  "LastName": "ninja32",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:05.5165069+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

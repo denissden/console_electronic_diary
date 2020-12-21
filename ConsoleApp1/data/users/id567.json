@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:16.0877176+03:00",
+  "Id": 567,
+  "Login": "FlygonWing",
+  "PasswordHash": "18E854BCC242C201613B12DB15D34C928989F0E14DFC0B3BDCE5887C87491CD9",
+  "Group": "generated",
+  "FirstName": "FlygonWing",
+  "MiddleName": "FlygonWing",
+  "LastName": "FlygonWing",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:16.0867202+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

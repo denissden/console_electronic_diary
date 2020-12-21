@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:59.2430485+03:00",
+  "Id": 312,
+  "Login": "Keeko15",
+  "PasswordHash": "C0ADF44C2F4E4C47328E7D14E69266A336C31CB6EB96A7B09C7BFC51F3C43C1B",
+  "Group": "generated",
+  "FirstName": "Keeko15",
+  "MiddleName": "Keeko15",
+  "LastName": "Keeko15",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:59.2420528+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

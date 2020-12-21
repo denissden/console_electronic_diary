@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:18.519367+03:00",
+  "Id": 604,
+  "Login": "andy8271",
+  "PasswordHash": "47195D5A46BD6215564B16A1B43AF46C5949C19B2C2AB1F7F5D5ED5E41FB4FC7",
+  "Group": "generated",
+  "FirstName": "andy8271",
+  "MiddleName": "andy8271",
+  "LastName": "andy8271",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:18.5183976+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

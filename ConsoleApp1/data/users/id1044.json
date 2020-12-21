@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:47.4647919+03:00",
+  "Id": 1044,
+  "Login": "thaxtonian",
+  "PasswordHash": "71B0F210564A03C6A7B36D644DB28E81210A178FCC988156FF26C08EB4320538",
+  "Group": "generated",
+  "FirstName": "thaxtonian",
+  "MiddleName": "thaxtonian",
+  "LastName": "thaxtonian",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:47.463794+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

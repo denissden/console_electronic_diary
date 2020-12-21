@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.7992444+03:00",
+  "Id": 245,
+  "Login": "nyleva",
+  "PasswordHash": "E3B1660943C3462484805741EAF4FBC42D07489659041156ABF12F12BA090D09",
+  "Group": "generated",
+  "FirstName": "nyleva",
+  "MiddleName": "nyleva",
+  "LastName": "nyleva",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.7981526+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

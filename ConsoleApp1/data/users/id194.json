@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:14.1632757+03:00",
+  "Id": 194,
+  "Login": "Nathan271",
+  "PasswordHash": "F6B8E826B7C34E6D4FF65B08C5CB1D039A117F5454AC194879C32EEF74259097",
+  "Group": "generated",
+  "FirstName": "Nathan271",
+  "MiddleName": "Nathan271",
+  "LastName": "Nathan271",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:14.162303+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:38.6786268+03:00",
+  "Id": 910,
+  "Login": "crostos",
+  "PasswordHash": "0D71CED74882743EB3EFE1B4BDEA24095E679C351587D5AD6C5016235DEAB924",
+  "Group": "generated",
+  "FirstName": "crostos",
+  "MiddleName": "crostos",
+  "LastName": "crostos",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:38.6776297+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

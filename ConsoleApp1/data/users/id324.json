@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:00.0380188+03:00",
+  "Id": 324,
+  "Login": "toshiro7",
+  "PasswordHash": "84F2EBFB091328E55214E777FC296EA1C4B9BCFAC0F089C171DFBCD70581DA55",
+  "Group": "generated",
+  "FirstName": "toshiro7",
+  "MiddleName": "toshiro7",
+  "LastName": "toshiro7",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:00.0377371+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

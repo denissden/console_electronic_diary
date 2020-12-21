@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:37.2361708+03:00",
+  "Id": 888,
+  "Login": "couga13",
+  "PasswordHash": "27DBA9012BE9F5EBCA1FDB450B07F69B56F67E8EA8B6C20107A142DD747EE99E",
+  "Group": "generated",
+  "FirstName": "couga13",
+  "MiddleName": "couga13",
+  "LastName": "couga13",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:37.2351738+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

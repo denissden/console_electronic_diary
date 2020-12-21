@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:54.4984536+03:00",
+  "Id": 1151,
+  "Login": "elliotmcr",
+  "PasswordHash": "B05E1DDB53CFDBC0CE45D5161FF179518030382D48D4543F50E5D13991CB5CA6",
+  "Group": "generated",
+  "FirstName": "elliotmcr",
+  "MiddleName": "elliotmcr",
+  "LastName": "elliotmcr",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:54.4974771+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

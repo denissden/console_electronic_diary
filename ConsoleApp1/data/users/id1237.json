@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:00.1973444+03:00",
+  "Id": 1237,
+  "Login": "ElMacheteRapido",
+  "PasswordHash": "9FE8E1B746C78D9CA268C47BBFFD4A30E8D6C8CCF0A9489C1E895C9F623A961F",
+  "Group": "generated",
+  "FirstName": "ElMacheteRapido",
+  "MiddleName": "ElMacheteRapido",
+  "LastName": "ElMacheteRapido",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:00.1963443+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

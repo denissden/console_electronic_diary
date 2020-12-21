@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:55.6632141+03:00",
+  "Id": 258,
+  "Login": "Sanctuary1",
+  "PasswordHash": "95A37B8CBD314302421112BD55991A0C0BFE15150B3CC83EE03566AA2413CACA",
+  "Group": "generated",
+  "FirstName": "Sanctuary1",
+  "MiddleName": "Sanctuary1",
+  "LastName": "Sanctuary1",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:55.6621877+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

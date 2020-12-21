@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:39.7915459+03:00",
+  "Id": 927,
+  "Login": "danelewis",
+  "PasswordHash": "2D1443908060EF354C723ACE046F83D33EAF4DC6F54D6E3CA5044DB6F10EF3EE",
+  "Group": "generated",
+  "FirstName": "danelewis",
+  "MiddleName": "danelewis",
+  "LastName": "danelewis",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:39.7905478+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

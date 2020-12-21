@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:48.4456358+03:00",
+  "Id": 1059,
+  "Login": "xitone",
+  "PasswordHash": "271EF08901B3C90D362D033D417EB9BB95B9F5D17249F3533E06EDEA8BC6EDF0",
+  "Group": "generated",
+  "FirstName": "xitone",
+  "MiddleName": "xitone",
+  "LastName": "xitone",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:48.4446671+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

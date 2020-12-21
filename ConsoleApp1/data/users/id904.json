@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:58:38.2876719+03:00",
+  "Id": 904,
+  "Login": "creeperded",
+  "PasswordHash": "E91CE1B81E65E9108C7D489DAD95436B9ED8BA5C264B087EB7C4A42B6A7C1D7B",
+  "Group": "generated",
+  "FirstName": "creeperded",
+  "MiddleName": "creeperded",
+  "LastName": "creeperded",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:38.2866753+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

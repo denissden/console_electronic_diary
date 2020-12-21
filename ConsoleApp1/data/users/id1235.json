@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:59:00.0646996+03:00",
+  "Id": 1235,
+  "Login": "MikeLitterous",
+  "PasswordHash": "585B5404253693A3DBC31966C7113814F86526F11E63F0835F79F00A31AE4B85",
+  "Group": "generated",
+  "FirstName": "MikeLitterous",
+  "MiddleName": "MikeLitterous",
+  "LastName": "MikeLitterous",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:00.0637212+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

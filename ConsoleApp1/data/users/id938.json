@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:40.5168013+03:00",
+  "Id": 938,
+  "Login": "celsderg",
+  "PasswordHash": "313EE89F4C05BD12C46980B640622D4876CD85550A44A1683B3BDA9E4CB8FAFB",
+  "Group": "generated",
+  "FirstName": "celsderg",
+  "MiddleName": "celsderg",
+  "LastName": "celsderg",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:40.5157991+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

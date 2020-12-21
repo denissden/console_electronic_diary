@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:10.2417644+03:00",
+  "Id": 478,
+  "Login": "PatrickDyderski",
+  "PasswordHash": "76BA3D08B1CE131A33C4DE310725433DEA1410E6E8A0EEE635C11C64E5C03AD2",
+  "Group": "generated",
+  "FirstName": "PatrickDyderski",
+  "MiddleName": "PatrickDyderski",
+  "LastName": "PatrickDyderski",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:10.240767+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

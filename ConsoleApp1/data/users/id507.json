@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:12.1470685+03:00",
+  "Id": 507,
+  "Login": "marfnl",
+  "PasswordHash": "F80F6AEB7A6C9E0DF6F9E5C9F7409DCF77C7F460721CCB982A01C484538E7F40",
+  "Group": "generated",
+  "FirstName": "marfnl",
+  "MiddleName": "marfnl",
+  "LastName": "marfnl",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:12.1460717+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

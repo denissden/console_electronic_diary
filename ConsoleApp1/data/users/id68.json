@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:05.4898211+03:00",
+  "Id": 68,
+  "Login": "deadlus",
+  "PasswordHash": "239A50CBACF09B5B5E4590EEF1E9EC0C312E525A45A05B4C90736BC9E87E0017",
+  "Group": "generated",
+  "FirstName": "deadlus",
+  "MiddleName": "deadlus",
+  "LastName": "deadlus",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:05.4878264+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

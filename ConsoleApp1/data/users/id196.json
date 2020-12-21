@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:14.2929289+03:00",
+  "Id": 196,
+  "Login": "metalchaos",
+  "PasswordHash": "632B1522C937CABDD52D4E72F8D9AC955DC3EE545C1728AC0638CF41A56EC168",
+  "Group": "generated",
+  "FirstName": "metalchaos",
+  "MiddleName": "metalchaos",
+  "LastName": "metalchaos",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:14.2919619+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

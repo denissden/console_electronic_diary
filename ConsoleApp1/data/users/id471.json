@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:09.7861015+03:00",
+  "Id": 471,
+  "Login": "Mwonti",
+  "PasswordHash": "48D61FCB98EDDC739C42C95C34A8FD1EFE7670291F6C274808172026ABD87544",
+  "Group": "generated",
+  "FirstName": "Mwonti",
+  "MiddleName": "Mwonti",
+  "LastName": "Mwonti",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:09.7850746+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

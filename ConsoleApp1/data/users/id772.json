@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:29.593337+03:00",
+  "Id": 772,
+  "Login": "bkr33",
+  "PasswordHash": "C76EBAE149C17EA063797453E64FBCD8F8FBD85E822ACA2BF54D5F93260ECE36",
+  "Group": "generated",
+  "FirstName": "bkr33",
+  "MiddleName": "bkr33",
+  "LastName": "bkr33",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:29.5913409+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

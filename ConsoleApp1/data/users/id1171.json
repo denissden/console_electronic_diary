@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:55.8384965+03:00",
+  "Id": 1171,
+  "Login": "ebag91102",
+  "PasswordHash": "699785E6ACCF9A81C1F5DF7DB0BE02FE4A38ECE3BE4B007C3AE1B6D5A10E13C1",
+  "Group": "generated",
+  "FirstName": "ebag91102",
+  "MiddleName": "ebag91102",
+  "LastName": "ebag91102",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:55.837499+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

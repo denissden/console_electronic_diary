@@ -43,6 +43,7 @@ namespace ConsoleApp1
             dynamic subjectlist = ui.GetByName("SubjectList");
             subjectlist.AddToValueAction = "student_view_subject";
             subjectlist.SetItems(groups_map, false);
+            subjectlist.AllowEdit = false;
 
             ui.Update();
             //ui.ValidateAll();

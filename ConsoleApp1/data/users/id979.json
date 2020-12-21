@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:43.2078201+03:00",
+  "Id": 979,
+  "Login": "codyj110",
+  "PasswordHash": "E5DB3DBEC24D8F2BE8BC62DC780997FCFE87B323B5842A68AA723ED765C19A76",
+  "Group": "generated",
+  "FirstName": "codyj110",
+  "MiddleName": "codyj110",
+  "LastName": "codyj110",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:43.2075446+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

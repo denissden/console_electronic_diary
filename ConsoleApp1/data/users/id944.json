@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:40.9072738+03:00",
+  "Id": 944,
+  "Login": "giulio98",
+  "PasswordHash": "CF47AF39DE3B165103050767158E798F8A60F4F0D613B91FAB4194A7CD790039",
+  "Group": "generated",
+  "FirstName": "giulio98",
+  "MiddleName": "giulio98",
+  "LastName": "giulio98",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:40.9057706+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

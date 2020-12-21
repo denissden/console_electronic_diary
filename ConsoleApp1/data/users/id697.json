@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.6576405+03:00",
+  "Id": 697,
+  "Login": "Feralparrot",
+  "PasswordHash": "3BA29892739182BE33A7D4D281F4D64C4B9204F495C8955D12DF9D26374BBC8B",
+  "Group": "generated",
+  "FirstName": "Feralparrot",
+  "MiddleName": "Feralparrot",
+  "LastName": "Feralparrot",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.6566428+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

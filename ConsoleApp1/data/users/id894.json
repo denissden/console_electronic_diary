@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:37.6274195+03:00",
+  "Id": 894,
+  "Login": "crandall123",
+  "PasswordHash": "72A6910C9460E26CE3C7A7A5748E5AD39C906A6563F3715B6EA6C0264D45D807",
+  "Group": "generated",
+  "FirstName": "crandall123",
+  "MiddleName": "crandall123",
+  "LastName": "crandall123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:37.6264334+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

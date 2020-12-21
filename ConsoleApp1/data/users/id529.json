@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:13.5839964+03:00",
+  "Id": 529,
+  "Login": "shodan1138",
+  "PasswordHash": "0EE2F76030B9D89B3C69666252344B411CF129B317A2AD685336B70E87E54B50",
+  "Group": "generated",
+  "FirstName": "shodan1138",
+  "MiddleName": "shodan1138",
+  "LastName": "shodan1138",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:13.5830011+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

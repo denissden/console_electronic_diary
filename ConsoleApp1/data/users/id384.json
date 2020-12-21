@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:04.0376179+03:00",
+  "Id": 384,
+  "Login": "pleasedont",
+  "PasswordHash": "7711C9ADE4511B27B545E2A2722B34C64BB4D874FFEC26728F8C38434EF8BF85",
+  "Group": "generated",
+  "FirstName": "pleasedont",
+  "MiddleName": "pleasedont",
+  "LastName": "pleasedont",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:04.0366203+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

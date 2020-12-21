@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:12.0157451+03:00",
+  "Id": 505,
+  "Login": "NeonLotus",
+  "PasswordHash": "E26675E8E843AA899B3CAA71F2394D4CFE621D665889ACBDFBDE0F238F60E323",
+  "Group": "generated",
+  "FirstName": "NeonLotus",
+  "MiddleName": "NeonLotus",
+  "LastName": "NeonLotus",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:12.0147486+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:03.6385854+03:00",
+  "Id": 378,
+  "Login": "Tash_Michael",
+  "PasswordHash": "3DB43A4C1A17FFCC147B7566CCCCFFE97C1FB61DEE027FBE4A69E7FDEE7F730B",
+  "Group": "generated",
+  "FirstName": "Tash_Michael",
+  "MiddleName": "Tash_Michael",
+  "LastName": "Tash_Michael",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:03.6376181+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

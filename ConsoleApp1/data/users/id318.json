@@ -1,0 +1,21 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:59.6342436+03:00",
+  "Id": 318,
+  "Login": "10882",
+  "PasswordHash": "3C7937B99828817C3A6D3A06D65C80C0DFA9FC4C38E4E9FF1BE36DCAFA45FCED",
+  "Group": "generated",
+  "FirstName": "10882",
+  "MiddleName": "10882",
+  "LastName": "10882",
+  "Age": 0,
+  "BirthYear": "2020-12-21T00:00:00",
+  "SubjectMarks": [
+    {
+      "SubjectName": "\u041C\u0410\u0422\u0415\u0428\u0410",
+      "CreatorId": 1353,
+      "Marks": {}
+    }
+  ],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:03.8361543+03:00",
+  "Id": 381,
+  "Login": "SOCCERKICK",
+  "PasswordHash": "66535E35FC379781B25082994AFBD5C18EF63234A93BC07DF22E6BBF45397275",
+  "Group": "generated",
+  "FirstName": "SOCCERKICK",
+  "MiddleName": "SOCCERKICK",
+  "LastName": "SOCCERKICK",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:03.8361543+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

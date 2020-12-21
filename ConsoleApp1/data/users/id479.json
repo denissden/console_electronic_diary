@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:10.3072413+03:00",
+  "Id": 479,
+  "Login": "pottan",
+  "PasswordHash": "D6F072C5D298D156F16529412C9EB8387DC55A7F33AE3F35DCDB14BC2FA0A0EC",
+  "Group": "generated",
+  "FirstName": "pottan",
+  "MiddleName": "pottan",
+  "LastName": "pottan",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:10.3072413+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

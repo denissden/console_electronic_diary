@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:25.8292303+03:00",
+  "Id": 715,
+  "Login": "DamienDe",
+  "PasswordHash": "053417336CED57E296D8726341BB931B26C634473BA2649C92F63F2C8F3752D2",
+  "Group": "generated",
+  "FirstName": "DamienDe",
+  "MiddleName": "DamienDe",
+  "LastName": "DamienDe",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:25.8272358+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

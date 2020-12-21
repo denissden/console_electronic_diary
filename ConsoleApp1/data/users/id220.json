@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:53.1534009+03:00",
+  "Id": 220,
+  "Login": "shoggdog",
+  "PasswordHash": "1CD6EB8A60DFF1E9776BFE25204B0B5F77502C2F3D9076660492C35F93FE630F",
+  "Group": "generated",
+  "FirstName": "shoggdog",
+  "MiddleName": "shoggdog",
+  "LastName": "shoggdog",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:53.1524034+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

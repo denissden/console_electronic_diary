@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:50.8774467+03:00",
+  "Id": 1096,
+  "Login": "statiikfury",
+  "PasswordHash": "2FAFDD2BEF8A3C4B6F6F8EB161987ADC4E835019E3E524B90473A74DB767FD8A",
+  "Group": "generated",
+  "FirstName": "statiikfury",
+  "MiddleName": "statiikfury",
+  "LastName": "statiikfury",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:50.8764494+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

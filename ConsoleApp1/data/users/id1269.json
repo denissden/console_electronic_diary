@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:02.2972044+03:00",
+  "Id": 1269,
+  "Login": "pigman21",
+  "PasswordHash": "20FA3FE483B5A532BCF28BA0745FDE012E703CA2E2B2FA474B08CC3660AE56D0",
+  "Group": "generated",
+  "FirstName": "pigman21",
+  "MiddleName": "pigman21",
+  "LastName": "pigman21",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:02.2962346+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

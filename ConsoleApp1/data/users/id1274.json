@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:02.6292091+03:00",
+  "Id": 1274,
+  "Login": "sweenyb",
+  "PasswordHash": "D253378C83A7337902F0DA7555881EF8D497ECC17A3559AE327089F1949820D7",
+  "Group": "generated",
+  "FirstName": "sweenyb",
+  "MiddleName": "sweenyb",
+  "LastName": "sweenyb",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:02.6282108+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:08.2814911+03:00",
+  "Id": 448,
+  "Login": "TyphoonFour",
+  "PasswordHash": "09AFF5D86FB24FF69295C65AEE84C5E780ED6BB21DDC0D8D86CDB7C9B7C711DC",
+  "Group": "generated",
+  "FirstName": "TyphoonFour",
+  "MiddleName": "TyphoonFour",
+  "LastName": "TyphoonFour",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:08.2804934+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

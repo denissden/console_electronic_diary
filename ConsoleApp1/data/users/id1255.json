@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:01.383933+03:00",
+  "Id": 1255,
+  "Login": "whothat17",
+  "PasswordHash": "9F92EF2779B8F24362DF0D2B6571B057FDA4C2726855AFB944E106945C9935EF",
+  "Group": "generated",
+  "FirstName": "whothat17",
+  "MiddleName": "whothat17",
+  "LastName": "whothat17",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:01.3829355+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

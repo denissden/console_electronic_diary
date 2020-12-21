@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:09.0325227+03:00",
+  "Id": 118,
+  "Login": "teecubed333",
+  "PasswordHash": "9A37B3511616BE1DC7CD9E13CAB856A5545F8E7B8C198F5722A6328DCA5A8915",
+  "Group": "generated",
+  "FirstName": "teecubed333",
+  "MiddleName": "teecubed333",
+  "LastName": "teecubed333",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:09.0325227+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

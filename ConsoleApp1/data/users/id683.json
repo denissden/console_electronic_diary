@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:23.7303102+03:00",
+  "Id": 683,
+  "Login": "green731",
+  "PasswordHash": "F73762F64E78F3EC396D8262BC7E09E6E85C6DA631A26C1DF7AF0F492A92812A",
+  "Group": "generated",
+  "FirstName": "green731",
+  "MiddleName": "green731",
+  "LastName": "green731",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:23.729313+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

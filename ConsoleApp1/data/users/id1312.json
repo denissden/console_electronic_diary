@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:59:05.1218312+03:00",
+  "Id": 1312,
+  "Login": "Cybersubzero",
+  "PasswordHash": "D450D5AEA575E9970455229F3BD65A845921BD43DAAA430845A7F08F5B0B5E8B",
+  "Group": "generated",
+  "FirstName": "Cybersubzero",
+  "MiddleName": "Cybersubzero",
+  "LastName": "Cybersubzero",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:05.1208334+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

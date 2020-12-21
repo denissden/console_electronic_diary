@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:04.4868979+03:00",
+  "Id": 53,
+  "Login": "SmickeyMcgee",
+  "PasswordHash": "16B3E120C31AF5F433D801D2F007D127F19D5B4B9759013863C8A3EAE063B5E7",
+  "Group": "generated",
+  "FirstName": "SmickeyMcgee",
+  "MiddleName": "SmickeyMcgee",
+  "LastName": "SmickeyMcgee",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:04.4859+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

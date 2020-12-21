@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:12.2777193+03:00",
+  "Id": 509,
+  "Login": "Funky_Zebra",
+  "PasswordHash": "288BBA913D480CC22D38F6574A73F58C9DB7EFA08969003206D8114DB0DE3211",
+  "Group": "generated",
+  "FirstName": "Funky_Zebra",
+  "MiddleName": "Funky_Zebra",
+  "LastName": "Funky_Zebra",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:12.2767227+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

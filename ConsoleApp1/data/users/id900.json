@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:38.0253361+03:00",
+  "Id": 900,
+  "Login": "creaturemagic",
+  "PasswordHash": "397DCC5FABDF730E4AB3F9CCA1C507E58F353E13F3C4516C6DA3CC7807C8825B",
+  "Group": "generated",
+  "FirstName": "creaturemagic",
+  "MiddleName": "creaturemagic",
+  "LastName": "creaturemagic",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:38.0243607+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

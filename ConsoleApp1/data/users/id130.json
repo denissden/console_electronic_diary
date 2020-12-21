@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:09.8470155+03:00",
+  "Id": 130,
+  "Login": "Georukh",
+  "PasswordHash": "95B47161B737145D6798F7F16717096A016CE63A20DEA4DC8D872354EEB5E4D0",
+  "Group": "generated",
+  "FirstName": "Georukh",
+  "MiddleName": "Georukh",
+  "LastName": "Georukh",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:09.8450321+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

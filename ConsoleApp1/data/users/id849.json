@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:34.6650286+03:00",
+  "Id": 849,
+  "Login": "cmt0726",
+  "PasswordHash": "960A709256C55CAEB32A26AC8A2418F5994DAC6F3E8F0460D7929A975FA1422D",
+  "Group": "generated",
+  "FirstName": "cmt0726",
+  "MiddleName": "cmt0726",
+  "LastName": "cmt0726",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:34.6640314+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

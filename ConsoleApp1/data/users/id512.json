@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:12.4761891+03:00",
+  "Id": 512,
+  "Login": "VerbNounGuy",
+  "PasswordHash": "010FD7AD85DA2179422F5816789FF7E51D35F24B6437D479772482D675EAE5E0",
+  "Group": "generated",
+  "FirstName": "VerbNounGuy",
+  "MiddleName": "VerbNounGuy",
+  "LastName": "VerbNounGuy",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:12.4761891+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

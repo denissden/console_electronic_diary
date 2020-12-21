@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:08.629555+03:00",
+  "Id": 112,
+  "Login": "NJL97",
+  "PasswordHash": "BA4873B949E90396F3D664212D4B04891CD01C665D4513046C0D8C4C9752B88A",
+  "Group": "generated",
+  "FirstName": "NJL97",
+  "MiddleName": "NJL97",
+  "LastName": "NJL97",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:08.6285292+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

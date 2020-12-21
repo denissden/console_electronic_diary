@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:52.1343478+03:00",
+  "Id": 1115,
+  "Login": "smilimaxim",
+  "PasswordHash": "E940D88A887A45C11F005DC7EFB73568045F5DF5A3EED26F172D33CE91D4BD60",
+  "Group": "generated",
+  "FirstName": "smilimaxim",
+  "MiddleName": "smilimaxim",
+  "LastName": "smilimaxim",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:52.1333503+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

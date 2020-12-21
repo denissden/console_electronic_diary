@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:10.3720996+03:00",
+  "Id": 480,
+  "Login": "darthd1",
+  "PasswordHash": "1D07527B1CDE85C137CC9A5D84A020445712BD2E54C4D0BAEA156E4707895A6A",
+  "Group": "generated",
+  "FirstName": "darthd1",
+  "MiddleName": "darthd1",
+  "LastName": "darthd1",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:10.3710728+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

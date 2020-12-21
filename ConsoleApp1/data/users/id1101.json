@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:51.2098298+03:00",
+  "Id": 1101,
+  "Login": "Sonic100",
+  "PasswordHash": "9137F74CC6CCC53556B6A4447A9A6DA7CE62948DF61BB66D42D0FB1FC04C3A8E",
+  "Group": "generated",
+  "FirstName": "Sonic100",
+  "MiddleName": "Sonic100",
+  "LastName": "Sonic100",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:51.2088322+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

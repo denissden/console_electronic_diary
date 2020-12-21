@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:56.3824854+03:00",
+  "Id": 269,
+  "Login": "drewscreations",
+  "PasswordHash": "AE4F930E4D8DD7932CBEDC19F61C00021A4DAFAA5761EBD6DBC9F3AF16DC0BA0",
+  "Group": "generated",
+  "FirstName": "drewscreations",
+  "MiddleName": "drewscreations",
+  "LastName": "drewscreations",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:56.3814594+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

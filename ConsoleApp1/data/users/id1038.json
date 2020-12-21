@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:47.0750784+03:00",
+  "Id": 1038,
+  "Login": "TickleMonster7",
+  "PasswordHash": "38C98D49A676B2419A1BD6E5F422E5A48EF8C2CA9C90DBC9B2D38E1A62221C2F",
+  "Group": "generated",
+  "FirstName": "TickleMonster7",
+  "MiddleName": "TickleMonster7",
+  "LastName": "TickleMonster7",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:47.0740816+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:35.9103641+03:00",
+  "Id": 868,
+  "Login": "conor6808",
+  "PasswordHash": "2D116EF135A085060E54ADDB813D7D1A584FE051CF79FEBB0C29C12D5623F668",
+  "Group": "generated",
+  "FirstName": "conor6808",
+  "MiddleName": "conor6808",
+  "LastName": "conor6808",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:35.9093847+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

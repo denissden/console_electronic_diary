@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:57.2192307+03:00",
+  "Id": 1192,
+  "Login": "abcgodyo",
+  "PasswordHash": "1EBE3024F3DCFDB28BB7D2693A3E82EF32AF8BC99931BF9E7C9B32528BAE627E",
+  "Group": "generated",
+  "FirstName": "abcgodyo",
+  "MiddleName": "abcgodyo",
+  "LastName": "abcgodyo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:57.2182325+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:17.5364576+03:00",
+  "Id": 589,
+  "Login": "Cazen",
+  "PasswordHash": "2F37913E9B19FF1CFDF5BD6F520C77AD99C376F1A51D618E946FC4D013713632",
+  "Group": "generated",
+  "FirstName": "Cazen",
+  "MiddleName": "Cazen",
+  "LastName": "Cazen",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:17.5354609+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

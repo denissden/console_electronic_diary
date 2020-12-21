@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:09.3046938+03:00",
+  "Id": 122,
+  "Login": "Vault48",
+  "PasswordHash": "0C3D3DF4FD13E36971BB3151C89F78F6D6454623E0EED0205944E18CBF28C925",
+  "Group": "generated",
+  "FirstName": "Vault48",
+  "MiddleName": "Vault48",
+  "LastName": "Vault48",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:09.3036952+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

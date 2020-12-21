@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:13.7146195+03:00",
+  "Id": 531,
+  "Login": "Tikot",
+  "PasswordHash": "988F0117473FACDAACA53472F82CEFD5F206BB8587777C1F6440E3DA0259F550",
+  "Group": "generated",
+  "FirstName": "Tikot",
+  "MiddleName": "Tikot",
+  "LastName": "Tikot",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:13.7136211+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

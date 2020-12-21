@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:03.1923589+03:00",
+  "Id": 37,
+  "Login": "rip1427",
+  "PasswordHash": "089EFA8F87C9BBB4035A50BF9EBBA3799B15CA252938943151658F6859AB694E",
+  "Group": "generated",
+  "FirstName": "rip1427",
+  "MiddleName": "rip1427",
+  "LastName": "rip1427",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:03.1913604+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

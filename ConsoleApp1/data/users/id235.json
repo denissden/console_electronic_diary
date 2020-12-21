@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.1383271+03:00",
+  "Id": 235,
+  "Login": "TaosSW",
+  "PasswordHash": "85478B6B19F3530826AD53BC28183B3F63038F047BFB98039740ED7C581A8FE4",
+  "Group": "generated",
+  "FirstName": "TaosSW",
+  "MiddleName": "TaosSW",
+  "LastName": "TaosSW",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.1373579+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

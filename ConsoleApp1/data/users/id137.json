@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:10.321883+03:00",
+  "Id": 137,
+  "Login": "boggyman123",
+  "PasswordHash": "BFB1F0DD6B202BD1FF0FEAD762A7206846288599C4FB006F507C54D0D8B25D9A",
+  "Group": "generated",
+  "FirstName": "boggyman123",
+  "MiddleName": "boggyman123",
+  "LastName": "boggyman123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:10.3208856+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

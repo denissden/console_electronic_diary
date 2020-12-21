@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:58.1876327+03:00",
+  "Id": 296,
+  "Login": "Jalathas",
+  "PasswordHash": "2D10129AD80019FF13CBA8A291928FA33E0414A17D28D4034527FABC891386E2",
+  "Group": "generated",
+  "FirstName": "Jalathas",
+  "MiddleName": "Jalathas",
+  "LastName": "Jalathas",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:58.1866071+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

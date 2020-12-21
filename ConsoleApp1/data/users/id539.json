@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:14.2398912+03:00",
+  "Id": 539,
+  "Login": "LittleRaptor",
+  "PasswordHash": "47363E6CCDCAAD55F2C6FA2DD79F3591DBEB8DB0DC0616EEC5C2BFD4920C808A",
+  "Group": "generated",
+  "FirstName": "LittleRaptor",
+  "MiddleName": "LittleRaptor",
+  "LastName": "LittleRaptor",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:14.2388655+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

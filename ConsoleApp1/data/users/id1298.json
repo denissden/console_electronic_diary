@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:04.2020856+03:00",
+  "Id": 1298,
+  "Login": "Canedis",
+  "PasswordHash": "90A816A2F29FCE4254357E0744206A79887D674780E013CC2DD204345E176C49",
+  "Group": "generated",
+  "FirstName": "Canedis",
+  "MiddleName": "Canedis",
+  "LastName": "Canedis",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:04.2011169+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

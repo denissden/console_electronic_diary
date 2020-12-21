@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:37.4969731+03:00",
+  "Id": 892,
+  "Login": "craftwolf",
+  "PasswordHash": "E89818CB17648DC8044B199477EE4C971C19C16EEB4F8FF655E86AD89F2D58AC",
+  "Group": "generated",
+  "FirstName": "craftwolf",
+  "MiddleName": "craftwolf",
+  "LastName": "craftwolf",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:37.4959757+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

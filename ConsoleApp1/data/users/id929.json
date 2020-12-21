@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:39.9242627+03:00",
+  "Id": 929,
+  "Login": "darkpoet",
+  "PasswordHash": "678FD40E0E74F4BDC8821CB419B7DE2E8E7116F2EA336E1A1912F2D395FD6F60",
+  "Group": "generated",
+  "FirstName": "darkpoet",
+  "MiddleName": "darkpoet",
+  "LastName": "darkpoet",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:39.9222658+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

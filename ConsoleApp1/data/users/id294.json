@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:57:58.0509701+03:00",
+  "Id": 294,
+  "Login": "Nametaker40",
+  "PasswordHash": "E1F4E6279DA4EE7D5B362EE6C5077140E7746A61899F24EFA0908D2E5BE6AEFE",
+  "Group": "generated",
+  "FirstName": "Nametaker40",
+  "MiddleName": "Nametaker40",
+  "LastName": "Nametaker40",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:58.050002+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

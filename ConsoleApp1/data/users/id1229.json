@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:59.6741769+03:00",
+  "Id": 1229,
+  "Login": "jackupz",
+  "PasswordHash": "B555809BC50AF254A21986FEE7D5A4BDEB3F8BA5793AE1451AAEB1F78C4555E4",
+  "Group": "generated",
+  "FirstName": "jackupz",
+  "MiddleName": "jackupz",
+  "LastName": "jackupz",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:59.6731803+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

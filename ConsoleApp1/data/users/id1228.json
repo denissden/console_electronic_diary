@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:59.608074+03:00",
+  "Id": 1228,
+  "Login": "hjerrild123",
+  "PasswordHash": "3D87D733C052DE3A346E58FF17D4A5186ED2055B21F4059ECAC21C6809F5A354",
+  "Group": "generated",
+  "FirstName": "hjerrild123",
+  "MiddleName": "hjerrild123",
+  "LastName": "hjerrild123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:59.6061069+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

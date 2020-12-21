@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:19.2397203+03:00",
+  "Id": 615,
+  "Login": "Aldurg",
+  "PasswordHash": "344FC439883F711C52661A9FC7C63766B1FD09B143A3407FBA916B23C895B477",
+  "Group": "generated",
+  "FirstName": "Aldurg",
+  "MiddleName": "Aldurg",
+  "LastName": "Aldurg",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:19.2387221+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

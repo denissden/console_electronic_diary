@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:07.5325382+03:00",
+  "Id": 96,
+  "Login": "Turbopenguin42",
+  "PasswordHash": "196D037B3290FD3703C5A0BD8A985E1F5BF14D2EBF9E2A5392CA33B2BE15862B",
+  "Group": "generated",
+  "FirstName": "Turbopenguin42",
+  "MiddleName": "Turbopenguin42",
+  "LastName": "Turbopenguin42",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:07.5315184+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

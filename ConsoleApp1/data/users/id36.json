@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:03.1255374+03:00",
+  "Id": 36,
+  "Login": "TimeZ",
+  "PasswordHash": "C89DB45376398FAE4360D4A26BBA7C2648B4A06588E777956410107FF88AFBFB",
+  "Group": "generated",
+  "FirstName": "TimeZ",
+  "MiddleName": "TimeZ",
+  "LastName": "TimeZ",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:03.1245398+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

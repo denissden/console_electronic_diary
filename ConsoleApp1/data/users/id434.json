@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:07.3596426+03:00",
+  "Id": 434,
+  "Login": "Tokida",
+  "PasswordHash": "E8E7392C4FA867ADE9039BB05B4BE3CBAF260C6769F35C790B58AD29E1B80AE2",
+  "Group": "generated",
+  "FirstName": "Tokida",
+  "MiddleName": "Tokida",
+  "LastName": "Tokida",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:07.3586438+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

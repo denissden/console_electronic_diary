@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:06.956562+03:00",
+  "Id": 88,
+  "Login": "Soulix",
+  "PasswordHash": "8DF9BCAB9B391710A7B2B5826B9DDAAA269FC76E34A02F564E24F5C4FC40EB50",
+  "Group": "generated",
+  "FirstName": "Soulix",
+  "MiddleName": "Soulix",
+  "LastName": "Soulix",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:06.9316293+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

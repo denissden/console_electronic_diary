@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:03.7498675+03:00",
+  "Id": 45,
+  "Login": "paramime",
+  "PasswordHash": "8F603F15E21DF09B61AC4C303A7ED613B8A79DE05B3EF387A67618C2D1081B1B",
+  "Group": "generated",
+  "FirstName": "paramime",
+  "MiddleName": "paramime",
+  "LastName": "paramime",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:03.7488706+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

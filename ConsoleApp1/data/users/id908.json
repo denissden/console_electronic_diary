@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:38.5479759+03:00",
+  "Id": 908,
+  "Login": "criper1",
+  "PasswordHash": "A85711E7BCCED04C66DED2696FF7524FC86BF247791E20782A878A44ED132519",
+  "Group": "generated",
+  "FirstName": "criper1",
+  "MiddleName": "criper1",
+  "LastName": "criper1",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:38.5470072+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

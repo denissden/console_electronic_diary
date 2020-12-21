@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:33.5463152+03:00",
+  "Id": 832,
+  "Login": "christianvork",
+  "PasswordHash": "1C1ADDFE7684234EC4DE252B1A151F5AAD122CAA0BB1FB91B8C703B91A1EF350",
+  "Group": "generated",
+  "FirstName": "christianvork",
+  "MiddleName": "christianvork",
+  "LastName": "christianvork",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:33.5443196+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

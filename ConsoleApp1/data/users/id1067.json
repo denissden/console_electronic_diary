@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:48.9745913+03:00",
+  "Id": 1067,
+  "Login": "blakejames",
+  "PasswordHash": "6CA13F0FB136C2DA46E42D665FF7E1EB7FC0DAA460755915F8246A2B6DB7E2F4",
+  "Group": "generated",
+  "FirstName": "blakejames",
+  "MiddleName": "blakejames",
+  "LastName": "blakejames",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:48.973591+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

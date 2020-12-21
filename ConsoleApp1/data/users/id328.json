@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:00.2997789+03:00",
+  "Id": 328,
+  "Login": "garrison888",
+  "PasswordHash": "335FE3F81103BC490D1FCA165DD72E0DAF8BF49A3EF0C6E0EF276EF55334CBB6",
+  "Group": "generated",
+  "FirstName": "garrison888",
+  "MiddleName": "garrison888",
+  "LastName": "garrison888",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:00.2981567+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

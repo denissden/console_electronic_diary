@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:09.5875052+03:00",
+  "Id": 468,
+  "Login": "kantra",
+  "PasswordHash": "2163F333C3082FC7B60385F542CF9E2E4CA4F212063863AC9D8816339A115955",
+  "Group": "generated",
+  "FirstName": "kantra",
+  "MiddleName": "kantra",
+  "LastName": "kantra",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:09.5865414+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

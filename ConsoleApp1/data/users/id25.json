@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:02.3802412+03:00",
+  "Id": 25,
+  "Login": "Goonerman97",
+  "PasswordHash": "B91254947A2991A9729A4C887A519BF3A449287D76E831C1081AB201D3BCB2BE",
+  "Group": "generated",
+  "FirstName": "Goonerman97",
+  "MiddleName": "Goonerman97",
+  "LastName": "Goonerman97",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:02.3792443+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

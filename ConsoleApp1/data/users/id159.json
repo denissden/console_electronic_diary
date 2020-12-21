@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:11.8175581+03:00",
+  "Id": 159,
+  "Login": "hivemind101",
+  "PasswordHash": "2C7F838FAA11EA3DE18ECAB9E5CBC98FA7B58DE69B9B3F90274F60F49556491D",
+  "Group": "generated",
+  "FirstName": "hivemind101",
+  "MiddleName": "hivemind101",
+  "LastName": "hivemind101",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:11.8165607+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

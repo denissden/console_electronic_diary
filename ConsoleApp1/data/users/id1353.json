@@ -1,0 +1,30 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T16:29:48.5654416+03:00",
+  "Id": 1353,
+  "Login": "teacher2",
+  "PasswordHash": "EE79976C9380D5E337FC1C095ECE8C8F22F91F306CEEB161FA51FECEDE2C4BA1",
+  "Group": "teachers",
+  "FirstName": "teacher",
+  "MiddleName": "",
+  "LastName": "t",
+  "Age": 11,
+  "BirthYear": "2009-09-09T00:00:00",
+  "SubjectMarks": [],
+  "Subjects": [
+    {
+      "Groups": [
+        "generated",
+        "test2"
+      ],
+      "Name": "\u041C\u0410\u0422\u0415\u0428\u0410"
+    },
+    {
+      "Groups": [
+        "test2",
+        "test3"
+      ],
+      "Name": "TEST_SUBJECT"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:58.9828704+03:00",
+  "Id": 308,
+  "Login": "VorSandwich",
+  "PasswordHash": "9C9CBF3659AA52EDC9C8D245F638912F5D6316185ACA1CD8E720994F171836B0",
+  "Group": "generated",
+  "FirstName": "VorSandwich",
+  "MiddleName": "VorSandwich",
+  "LastName": "VorSandwich",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:58.9818729+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

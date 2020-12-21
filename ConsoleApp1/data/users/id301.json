@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:58.5155724+03:00",
+  "Id": 301,
+  "Login": "Mutagen",
+  "PasswordHash": "485870572C516AEA3F080305E93A66BC275DBD2CE0B0B558602B16577656563E",
+  "Group": "generated",
+  "FirstName": "Mutagen",
+  "MiddleName": "Mutagen",
+  "LastName": "Mutagen",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:58.5145465+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

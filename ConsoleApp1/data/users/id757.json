@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:28.6063534+03:00",
+  "Id": 757,
+  "Login": "bluescluez",
+  "PasswordHash": "0B237A62E1D9F93AECC4BEC3FEFC114112E6C2E2C92F561D8CABF6F03930E3BF",
+  "Group": "generated",
+  "FirstName": "bluescluez",
+  "MiddleName": "bluescluez",
+  "LastName": "bluescluez",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:28.6053574+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

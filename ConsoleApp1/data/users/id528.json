@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:13.5181434+03:00",
+  "Id": 528,
+  "Login": "TheCloak",
+  "PasswordHash": "D6C7486BD9C276628E1E2A4C01F39B7BAC639C4D52131306435FB1CBBC839DF1",
+  "Group": "generated",
+  "FirstName": "TheCloak",
+  "MiddleName": "TheCloak",
+  "LastName": "TheCloak",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:13.5171462+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

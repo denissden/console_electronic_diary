@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:03.6760658+03:00",
+  "Id": 44,
+  "Login": "marhom",
+  "PasswordHash": "C26FC234AB0CEF6358AC9A0D9F04B5B3840BA7D13EEABA3A683AACDDEA715B68",
+  "Group": "generated",
+  "FirstName": "marhom",
+  "MiddleName": "marhom",
+  "LastName": "marhom",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:03.6740712+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

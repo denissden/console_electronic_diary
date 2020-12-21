@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:57.8855655+03:00",
+  "Id": 1202,
+  "Login": "refotsirk",
+  "PasswordHash": "4C363812B29D497B7C863F6EC32E17BDC2D8F87A8CEFDD778C0C76A75F850E97",
+  "Group": "generated",
+  "FirstName": "refotsirk",
+  "MiddleName": "refotsirk",
+  "LastName": "refotsirk",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:57.8845559+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

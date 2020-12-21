@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.7882903+03:00",
+  "Id": 699,
+  "Login": "Bonedust",
+  "PasswordHash": "AF6FFB104515348B85BF45C50685AFADFCBA2293581DDF8C0ABD6E662F6A7A98",
+  "Group": "generated",
+  "FirstName": "Bonedust",
+  "MiddleName": "Bonedust",
+  "LastName": "Bonedust",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.7869481+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

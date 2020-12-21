@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:04.551752+03:00",
+  "Id": 54,
+  "Login": "MathewMkay",
+  "PasswordHash": "E7755EBDA8C2F69BB84AA2728D72E7E8A776153C046C1549AE408688C36968C5",
+  "Group": "generated",
+  "FirstName": "MathewMkay",
+  "MiddleName": "MathewMkay",
+  "LastName": "MathewMkay",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:04.5507263+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:47.9882041+03:00",
+  "Id": 1052,
+  "Login": "Matty90",
+  "PasswordHash": "7CFB6E9969C20C9D69142A1B2BCB0D7E1C8EF125CC66F6BD6FD4D20286472337",
+  "Group": "generated",
+  "FirstName": "Matty90",
+  "MiddleName": "Matty90",
+  "LastName": "Matty90",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:47.9871801+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

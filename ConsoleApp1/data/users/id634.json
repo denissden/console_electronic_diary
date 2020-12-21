@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:20.4916553+03:00",
+  "Id": 634,
+  "Login": "endairo",
+  "PasswordHash": "D06339B5B166CFA0E4A0C80188EDF3A1CC7717619250F0DD1AE89B4268ED99DC",
+  "Group": "generated",
+  "FirstName": "endairo",
+  "MiddleName": "endairo",
+  "LastName": "endairo",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:20.490662+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

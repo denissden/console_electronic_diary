@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:44.6489004+03:00",
+  "Id": 1001,
+  "Login": "porty101",
+  "PasswordHash": "C51F636E35BEF9C8DC2CEAAA90B72E352BE732F13DE53D934FA1B428F390DCCE",
+  "Group": "generated",
+  "FirstName": "porty101",
+  "MiddleName": "porty101",
+  "LastName": "porty101",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:44.6479026+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

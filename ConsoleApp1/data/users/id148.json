@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:11.0709327+03:00",
+  "Id": 148,
+  "Login": "Sirius_Amory",
+  "PasswordHash": "46F7D59E35F646004B4500CA6738E49FC4C8DFEC6DE273B6D0826F265F151411",
+  "Group": "generated",
+  "FirstName": "Sirius_Amory",
+  "MiddleName": "Sirius_Amory",
+  "LastName": "Sirius_Amory",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:11.0699237+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.3292857+03:00",
+  "Id": 692,
+  "Login": "aus_smurf",
+  "PasswordHash": "FCFEFD2186EE6EF18DE700487B2005CB133FF4ADC0F119611F8D6AE21A64940C",
+  "Group": "generated",
+  "FirstName": "aus_smurf",
+  "MiddleName": "aus_smurf",
+  "LastName": "aus_smurf",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.327291+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

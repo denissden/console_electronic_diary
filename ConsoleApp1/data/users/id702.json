@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:24.9838029+03:00",
+  "Id": 702,
+  "Login": "RoughOutline",
+  "PasswordHash": "82FD60982E158AA1EEF0A72CB9BAC445CD0B381CA95FAF4D60FA8161E16E06D4",
+  "Group": "generated",
+  "FirstName": "RoughOutline",
+  "MiddleName": "RoughOutline",
+  "LastName": "RoughOutline",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:24.9828053+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

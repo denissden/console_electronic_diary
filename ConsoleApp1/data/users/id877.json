@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:36.5037969+03:00",
+  "Id": 877,
+  "Login": "coolwalker",
+  "PasswordHash": "EC473B7803BFEAC5711E939EA0F95F0EE1CD2C0D8B7A5C27B94CB3110ABEE536",
+  "Group": "generated",
+  "FirstName": "coolwalker",
+  "MiddleName": "coolwalker",
+  "LastName": "coolwalker",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:36.5027992+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

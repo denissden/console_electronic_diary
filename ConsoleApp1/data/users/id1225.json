@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:59.4096035+03:00",
+  "Id": 1225,
+  "Login": "andersg2000",
+  "PasswordHash": "FB043F9EA8C04D894D0BE3F8B523B3A02C57E5990384D67D927996AA77572F46",
+  "Group": "generated",
+  "FirstName": "andersg2000",
+  "MiddleName": "andersg2000",
+  "LastName": "andersg2000",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:59.4086063+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

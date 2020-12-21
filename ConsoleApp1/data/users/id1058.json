@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:48.3818077+03:00",
+  "Id": 1058,
+  "Login": "texasmgolf",
+  "PasswordHash": "290C0F4E0493E8526B86D40F8F146536D796CDBE52D19A6A5F3448B4E3E8D243",
+  "Group": "generated",
+  "FirstName": "texasmgolf",
+  "MiddleName": "texasmgolf",
+  "LastName": "texasmgolf",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:48.3778461+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

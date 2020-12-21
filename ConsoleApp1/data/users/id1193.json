@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:57.2860505+03:00",
+  "Id": 1193,
+  "Login": "crystalkit",
+  "PasswordHash": "9A58E1B332932C80B5719EEC644785563F520B6056EE8E23EEA2034810DDF65C",
+  "Group": "generated",
+  "FirstName": "crystalkit",
+  "MiddleName": "crystalkit",
+  "LastName": "crystalkit",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:57.2860505+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

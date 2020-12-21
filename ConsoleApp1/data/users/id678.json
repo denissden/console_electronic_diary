@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:23.4034966+03:00",
+  "Id": 678,
+  "Login": "levinet",
+  "PasswordHash": "62C0A9FDE1CB0E78D3FC48BBCC3E89179CB60A5A68A2FF956E9A6675ADF8529C",
+  "Group": "generated",
+  "FirstName": "levinet",
+  "MiddleName": "levinet",
+  "LastName": "levinet",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:23.4032099+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

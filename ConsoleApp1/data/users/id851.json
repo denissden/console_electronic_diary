@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:34.7976745+03:00",
+  "Id": 851,
+  "Login": "codk1ng2442",
+  "PasswordHash": "63C346A92B2E9D052AA6E355328BACFFE4F7B74931EDA415C080CC00F0906ADC",
+  "Group": "generated",
+  "FirstName": "codk1ng2442",
+  "MiddleName": "codk1ng2442",
+  "LastName": "codk1ng2442",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:34.7966772+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

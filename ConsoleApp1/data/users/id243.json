@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.6675019+03:00",
+  "Id": 243,
+  "Login": "ophelia123",
+  "PasswordHash": "740B22D305FC607FCF2584E52A5C2EF841D9B9CC7A1B7D236D3842B989640B70",
+  "Group": "generated",
+  "FirstName": "ophelia123",
+  "MiddleName": "ophelia123",
+  "LastName": "ophelia123",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.6665053+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

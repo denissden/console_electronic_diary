@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:37.1723418+03:00",
+  "Id": 887,
+  "Login": "costou12",
+  "PasswordHash": "64232534180EDDEAF5FF800DD0ED175AA5BFFBD04BD10F64F914363DD0A4C59B",
+  "Group": "generated",
+  "FirstName": "costou12",
+  "MiddleName": "costou12",
+  "LastName": "costou12",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:37.1713446+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

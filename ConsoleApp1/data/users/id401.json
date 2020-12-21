@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:05.1625213+03:00",
+  "Id": 401,
+  "Login": "ApertureSci",
+  "PasswordHash": "4149046868DAF0538586CFE0CED7A00526AED8E1CAED15A3150BB888EC5A110A",
+  "Group": "generated",
+  "FirstName": "ApertureSci",
+  "MiddleName": "ApertureSci",
+  "LastName": "ApertureSci",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:05.1625213+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

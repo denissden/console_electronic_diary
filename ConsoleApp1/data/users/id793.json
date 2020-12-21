@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:30.9761974+03:00",
+  "Id": 793,
+  "Login": "chaosknux",
+  "PasswordHash": "83485054FC7B3ECDE86FDD5AFD58CE8FD3C49377FC053E2F314FA86D869F5C72",
+  "Group": "generated",
+  "FirstName": "chaosknux",
+  "MiddleName": "chaosknux",
+  "LastName": "chaosknux",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:30.9731995+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

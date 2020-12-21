@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:05.763009+03:00",
+  "Id": 410,
+  "Login": "karlos_kumma",
+  "PasswordHash": "036DE0B2F88EC32F6E5C5DCBA1E508967649F286D32065E96F9F5BDA3539A199",
+  "Group": "generated",
+  "FirstName": "karlos_kumma",
+  "MiddleName": "karlos_kumma",
+  "LastName": "karlos_kumma",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:05.7620115+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

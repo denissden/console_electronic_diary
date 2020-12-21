@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:03.3792793+03:00",
+  "Id": 374,
+  "Login": "rocketseed",
+  "PasswordHash": "E404951EEDA59221D698244D5EB5B5E6510E9A5F27073D2264DF889927FEEA30",
+  "Group": "generated",
+  "FirstName": "rocketseed",
+  "MiddleName": "rocketseed",
+  "LastName": "rocketseed",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:03.3782811+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

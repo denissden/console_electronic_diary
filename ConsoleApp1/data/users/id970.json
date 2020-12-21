@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:42.6224094+03:00",
+  "Id": 970,
+  "Login": "reddeadrex",
+  "PasswordHash": "F329E4FAD7814DA36D08593D1A578015A0397CF366C3A56600DB7D1C356CF70C",
+  "Group": "generated",
+  "FirstName": "reddeadrex",
+  "MiddleName": "reddeadrex",
+  "LastName": "reddeadrex",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:42.6214114+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:29.396355+03:00",
+  "Id": 769,
+  "Login": "Basemind",
+  "PasswordHash": "F1841FB423219FF40B5D70237AB2BFD279EB32E957FFB4F36C97D3DC35D513EC",
+  "Group": "generated",
+  "FirstName": "Basemind",
+  "MiddleName": "Basemind",
+  "LastName": "Basemind",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:29.3953578+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

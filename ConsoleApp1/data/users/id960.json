@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:41.9691663+03:00",
+  "Id": 960,
+  "Login": "minecrafter1521",
+  "PasswordHash": "3760E98608DC972EA096A40EFFFFF915F57F89381D931722083893C25AE227DE",
+  "Group": "generated",
+  "FirstName": "minecrafter1521",
+  "MiddleName": "minecrafter1521",
+  "LastName": "minecrafter1521",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:41.9681679+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

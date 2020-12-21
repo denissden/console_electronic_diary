@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:13.2455851+03:00",
+  "Id": 180,
+  "Login": "Toysrmi",
+  "PasswordHash": "D78D81FF2BFF2FAF6827A819588F24B53F23F841D032B87453943F7DB1E58ADA",
+  "Group": "generated",
+  "FirstName": "Toysrmi",
+  "MiddleName": "Toysrmi",
+  "LastName": "Toysrmi",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:13.2445585+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

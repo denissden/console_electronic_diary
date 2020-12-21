@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:59:04.5278514+03:00",
+  "Id": 1303,
+  "Login": "pokejacko",
+  "PasswordHash": "0F8EA4FF05301609286FCA5F44DB80AEDF4A28797720C8675D2DA360E728F8B3",
+  "Group": "generated",
+  "FirstName": "pokejacko",
+  "MiddleName": "pokejacko",
+  "LastName": "pokejacko",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:59:04.5268361+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

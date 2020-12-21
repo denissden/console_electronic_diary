@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:37.3638297+03:00",
+  "Id": 890,
+  "Login": "couragealways",
+  "PasswordHash": "4C49ECFED5463B850EDA757B539F7E68ED7C61FE42929DC831B653F2047EAE58",
+  "Group": "generated",
+  "FirstName": "couragealways",
+  "MiddleName": "couragealways",
+  "LastName": "couragealways",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:37.3628608+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

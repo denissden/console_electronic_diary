@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:02.3186458+03:00",
+  "Id": 358,
+  "Login": "Helelos",
+  "PasswordHash": "23ED38600A4BE6D815AF65C04E3298DA89F745C18DE006DFC75B870EC1C4A1B0",
+  "Group": "generated",
+  "FirstName": "Helelos",
+  "MiddleName": "Helelos",
+  "LastName": "Helelos",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:02.3176486+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

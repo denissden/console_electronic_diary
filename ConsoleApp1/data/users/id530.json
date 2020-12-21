@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:13.6497925+03:00",
+  "Id": 530,
+  "Login": "bigz2k",
+  "PasswordHash": "3AA9ADF72B5A02A277D506398DB616CEC5423EE8F50FBDF1E4C3F1525D863AA1",
+  "Group": "generated",
+  "FirstName": "bigz2k",
+  "MiddleName": "bigz2k",
+  "LastName": "bigz2k",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:13.6487946+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

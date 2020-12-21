@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:31.3641404+03:00",
+  "Id": 799,
+  "Login": "chase33",
+  "PasswordHash": "E40D25104FAD47CE11159DC43310E954C4D42F2CF1502FCB6C9D6E529E241290",
+  "Group": "generated",
+  "FirstName": "chase33",
+  "MiddleName": "chase33",
+  "LastName": "chase33",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:31.3631436+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

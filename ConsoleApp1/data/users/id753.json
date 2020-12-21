@@ -1,0 +1,15 @@
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-21T15:58:28.3436893+03:00",
+  "Id": 753,
+  "Login": "bloodzero",
+  "PasswordHash": "9BB3AB8F1A90370F18C3BF3E928750E51E71BDF17A7466ABD3816FE0D0CE81EC",
+  "Group": "generated",
+  "FirstName": "bloodzero",
+  "MiddleName": "bloodzero",
+  "LastName": "bloodzero",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:28.3427209+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

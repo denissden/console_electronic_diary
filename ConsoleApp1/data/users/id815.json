@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:32.4279954+03:00",
+  "Id": 815,
+  "Login": "chinakov",
+  "PasswordHash": "3043F9A5323C9965E29D9ED2E959CA717FFA5698FEE6A1D055DFC0FA7C76A07C",
+  "Group": "generated",
+  "FirstName": "chinakov",
+  "MiddleName": "chinakov",
+  "LastName": "chinakov",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:32.4269976+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

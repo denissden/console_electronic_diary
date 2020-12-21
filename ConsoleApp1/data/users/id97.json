@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:07.6053223+03:00",
+  "Id": 97,
+  "Login": "Tubbywatch",
+  "PasswordHash": "05C5F248A264CD23B420096D9288FA79E530146B13EB91387EDAB57EC76A92E4",
+  "Group": "generated",
+  "FirstName": "Tubbywatch",
+  "MiddleName": "Tubbywatch",
+  "LastName": "Tubbywatch",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:07.604324+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

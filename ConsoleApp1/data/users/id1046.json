@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:47.6004297+03:00",
+  "Id": 1046,
+  "Login": "talaknor",
+  "PasswordHash": "B3A7C64A8CB9516F5F0AB97BBDE29CE0422A7022CC9A4B8A5B191FB5E100B395",
+  "Group": "generated",
+  "FirstName": "talaknor",
+  "MiddleName": "talaknor",
+  "LastName": "talaknor",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:47.599432+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

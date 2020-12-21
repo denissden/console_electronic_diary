@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:50.6091438+03:00",
+  "Id": 1092,
+  "Login": "philip_grant",
+  "PasswordHash": "24DE6B92969D4089745CECFB7716B7B51A8D8D4A3F5F7659BBF2AFA60C9C5ADE",
+  "Group": "generated",
+  "FirstName": "philip_grant",
+  "MiddleName": "philip_grant",
+  "LastName": "philip_grant",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:50.6082188+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

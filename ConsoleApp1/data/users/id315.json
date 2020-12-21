@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:59.4374032+03:00",
+  "Id": 315,
+  "Login": "Ryan_Cook",
+  "PasswordHash": "BBED6EE1DBFEDB82CEB1C1277CD24E6C0B89022B81E62B05556D1451A3636839",
+  "Group": "generated",
+  "FirstName": "Ryan_Cook",
+  "MiddleName": "Ryan_Cook",
+  "LastName": "Ryan_Cook",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:59.4363881+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

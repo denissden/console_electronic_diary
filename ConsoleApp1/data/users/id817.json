@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:32.5567026+03:00",
+  "Id": 817,
+  "Login": "chocky10",
+  "PasswordHash": "69675AF19DB3F77956FA6AB7C17B8556C1A38326EA4C55D91CF4F9972F1980A8",
+  "Group": "generated",
+  "FirstName": "chocky10",
+  "MiddleName": "chocky10",
+  "LastName": "chocky10",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:32.555704+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

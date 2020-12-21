@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:42.1666367+03:00",
+  "Id": 963,
+  "Login": "gnome47",
+  "PasswordHash": "092E83B5426EBE5817E9C8684B67488CE4D0C95416029EBA6BBF99DC837FD13A",
+  "Group": "generated",
+  "FirstName": "gnome47",
+  "MiddleName": "gnome47",
+  "LastName": "gnome47",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:42.1656402+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

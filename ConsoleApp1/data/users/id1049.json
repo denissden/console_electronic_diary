@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:47.7947215+03:00",
+  "Id": 1049,
+  "Login": "twomack33",
+  "PasswordHash": "CB63530CD972B882DDE7753BEAE26BE38EEDC1A5DA5F8707F100269A2A37C98B",
+  "Group": "generated",
+  "FirstName": "twomack33",
+  "MiddleName": "twomack33",
+  "LastName": "twomack33",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:47.7937243+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

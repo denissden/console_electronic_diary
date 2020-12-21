@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:58.7858223+03:00",
+  "Id": 305,
+  "Login": "lephareamousse",
+  "PasswordHash": "769374C082E019EEE929B942C944FA36DDE4F3C45437BCCEBA38B6342A47B64C",
+  "Group": "generated",
+  "FirstName": "lephareamousse",
+  "MiddleName": "lephareamousse",
+  "LastName": "lephareamousse",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:58.784825+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

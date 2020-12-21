@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:09.2646561+03:00",
+  "Id": 463,
+  "Login": "Eskiel",
+  "PasswordHash": "4FF85BD2BA6E8F4B83503A8126AB1AF5581CB8DF2E2A052BD9BF4FB84C3F361E",
+  "Group": "generated",
+  "FirstName": "Eskiel",
+  "MiddleName": "Eskiel",
+  "LastName": "Eskiel",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:09.2636309+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

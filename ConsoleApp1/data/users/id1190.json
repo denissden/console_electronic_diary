@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:57.087585+03:00",
+  "Id": 1190,
+  "Login": "ImNotVino",
+  "PasswordHash": "5C6D9A9FB51C9D212F5110CBBDC0C28A03179FC93FA3014A87712538FD486406",
+  "Group": "generated",
+  "FirstName": "ImNotVino",
+  "MiddleName": "ImNotVino",
+  "LastName": "ImNotVino",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:57.0865544+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

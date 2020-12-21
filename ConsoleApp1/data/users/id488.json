@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:10.891488+03:00",
+  "Id": 488,
+  "Login": "Anthony_Stone",
+  "PasswordHash": "FE38E15AF54D98B1219150D5FD45D763A36770F9D61697DA97E7DE2A25A4AB06",
+  "Group": "generated",
+  "FirstName": "Anthony_Stone",
+  "MiddleName": "Anthony_Stone",
+  "LastName": "Anthony_Stone",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:10.8905189+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

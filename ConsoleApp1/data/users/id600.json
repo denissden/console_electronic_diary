@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:18.2580936+03:00",
+  "Id": 600,
+  "Login": "8BitAce",
+  "PasswordHash": "59AEF6C01983CFFA2051C1C3B0BE627FEDB0613CF02A38CC52268A98B8EC012B",
+  "Group": "generated",
+  "FirstName": "8BitAce",
+  "MiddleName": "8BitAce",
+  "LastName": "8BitAce",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:18.2570935+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

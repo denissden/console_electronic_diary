@@ -48,7 +48,7 @@ namespace ConsoleApp1
                     {
                         p.Subjects.Add(tmp.Value);
                         DB.JSON_PERSON(p, Constants.USERS_Path);
-                        subjectlist.Add(new ChoiceMapElement(tmp.Value, " ", " "));
+                        subjectlist.Add(new ChoiceMapElement(new SubjectContainer(tmp.Value, p.Id), " ", " "));
                     }
                     ui.Update();
                 }

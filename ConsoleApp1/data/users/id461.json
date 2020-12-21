@@ -1,0 +1,15 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-21T15:58:09.1279933+03:00",
+  "Id": 461,
+  "Login": "Sheridan",
+  "PasswordHash": "5D5D2CE237C46137012E473308EDF851ACC275C39938AA5C35803BB4D06C6C4D",
+  "Group": "generated",
+  "FirstName": "Sheridan",
+  "MiddleName": "Sheridan",
+  "LastName": "Sheridan",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:09.1270249+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

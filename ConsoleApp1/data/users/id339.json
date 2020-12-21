@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:01.0639521+03:00",
+  "Id": 339,
+  "Login": "Wyvryn",
+  "PasswordHash": "DF050494B85280D1672DA08B658BC963661CE18BCCD5E78106A2EDD9112B499B",
+  "Group": "generated",
+  "FirstName": "Wyvryn",
+  "MiddleName": "Wyvryn",
+  "LastName": "Wyvryn",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:01.0636708+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

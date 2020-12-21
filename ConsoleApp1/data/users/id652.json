@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:21.6770205+03:00",
+  "Id": 652,
+  "Login": "hmv007",
+  "PasswordHash": "ACF31FD610C9A61103C2D3A93D36CE53D748AAD9016D4DFECDEEA38B01441B86",
+  "Group": "generated",
+  "FirstName": "hmv007",
+  "MiddleName": "hmv007",
+  "LastName": "hmv007",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:21.6760509+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

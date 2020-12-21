@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:54.9340166+03:00",
+  "Id": 247,
+  "Login": "liamh101",
+  "PasswordHash": "BC7F10FEDAC33A3F09311B38086AC6AC7FE6AB464932605B6F05AE47FC94B883",
+  "Group": "generated",
+  "FirstName": "liamh101",
+  "MiddleName": "liamh101",
+  "LastName": "liamh101",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:54.9320215+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

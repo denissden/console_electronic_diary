@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:12.67041+03:00",
+  "Id": 515,
+  "Login": "Eladon",
+  "PasswordHash": "CA230C8F4CE45A696516D5CEF51CF4E9D9292CA83A47C989A5CD8B9F2652A59C",
+  "Group": "generated",
+  "FirstName": "Eladon",
+  "MiddleName": "Eladon",
+  "LastName": "Eladon",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:12.6693893+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:09.5226768+03:00",
+  "Id": 467,
+  "Login": "Aramande",
+  "PasswordHash": "2C9A4E06521DF879FC8EF8712ECDE5C97AC87C946C5AFFA738686CC68D76AE3C",
+  "Group": "generated",
+  "FirstName": "Aramande",
+  "MiddleName": "Aramande",
+  "LastName": "Aramande",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:09.521883+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

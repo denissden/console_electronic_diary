@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:04.625077+03:00",
+  "Id": 393,
+  "Login": "AngryRhetoric",
+  "PasswordHash": "EEEB41B6CE933EDDAE69515E17E81E1EE87841D0FB6C2AF23C55BA329E042AC1",
+  "Group": "generated",
+  "FirstName": "AngryRhetoric",
+  "MiddleName": "AngryRhetoric",
+  "LastName": "AngryRhetoric",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:04.6240798+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

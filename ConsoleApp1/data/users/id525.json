@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:13.3196664+03:00",
+  "Id": 525,
+  "Login": "MarioG",
+  "PasswordHash": "35A572A7C172DA07D4CB5B9DA3DE30FE1527BE9881A17411393249A61482F985",
+  "Group": "generated",
+  "FirstName": "MarioG",
+  "MiddleName": "MarioG",
+  "LastName": "MarioG",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:13.3196664+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

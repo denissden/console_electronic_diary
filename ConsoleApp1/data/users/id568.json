@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:16.1535878+03:00",
+  "Id": 568,
+  "Login": "MechaDolphin",
+  "PasswordHash": "D27471C1B17EDFE8C413A22DD0F3482C9CA221290190710E0D0C17400DC2308A",
+  "Group": "generated",
+  "FirstName": "MechaDolphin",
+  "MiddleName": "MechaDolphin",
+  "LastName": "MechaDolphin",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:16.1535878+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

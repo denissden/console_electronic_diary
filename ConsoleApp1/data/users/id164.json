@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:57:12.1805879+03:00",
+  "Id": 164,
+  "Login": "darthmaul22",
+  "PasswordHash": "FB3BA138590BA955F987747E6232982CBFCA7ACF65BB20D1244C759D42FE950E",
+  "Group": "generated",
+  "FirstName": "darthmaul22",
+  "MiddleName": "darthmaul22",
+  "LastName": "darthmaul22",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:57:12.1796122+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

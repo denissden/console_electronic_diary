@@ -1,0 +1,15 @@
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-21T15:58:36.9759654+03:00",
+  "Id": 884,
+  "Login": "cornerdweller",
+  "PasswordHash": "50460FBD9C86FB9E2EF5636BC08602B56AD2AF4B8C5EDF252A8AB3257319246E",
+  "Group": "generated",
+  "FirstName": "cornerdweller",
+  "MiddleName": "cornerdweller",
+  "LastName": "cornerdweller",
+  "Age": -1,
+  "BirthYear": "2020-12-21T15:58:36.9749674+03:00",
+  "SubjectMarks": [],
+  "Subjects": []
+}

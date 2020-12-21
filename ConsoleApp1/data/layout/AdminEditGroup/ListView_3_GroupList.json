@@ -1,0 +1,42 @@
+{
+  "Header": {
+    "Fit": 0,
+    "Color": 1,
+    "Style": 0,
+    "Hidden": false,
+    "X": 0,
+    "Y": 2,
+    "W": 120,
+    "H": 0,
+    "OriginalText": "Use WASD to select items or change pages. Q/E to change values. ,/. to move between search results",
+    "Text": "           Use WASD to select items or change pages. Q/E to change values. ,/. to move between search results           ",
+    "Name": "Header"
+  },
+  "Footer": {
+    "Fit": 0,
+    "Color": 1,
+    "Style": 0,
+    "Hidden": false,
+    "X": 0,
+    "Y": 24,
+    "W": 120,
+    "H": 0,
+    "OriginalText": "Page 0 of 0",
+    "Text": "                                                      Page 0 of 0                                                       ",
+    "Name": "Footer"
+  },
+  "Options": [
+    "Removed",
+    "Unchanged"
+  ],
+  "HiddenPropertyType": null,
+  "SelectedButtonId": 0,
+  "PrevSelectedButtonId": 0,
+  "X": 0,
+  "Y": 2,
+  "W": 120,
+  "H": 22,
+  "OriginalText": null,
+  "Text": null,
+  "Name": "GroupList"
+}

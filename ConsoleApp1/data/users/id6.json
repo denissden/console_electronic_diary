@@ -1,0 +1,21 @@
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-20T19:11:37.4119944+03:00",
+  "Id": 6,
+  "Login": "test3",
+  "PasswordHash": "37268335DD6931045BDCDF92623FF819A64244B53D0E746D438797349D4DA578",
+  "Group": "test3",
+  "FirstName": "test3",
+  "MiddleName": "",
+  "LastName": "test3",
+  "Age": 18,
+  "BirthYear": "2002-11-05T00:00:00",
+  "SubjectMarks": [
+    {
+      "SubjectName": "s_test3",
+      "CreatorId": 4,
+      "Marks": {}
+    }
+  ],
+  "Subjects": []
+}

@@ -22,7 +22,7 @@ namespace ConsoleApp1
             i = new InputBox("NewGroupInputBox", "", (39, 1), 20, 0)
             {
                 Style = 1,
-                ValidationType = new List<string>() { "shorter20", "new_group" },
+                ValidationType = new List<string>() { "shorter20", "new_group", "nonempty" },
             };
             ui.Elements.Add(i);
 

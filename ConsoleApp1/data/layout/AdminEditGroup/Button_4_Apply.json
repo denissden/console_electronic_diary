@@ -1,0 +1,19 @@
+{
+  "Value": null,
+  "ValueClipMax": 2147483647,
+  "ValueClipMin": -2147483648,
+  "Fill": true,
+  "DrawBorder": true,
+  "ActionType": "default",
+  "Fit": 0,
+  "Color": 2,
+  "Style": 1,
+  "Hidden": false,
+  "X": 19,
+  "Y": 27,
+  "W": 25,
+  "H": 2,
+  "OriginalText": "Apply",
+  "Text": "          Apply           ",
+  "Name": "Apply"
+}

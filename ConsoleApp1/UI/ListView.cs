@@ -35,7 +35,7 @@ namespace ConsoleApp1
             PageLength = H - 2;
 
             Header = new TextLine("Header",
-                "Use J/K keys to select, H/L to change pages, [/] to change values, period/comma to move between search results",
+                "Use WASD to select items or change pages. Q/E to change values. ,/. to move between search results",
                 (X, Y), W, 0);
             for (int i = 0; i <= PageLength; i++)
             {
@@ -118,26 +118,33 @@ namespace ConsoleApp1
                     Draw(true);
                     break;
 
-                case ConsoleKey.K:
+                case ConsoleKey.S:
                     id = SelectVertical(false);
                     break;
-                case ConsoleKey.L:
-                    id = SelectNext();
-                    break;
-                case ConsoleKey.J:
+                case ConsoleKey.W:
                     id = SelectVertical(true);
                     break;
-                case ConsoleKey.H:
+                case ConsoleKey.A:
                     id = SelectPrevious();
                     break;
-                case ConsoleKey.Oem6: // ]
+                case ConsoleKey.D:
+                    id = SelectNext();
+                    break;
+                
+                case ConsoleKey.E:
                     if (SelectedButtonId != -1)
                         AddToValue(1);
-                    return "UPDATE";
-                case ConsoleKey.Oem4: // [
+                    break;
+                case ConsoleKey.Q:
                     if (SelectedButtonId != -1)
                         AddToValue(-1);
-                    return "UPDATE";
+                    break;
+                case ConsoleKey.Spacebar:
+                    if (SelectedButtonId != -1)
+                        if (DoAction())
+                            return "UPDATE";
+                    break;
+
                 case ConsoleKey.OemComma:
                     id = ChangeSearchResultIndex(-1);
                     update = true;
@@ -258,21 +265,25 @@ namespace ConsoleApp1
         {
             CurrentItemGlobal = CurrentPage * PageLength + SelectedButtonId;
             var e = Elements[SelectedButtonId];
-            if (Constants.Actions.ContainsKey(AddToValueAction)) 
-            {
-                ChoiceMapElement item = Items[CurrentItemGlobal];
-                Constants.Actions[AddToValueAction](item);
-                ChoiceMapElement? res = OutputStack.Pop();
-                
-                if (res.HasValue)
-                    Items[CurrentItemGlobal] = res.Value;
-                Update();
-            }
-            else
-            {
-                e.AddToValue(i);
-                SetChoiceAtIndex(CurrentItemGlobal, e.AddedText);
-            }
+            e.AddToValue(i);
+            SetChoiceAtIndex(CurrentItemGlobal, e.AddedText);
+        }
+
+        public bool DoAction()
+        {
+            CurrentItemGlobal = CurrentPage * PageLength + SelectedButtonId;
+            if (Constants.Actions.ContainsKey(AddToValueAction))
+                if (Functions.IntInRange(CurrentItemGlobal, 0, ItemsLength - 1))
+                {
+                    ChoiceMapElement item = Items[CurrentItemGlobal];
+                    Constants.Actions[AddToValueAction](item);
+                    ChoiceMapElement? res = OutputStack.Pop();
+
+                    if (res.HasValue)
+                        Items[CurrentItemGlobal] = res.Value;
+                    return true;
+                }
+            return false;
         }
 
         public override int SelectPrevious()

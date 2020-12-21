@@ -1,1 +1,79 @@
-{"Type":"Teacher","DateCreated":"2020-12-16T23:51:51.646341+03:00","Id":4,"Login":"teacher","PasswordHash":"EE79976C9380D5E337FC1C095ECE8C8F22F91F306CEEB161FA51FECEDE2C4BA1","Group":"test","FirstName":"teacher","MiddleName":"","LastName":"teacher","Age":32,"BirthYear":"1988-05-25T00:00:00","SubjectMarks":[],"Subjects":[{"Groups":["testgroup"],"Name":"testsubject"},{"Groups":["testgroup","testgroup2"],"Name":"testsubject2"}]}
+{
+  "Type": "Teacher",
+  "DateCreated": "2020-12-16T23:51:51.646341+03:00",
+  "Id": 4,
+  "Login": "teacher",
+  "PasswordHash": "EE79976C9380D5E337FC1C095ECE8C8F22F91F306CEEB161FA51FECEDE2C4BA1",
+  "Group": "test",
+  "FirstName": "teacher",
+  "MiddleName": "",
+  "LastName": "teacher",
+  "Age": 32,
+  "BirthYear": "1988-05-25T00:00:00",
+  "SubjectMarks": [
+    {
+      "SubjectName": "s_test",
+      "CreatorId": 4,
+      "Marks": {
+        "2020-12-21T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-21T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:27:50.3568403+03:00"
+        }
+      }
+    },
+    {
+      "SubjectName": "s_test2",
+      "CreatorId": 4,
+      "Marks": {
+        "2001-01-01T00:00:00": {
+          "Value": "5",
+          "Date": "2001-01-01T00:00:00",
+          "DateCreated": "2020-12-21T11:46:04.6091603+03:00"
+        }
+      }
+    }
+  ],
+  "Subjects": [
+    {
+      "Groups": [
+        "testgroup"
+      ],
+      "Name": "testsubject"
+    },
+    {
+      "Groups": [
+        "testgroup",
+        "testgroup2"
+      ],
+      "Name": "testsubject2"
+    },
+    {
+      "Groups": [
+        "test"
+      ],
+      "Name": "math"
+    },
+    {
+      "Groups": [
+        "test",
+        "test2"
+      ],
+      "Name": "s_test"
+    },
+    {
+      "Groups": [
+        "test",
+        "test2"
+      ],
+      "Name": "s_test2"
+    },
+    {
+      "Groups": [
+        "test",
+        "test3"
+      ],
+      "Name": "s_test3"
+    }
+  ]
+}

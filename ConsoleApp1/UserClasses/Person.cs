@@ -24,7 +24,7 @@ namespace ConsoleApp1
         public string LastName { get; set; }
         public int Age { get; set; }
         public DateTime BirthYear { get; set; }
-        public List<string> ToStringOptions = new List<string>() { "Login" };
+        public List<string> ToStringOptions = new List<string>() { "_name" };
 
         // USED FOR STUDENT
         public List<MarkList> SubjectMarks { get; set; }
@@ -133,6 +133,40 @@ namespace ConsoleApp1
             return result;
         }
 
+        public void SetMark(string subject, ulong creator_id, string mark, DateTime date)
+        {
+            MarkList? found = null;
+            int c = 0;
+            foreach (MarkList marks in SubjectMarks)
+            {
+                if (marks.SubjectName == subject && marks.CreatorId == creator_id)
+                {
+                    found = marks;
+                    Console.WriteLine("Found");
+                    break;
+                }
+                c++;
+            }
+            if (!found.HasValue)
+            {
+                found = new MarkList(subject, creator_id);
+                SubjectMarks.Add(found.Value);
+            }
+
+            found.Value.SetMark(date, mark);
+        }
+
+        public MarkList GetMarks(string subject, ulong creator_id)
+        {
+            foreach (MarkList marks in SubjectMarks)
+            {
+                if (marks.SubjectName == subject && marks.CreatorId == creator_id)
+                {
+                    return marks;
+                }
+            }
+            return new MarkList(subject, creator_id);
+        }
     }
 
 }

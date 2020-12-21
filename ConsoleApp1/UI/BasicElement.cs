@@ -18,9 +18,6 @@ namespace ConsoleApp1
         public bool Selectable = false;
         public bool Selected = false;
 
-
-
-
         public int GetMiddleX() { return X + W / 2; }
         public int GetMiddleY() { return Y + H / 2; }
         public bool IsSelectable() { return Selectable; }

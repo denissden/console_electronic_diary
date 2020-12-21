@@ -1,0 +1,33 @@
+UI ui = new UI();
+
+            TextLine t; InputBox i; Button b; ListView lv;
+
+            t = new TextLine("Header", "Add Subject", (0, 0), 120, 0);
+            ui.Elements.Add(t);
+
+            t = new TextLine("SubjectInputLabel", "Subject name", (3, 5), 44, 0);
+            ui.Elements.Add(t);
+            i = new InputBox("SubjectInputBox", "", (3, 6), 44, 0)
+            {
+                Style = 1,
+                ValidationType = new List<string>() { "nonempty", "not_in_list", "shorter30" },
+            };
+            ui.Elements.Add(i);
+
+            lv = new ListView("GroupList", (60, 1), (60, 28));
+            lv.SetOptions(new List<string>() { "Add", " " });
+            ui.Elements.Add(lv);
+
+            b = new Button("Create", "Create Group", (3, 23), (44, 3))
+            {
+                Style = 1,
+                Color = 1,
+            };
+            ui.Elements.Add(b);
+
+            b = new Button("Back", "Back", (3, 27), (44, 3))
+            {
+                Style = 1,
+                Color = 2,
+            };
+            ui.Elements.Add(b);

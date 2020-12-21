@@ -15,6 +15,7 @@ namespace ConsoleApp1
         public static void JSON_UI(UI ui, string path)
         {
             int c = 0;
+            Directory.CreateDirectory($"{Constants.DB_Path}{path}");
             foreach (dynamic e in ui.Elements) JSON_ELEMENT(e, path, ++c);
         }
 
@@ -74,6 +75,9 @@ namespace ConsoleApp1
                         break;
                     case "ListView":
                         T = READ_JSON_OBJECT<ListView>(f);
+                        break;
+                    case "Table":
+                        T = READ_JSON_OBJECT<Table>(f);
                         break;
                 }
                 if (T != null)
@@ -158,6 +162,7 @@ namespace ConsoleApp1
         {
             var options = new JsonSerializerOptions()
             {
+                WriteIndented = true,
                 IncludeFields = false,
             };
             System.IO.Directory.CreateDirectory($"{Constants.DB_Path}{path}");
@@ -259,13 +264,16 @@ namespace ConsoleApp1
                     dynamic person = p.Element;
                     if (set_type)
                         person.Type = p.State.ToString();
-                    ADD_USER_TO_GROUP(person);
+                    if (person.Type != "Guest")
+                        ADD_USER_TO_GROUP(person);
                     JSON_PERSON(person, Constants.USERS_Path);
                     Console.WriteLine($"{person} {person.Type}");
                 }
             }
             Console.ReadKey();
         }
+
+
 
         // GROUP
         public static void JSON_GROUP(dynamic g, string path)
@@ -274,6 +282,25 @@ namespace ConsoleApp1
             string s = JsonSerializer.Serialize(g);
             File.WriteAllText($"{Constants.DB_Path}{path}/{g.Name}.json", s);
 
+        }
+
+        public static Group READ_GROUP(string name)
+        {
+            FileInfo path = new FileInfo(Constants.DB_Path + Constants.GROUPS_Path + $"{name}.json");
+            if (path.Exists)
+                return READ_JSON_OBJECT<Group>(path);
+            return null;
+        }
+
+        public static List<Person> LOAD_PEOPLE_FROM_GROUP(Group g)
+        {
+            List<Person> ret = new List<Person>();
+            foreach (ulong id in g.People)
+            {
+                Person p = READ_PERSON_BY_ID<Person>(id);
+                ret.Add(p);
+            }
+            return ret;
         }
 
         public static List<dynamic> LOAD_ALL_GROUPS()
@@ -368,6 +395,28 @@ namespace ConsoleApp1
                 return g.People.Contains(id);
             }
             return false;
+        }
+
+        // SUBJECT
+        public static void ADD_SUBJECT_TO_GROUP(Group g, string name, ulong creator_id)
+        {
+            foreach (ulong id in g.People)
+            {
+                Person p = READ_PERSON_BY_ID<Person>(id);
+                p.SubjectMarks.Add(new MarkList(name, creator_id));
+                JSON_PERSON(p, Constants.USERS_Path);
+            }
+        }
+
+        // TABLE
+        public static void SAVE_TABLE(Table table)
+        {
+            List<Label> labels = table.RowLabels;
+            foreach (Label l in labels)
+            {
+                Person p = l.Item;
+                JSON_PERSON(p, Constants.USERS_Path);
+            }
         }
     }
 }

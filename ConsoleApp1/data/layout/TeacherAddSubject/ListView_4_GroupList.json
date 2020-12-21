@@ -1,0 +1,42 @@
+{
+  "Header": {
+    "Fit": 0,
+    "Color": 1,
+    "Style": 0,
+    "Hidden": false,
+    "X": 60,
+    "Y": 1,
+    "W": 60,
+    "H": 0,
+    "OriginalText": "Use WASD to select, Q/E to add/remove choice",
+    "Text": "",
+    "Name": "Header"
+  },
+  "Footer": {
+    "Fit": 0,
+    "Color": 1,
+    "Style": 0,
+    "Hidden": false,
+    "X": 60,
+    "Y": 29,
+    "W": 60,
+    "H": 0,
+    "OriginalText": "Page 0 of 0",
+    "Text": "                        Page 0 of 0                         ",
+    "Name": "Footer"
+  },
+  "Options": [
+    "Do Not Add",
+    "Add"
+  ],
+  "HiddenPropertyType": null,
+  "SelectedButtonId": 0,
+  "PrevSelectedButtonId": 0,
+  "X": 60,
+  "Y": 1,
+  "W": 60,
+  "H": 28,
+  "OriginalText": null,
+  "Text": null,
+  "Name": "GroupList"
+}

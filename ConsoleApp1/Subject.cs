@@ -17,6 +17,12 @@ namespace ConsoleApp1
             Groups = groups;
         }
 
+        public Subject(string name)
+        {
+            Name = name;
+            Groups = new List<string>();
+        }
+
         public override string ToString()
         {
             string res = Name;
@@ -26,4 +32,40 @@ namespace ConsoleApp1
             return res;
         }
     }
+
+    public class SubjectContainer
+    {
+        public Subject S { get; set; }
+        public ulong CreatorId { get; set; }
+
+        public SubjectContainer(Subject s, ulong id)
+        {
+            S = s;
+            CreatorId = id;
+        }
+
+        public override string ToString()
+        {
+            return S.ToString();
+        }
+    }
+
+    public class GroupContainer
+    {
+        public string Name { get; set; }
+        public ulong CreatorId { get; set; }
+        public string SubjectName { get; set; }
+
+        public GroupContainer(string name, string s_name, ulong id)
+        {
+            Name = name;
+            SubjectName = s_name;
+            CreatorId = id;
+        }
+
+        public override string ToString()
+        {
+            return Name;
+        }
+    } 
 }

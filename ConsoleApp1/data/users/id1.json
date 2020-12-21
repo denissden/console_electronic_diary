@@ -1,1 +1,31 @@
-{"Type":"Guest","DateCreated":"2020-12-16T23:40:04.7861782+03:00","Id":1,"Login":"TEST2","PasswordHash":"E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855","Group":"test","FirstName":"test","MiddleName":"","LastName":"test","Age":2019,"BirthYear":"0001-01-01T00:00:00","SubjectMarks":[],"Subjects":[]}
+{
+  "Type": "Guest",
+  "DateCreated": "2020-12-16T23:40:04.7861782+03:00",
+  "Id": 1,
+  "Login": "TEST2",
+  "PasswordHash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+  "Group": "test",
+  "FirstName": "test",
+  "MiddleName": "",
+  "LastName": "test",
+  "Age": 2019,
+  "BirthYear": "0001-01-01T00:00:00",
+  "SubjectMarks": [
+    {
+      "SubjectName": "s_test",
+      "CreatorId": 4,
+      "Marks": {}
+    },
+    {
+      "SubjectName": "s_test2",
+      "CreatorId": 4,
+      "Marks": {}
+    },
+    {
+      "SubjectName": "s_test3",
+      "CreatorId": 4,
+      "Marks": {}
+    }
+  ],
+  "Subjects": []
+}

@@ -1,1 +1,53 @@
-{"Type":"Student","DateCreated":"2020-12-16T23:41:38.8836754+03:00","Id":2,"Login":"test","PasswordHash":"37268335DD6931045BDCDF92623FF819A64244B53D0E746D438797349D4DA578","Group":"test2","FirstName":"test","MiddleName":"","LastName":"test","Age":2019,"BirthYear":"0001-01-01T00:00:00","SubjectMarks":[],"Subjects":[]}
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-16T23:41:38.8836754+03:00",
+  "Id": 2,
+  "Login": "test",
+  "PasswordHash": "37268335DD6931045BDCDF92623FF819A64244B53D0E746D438797349D4DA578",
+  "Group": "test2",
+  "FirstName": "test",
+  "MiddleName": "",
+  "LastName": "test",
+  "Age": 2019,
+  "BirthYear": "0001-01-01T00:00:00",
+  "SubjectMarks": [
+    {
+      "SubjectName": "s_test",
+      "CreatorId": 4,
+      "Marks": {
+        "2020-12-20T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-20T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:28:23.3247024+03:00"
+        },
+        "2020-12-21T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-21T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:29:09.3548954+03:00"
+        },
+        "2020-11-19T00:00:00+03:00": {
+          "Value": "H",
+          "Date": "2020-11-19T00:00:00+03:00",
+          "DateCreated": "2020-12-21T09:52:00.4920927+03:00"
+        },
+        "2020-09-10T00:00:00": {
+          "Value": "3",
+          "Date": "2020-09-10T00:00:00",
+          "DateCreated": "2020-12-21T10:04:05.0268187+03:00"
+        }
+      }
+    },
+    {
+      "SubjectName": "s_test2",
+      "CreatorId": 4,
+      "Marks": {
+        "2003-12-05T00:00:00": {
+          "Value": "3",
+          "Date": "2003-12-05T00:00:00",
+          "DateCreated": "2020-12-21T11:49:26.6630757+03:00"
+        }
+      }
+    }
+  ],
+  "Subjects": []
+}

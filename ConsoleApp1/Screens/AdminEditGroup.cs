@@ -12,49 +12,7 @@ namespace ConsoleApp1
         {
             dynamic g = e.Element;
 
-            // UI ui = DB.READ_JSON_UI("layout/AdminScreen");
-
-            UI ui = new UI();
-
-            TextLine t; InputBox i; Button b; ListSelect l; ListView lv;
-
-            // HEADER
-            t = new TextLine("Header", $"Group: {g.Name}", (0, 0), 120, 0);
-            ui.Elements.Add(t);
-
-            // MESSAGE
-            t = new TextLine("Message", "", (83, 2), 30, 0);
-            ui.Elements.Add(t);
-
-            // LIST
-            lv = new ListView("GroupList", (0, 2), (120, 22));
-            lv.SetOptions(new List<string>() { "Removed", "Unchanged", });
-            //lv.AddToValueAction = "teacher_edit_group";
-            ui.Elements.Add(lv);
-
-            // BUTTONS
-            b = new Button("Apply", "Apply", (19, 27), (26, 3))
-            {
-                Style = 1,
-                Color = 2,
-            };
-            ui.Elements.Add(b);
-
-            b = new Button("Remove", "Remove Group", (47, 27), (26, 3))
-            {
-                Style = 1,
-                Color = 1,
-            };
-            ui.Elements.Add(b);
-
-            b = new Button("Exit", "Exit", (75, 27), (26, 3))
-            {
-                Style = 1,
-                Color = 1,
-            };
-            ui.Elements.Add(b);
-
-
+            UI ui = DB.READ_JSON_UI("layout/AdminEditGroup");
 
             ui.InterceptsInput = "GroupList";
             ui.DoInterceptInput = true;
@@ -68,7 +26,7 @@ namespace ConsoleApp1
             List<ChoiceMapElement> users_map = Functions.CreateChoiceMap(users, default_choice: "Unchanged");
 
             dynamic userlist = ui.GetByName("GroupList");
-            userlist.SetItems(users_map, false);
+            userlist.SetItems(users_map, true);
             userlist.PersonToStringOptions = "login,id,_date";
 
             dynamic remove_button = ui.GetByName("Remove");
@@ -137,6 +95,8 @@ namespace ConsoleApp1
 
             Functions.SetColor(1);
             Console.Clear();
+
+            //DB.JSON_UI(ui, "layout/AdminEditGroup");
         }
     }
 }

@@ -1,0 +1,21 @@
+{
+  "InputValid": false,
+  "IsPassword": false,
+  "AcceptedCharacters": "[A-Za-z0-9\u0410-\u042F\u0430-\u044F_@.#\u0026\u002B]",
+  "ValidationType": [
+    "nonempty",
+    "not_in_list",
+    "shorter30"
+  ],
+  "Fit": 0,
+  "Color": 1,
+  "Style": 1,
+  "Hidden": false,
+  "X": 3,
+  "Y": 6,
+  "W": 44,
+  "H": 0,
+  "OriginalText": "",
+  "Text": "                                            ",
+  "Name": "SubjectInputBox"
+}

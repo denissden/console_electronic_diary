@@ -12,39 +12,22 @@ namespace ConsoleApp1
         {
             Person p = DB.READ_PERSON_BY_LOGIN<Person>(login);
 
-            // UI ui = DB.READ_JSON_UI("layout/TeacherScreen");
-
-            UI ui = new UI();
-
-            TextLine t; InputBox i; Button b; ListView lv;
-
-            // HEADER
-            t = new TextLine("Header", "Teacher Menu", (0, 0), 120, 0);
-            ui.Elements.Add(t);
-
-            lv = new ListView("SubjectList", (0, 4), (120, 22));
-            lv.SetOptions(new List<string>() { "Unchanged", "Changed" });
-            lv.AddToValueAction = "teacher_edit_group";
-            ui.Elements.Add(lv);
-
-            b = new Button("Back", "Log out", (47, 27), (26, 3))
-            {
-                Style = 1,
-                Color = 2,
-            };
-            ui.Elements.Add(b);
+            UI ui = DB.READ_JSON_UI("layout/TeacherScreen");
 
             ui.InterceptsInput = "SubjectList";
             ui.DoInterceptInput = true;
 
 
-            dynamic groups = p.Subjects;
-            List<ChoiceMapElement> groups_map = Functions.CreateChoiceMap(groups, default_choice: "Unchanged");
+            dynamic subjects = new List<SubjectContainer>();
+            foreach (Subject s in p.Subjects)
+            {
+                subjects.Add(new SubjectContainer(s, p.Id));
+            }
+            List<ChoiceMapElement> groups_map = Functions.CreateChoiceMap(subjects, default_choice: " ");
 
             dynamic subjectlist = ui.GetByName("SubjectList");
-            subjectlist.SetItems(groups_map, false);
+            subjectlist.SetItems(groups_map, true);
             subjectlist.AddToValueAction = "teacher_edit_subject";
-            subjectlist.PersonToStringOptions = "login,_date,id";
 
             ui.Update();
             //ui.ValidateAll();
@@ -56,14 +39,25 @@ namespace ConsoleApp1
                 key = Console.ReadKey(true);
                 clicked = ui.SelectByKey(key);
 
-                /*if (clicked == "Back") break;
-                else if (clicked == "UserList") ui.Update();*/
+                if (clicked == "Back") break;
+                else if (clicked == "AddSubject")
+                {
+                    TeacherAddSubject.MainScreen(p);
+                    Subject? tmp = OutputStack.Pop();
+                    if (tmp.HasValue)
+                    {
+                        p.Subjects.Add(tmp.Value);
+                        DB.JSON_PERSON(p, Constants.USERS_Path);
+                        subjectlist.Add(new ChoiceMapElement(tmp.Value, " ", " "));
+                    }
+                    ui.Update();
+                }
+                else if (clicked == "UPDATE") ui.Update();
             } while (key.Key != ConsoleKey.Escape);
 
             Functions.SetColor(1);
             Console.Clear();
 
-            //DB.JSON_PERSON(p, Constants.USERS_Path);
             //DB.JSON_UI(ui, "layout/TeacherScreen");
         }
     }

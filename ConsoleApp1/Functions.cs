@@ -106,7 +106,7 @@ namespace ConsoleApp1
                 if (default_choice != null)
                     choice = default_choice;
                 else if (HasProperty(element, get_property))
-                    choice = element.GetType().GetProperty(get_property).GetValue(element, null);
+                    choice = element.GetType().GetProperty(get_property).GetValue(element, null).ToString();
 
                 res.Add(new ChoiceMapElement(element, choice, choice));
             }

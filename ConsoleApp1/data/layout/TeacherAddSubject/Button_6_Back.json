@@ -1,0 +1,19 @@
+{
+  "Value": null,
+  "ValueClipMax": 2147483647,
+  "ValueClipMin": -2147483648,
+  "Fill": true,
+  "DrawBorder": true,
+  "ActionType": "default",
+  "Fit": 0,
+  "Color": 2,
+  "Style": 1,
+  "Hidden": false,
+  "X": 3,
+  "Y": 27,
+  "W": 43,
+  "H": 2,
+  "OriginalText": "Back",
+  "Text": "                    Back                    ",
+  "Name": "Back"
+}

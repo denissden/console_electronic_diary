@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class ListSelect : Button
+    public class ListSelect : Button
     {
         public List<string> Options { get; set; }
         public string HiddenProperty;
@@ -88,7 +88,7 @@ namespace ConsoleApp1
 
         public override void Click()
         {
-            Functions.WriteAt(HiddenProperty, 0, 32);
+            //Functions.WriteAt(HiddenProperty, 0, 32);
         }
     }
 }

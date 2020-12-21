@@ -28,7 +28,8 @@ namespace ConsoleApp1
         public override string ToString()
         {
             string res = Name;
-            res += ": ";
+            res += "  People in group: " + People.Count;
+            /*res += ": ";
             int c = Name.Length;
             foreach (ulong g in People)
             {
@@ -45,7 +46,7 @@ namespace ConsoleApp1
                     break;
                 }
                 res += ", ";
-            }
+            }*/
             return res;
         }
     }

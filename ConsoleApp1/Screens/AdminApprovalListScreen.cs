@@ -21,7 +21,8 @@ namespace ConsoleApp1
             List<ChoiceMapElement> users_map = Functions.CreateChoiceMap(users, get_property: "Type");
 
             ui.GetByName("UserList").SetItems(users_map, true);
-
+            ui.GetByName("UserList").PersonToStringOptions = "login,_date,id";
+            
             ui.Update();
             ui.ValidateAll();
             ConsoleKeyInfo key;

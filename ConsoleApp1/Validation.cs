@@ -11,6 +11,7 @@ namespace ConsoleApp1
     public class Validation
     {
         private static string TmpString = "";
+        public static List<string> IsInListValidation = new List<string>();
         // default
         public static bool True(string s = "") { return true; }
         public static bool False(string s = "") { return false; }
@@ -102,6 +103,12 @@ namespace ConsoleApp1
         public static bool GroupExists(string s)
         {
             return File.Exists(Constants.DB_Path + Constants.GROUPS_Path + $"{s}.json");
+        }
+
+        // is in list
+        public static bool NotInList(string s)
+        {
+            return !IsInListValidation.Contains(s);
         }
     }
 }

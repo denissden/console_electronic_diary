@@ -27,17 +27,33 @@ namespace ConsoleApp1
             { "Teacher", ConsoleColor.Yellow },
             { "Admin", ConsoleColor.Red},
             { "Unchanged", ConsoleColor.DarkGray},
+            { " ", ConsoleColor.DarkGray},
             { "Changed", ConsoleColor.DarkMagenta},
             { "Removed", ConsoleColor.DarkRed},
+            { "Add", ConsoleColor.Green},
+            { "Do Not Add", ConsoleColor.Red},
+            { "H", ConsoleColor.Gray},
+            { "2", ConsoleColor.DarkRed},
+            { "3", ConsoleColor.Red},
+            { "4", ConsoleColor.Yellow},
+            { "5", ConsoleColor.Green},
         };
         public static readonly List<string> ColoringOrder = new List<string>() {
             "Unchanged",
+            " ",
             "Guest",
             "Student",
             "Teacher",
             "Admin",
+            "Add",
+            "Do Not Add",
             "Changed",
             "Removed",
+            "H",
+            "2",
+            "3",
+            "4",
+            "5",
         };
         public static readonly List<string> UserTypes = new List<string>() { "Guest", "Student", "Teacher", "Admin" };
 
@@ -62,6 +78,7 @@ namespace ConsoleApp1
             {"teacher_screen", TeacherScreen.MainScreen },
             {"teacher_edit_subject", TeacherEditSubject.MainScreen },
             {"teacher_edit_group", TeacherEditGroup.MainScreen },
+            {"student_view_subject", StudentViewSubject.MainScreen },
         };
 
         public static readonly Dictionary<string, Func<string, bool>> Validations = new Dictionary<string, Func<string, bool>>()
@@ -84,11 +101,12 @@ namespace ConsoleApp1
             {"person_has_property", Validation.PersonHasProperty},
             {"person_can_display", Validation.PersonCanDisplay},
             {"new_group", Validation.NewGroup},
+            {"not_in_list", Validation.NotInList},
         };
         public static readonly Dictionary<string, Action<dynamic>> UserMainScreens = new Dictionary<string, Action<dynamic>>()
         {
             {"Guest", GuestScreen.MainScreen },
-            {"Student", Functions.Pass },
+            {"Student", StudentScreen.MainScreen },
             {"Teacher", TeacherScreen.MainScreen },
             {"Admin", AdminScreen.MainScreen },
         };
@@ -107,8 +125,9 @@ namespace ConsoleApp1
             // Console.ReadKey();
             //GenerateUsers.Generate(0);
             //Console.ReadKey();
-            AdminScreen.MainScreen("admin");
-            //TeacherScreen.MainScreen("Teacher");
+            //AdminScreen.MainScreen("admin");
+            TeacherScreen.MainScreen("Teacher");
+            //StudentScreen.MainScreen("maxlenstring");
             Console.WriteLine(Constants.SkipVerificationAtAccountCreation);
             StartScreen.MainScreen(null);
 

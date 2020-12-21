@@ -1,1 +1,83 @@
-{"Type":"Guest","DateCreated":"2020-12-18T03:24:34.3197245+03:00","Id":5,"Login":"maxlenstring","PasswordHash":"EE79976C9380D5E337FC1C095ECE8C8F22F91F306CEEB161FA51FECEDE2C4BA1","Group":"test","FirstName":"a","MiddleName":"","LastName":"ThisStringIsMaxPossibleLength_","Age":8,"BirthYear":"2012-12-12T00:00:00","SubjectMarks":[],"Subjects":[]}
+{
+  "Type": "Student",
+  "DateCreated": "2020-12-18T03:24:34.3197245+03:00",
+  "Id": 5,
+  "Login": "maxlenstring",
+  "PasswordHash": "EE79976C9380D5E337FC1C095ECE8C8F22F91F306CEEB161FA51FECEDE2C4BA1",
+  "Group": "test2",
+  "FirstName": "a",
+  "MiddleName": "",
+  "LastName": "ThisStringIsMaxPossibleLength_",
+  "Age": 8,
+  "BirthYear": "2012-12-12T00:00:00",
+  "SubjectMarks": [
+    {
+      "SubjectName": "s_test",
+      "CreatorId": 4,
+      "Marks": {
+        "2020-12-19T00:00:00+03:00": {
+          "Value": "2",
+          "Date": "2020-12-19T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:31:13.3445273+03:00"
+        },
+        "2020-12-21T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-21T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:31:38.6143687+03:00"
+        },
+        "2020-12-15T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-21T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:31:38.6143687+03:00"
+        },
+        "2020-12-12T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-21T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:31:38.6143687+03:00"
+        },
+        "2020-11-21T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-21T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:31:38.6143687+03:00"
+        },
+        "2020-11-11T00:00:00+03:00": {
+          "Value": "5",
+          "Date": "2020-11-11T00:00:00+03:00",
+          "DateCreated": "2020-12-21T09:51:57.8086861+03:00"
+        },
+        "2020-11-19T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-21T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:31:38.6143687+03:00"
+        },
+        "2020-10-02T00:00:00+03:00": {
+          "Value": "4",
+          "Date": "2020-12-21T00:00:00+03:00",
+          "DateCreated": "2020-12-21T08:31:38.6143687+03:00"
+        },
+        "2020-09-10T00:00:00": {
+          "Value": "5",
+          "Date": "2020-09-10T00:00:00",
+          "DateCreated": "2020-12-21T10:04:06.8565272+03:00"
+        }
+      }
+    },
+    {
+      "SubjectName": "s_test2",
+      "CreatorId": 4,
+      "Marks": {
+        "2003-04-05T00:00:00": {
+          "Value": "5",
+          "Date": "2003-04-05T00:00:00",
+          "DateCreated": "2020-12-21T11:49:29.402625+03:00"
+        },
+        "2003-12-05T00:00:00": {
+          "Value": "4",
+          "Date": "2003-12-05T00:00:00",
+          "DateCreated": "2020-12-21T11:49:31.7609707+03:00"
+        }
+      }
+    }
+  ],
+  "Subjects": []
+}
